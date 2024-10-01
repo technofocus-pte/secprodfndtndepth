@@ -1,4 +1,4 @@
-# Lab 2 – Lab 2 - Securing identities with Microsoft Entra ID
+# Lab 2 - Securing identities with Microsoft Entra ID
 
 ## Objective:
 
