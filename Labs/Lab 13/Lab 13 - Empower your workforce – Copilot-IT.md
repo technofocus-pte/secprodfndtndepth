@@ -1,4 +1,4 @@
-# Lab 03: Empower your workforce – Copilot-IT
+# Lab 13: Empower your workforce – Copilot-IT
 
 ## Objective:
 
