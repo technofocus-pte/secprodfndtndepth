@@ -1,4 +1,4 @@
-# Day 1 – Lab 1 – Setting up your Microsoft Entra tenant.
+# Lab 1 - Configuring Hybrid Identity with Microsoft Entra ID, Password Hash Sync, and Multi-Factor Authentication
 
 ## Objective:
 
