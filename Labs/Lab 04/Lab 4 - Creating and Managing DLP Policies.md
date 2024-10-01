@@ -1,4 +1,4 @@
-# Lab 7 – Creating and Managing DLP Policies
+# Lab 4 – Protecting your data with DLP Policies 
 
 ## Objective:
 
