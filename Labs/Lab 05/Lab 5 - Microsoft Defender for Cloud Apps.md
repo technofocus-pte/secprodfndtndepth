@@ -1,4 +1,4 @@
-# Lab 2: Microsoft Defender for Cloud Apps
+# Lab 5 - Cloud Discovery and Configuration with Microsoft Defender for Cloud Apps
 
 This guide will walk through the steps to successfully deploy a
 Microsoft Defender for Cloud Apps tenant and perform the initial steps
