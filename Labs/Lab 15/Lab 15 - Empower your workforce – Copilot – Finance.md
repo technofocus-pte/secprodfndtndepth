@@ -1,4 +1,4 @@
-# Lab 05: Empower your workforce – Copilot – Finance
+# Lab 15: Empower your workforce – Copilot – Finance
 
 ## Objective:
 
