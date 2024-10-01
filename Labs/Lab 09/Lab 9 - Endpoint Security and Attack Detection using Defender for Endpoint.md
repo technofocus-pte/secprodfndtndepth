@@ -1,5 +1,4 @@
-**Lab 3: Endpoint Security and Attack Detection using Defender for
-Endpoint**
+# Lab 9: Endpoint Security and Attack Detection using Defender for Endpoint
 
 **Introduction**
 
