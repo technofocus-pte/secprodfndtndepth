@@ -1,4 +1,4 @@
-# Day 2 – Lab 2 – Implementing Microsoft Entra Identity Protection​
+# Lab 2 – Lab 2 - Securing identities with Microsoft Entra ID
 
 ## Objective:
 
