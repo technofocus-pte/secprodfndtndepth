@@ -1,4 +1,4 @@
-**Lab 01: Empower your workforce – Copilot - Executives**
+# Lab 11: Empower your workforce – Copilot - Executives
 
 In this lab, you will
 
