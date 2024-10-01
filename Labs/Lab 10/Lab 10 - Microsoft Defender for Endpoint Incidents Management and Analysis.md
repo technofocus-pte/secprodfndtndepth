@@ -1,4 +1,4 @@
-# Microsoft Defender for Endpoint Incidents Management and Analysis
+# Lab 10 - Microsoft Defender for Endpoint Incidents Management and Analysis
 
 **Objective**
 
