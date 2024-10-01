@@ -1,4 +1,4 @@
-## **Lab 1 - Setting up the Microsoft Defender for Endpoint Environment**
+## **Lab 6 - Setting up the Microsoft Defender for Endpoint Environment**
 
 **Introduction**
 
