@@ -1,4 +1,4 @@
-# Lab 4 – Configuring and Implementing Sensitivity Labels for Information Protection
+# Lab 3 – Configuring and Implementing Sensitivity Labels for Information Protection
 
 # Objective:
 
