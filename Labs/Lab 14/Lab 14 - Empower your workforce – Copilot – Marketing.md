@@ -1,4 +1,4 @@
-# Lab 04: Empower your workforce – Copilot – Marketing
+# Lab 14: Empower your workforce – Copilot – Marketing
 
 ## Objective:
 
