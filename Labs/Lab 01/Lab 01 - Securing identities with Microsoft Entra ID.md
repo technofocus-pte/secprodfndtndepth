@@ -10,20 +10,20 @@
     
     ![](./media/image1.png)
 
-2.  On Settings window, navigate and click on **Time & language**.
+3.  On Settings window, navigate and click on **Time & language**.
 
 ![](./media/image2.png)
 
-3.  On **Time & language** page, navigate and click on **Date & time**.
+4.  On **Time & language** page, navigate and click on **Date & time**.
 
 ![](./media/image3.png)
 
-4.  Scroll down and navigate to **Additional settings** section, then
+5.  Scroll down and navigate to **Additional settings** section, then
     click on **Syn now** button.
 
 ![](./media/image4.png)
 
-5.  Close the **Settings** window.
+6.  Close the **Settings** window.
 
 ![](./media/image5.png)
 
@@ -41,17 +41,17 @@
 **Note**: Do not use your Company/Work Account to login to redeem the
 Azure Pass, another Azure Pass will not be issued.
 
-4.  In the **Sign in** window, enter the **Office 365 Tenant ID** -
+3.  In the **Sign in** window, enter the **Office 365 Tenant ID** -
     <admin@WWLxxxx.onmicrosoft.com and click on the **Next** button.
 
 ![](./media/image8.png)
 
-5.  Enter Office **365 Tenant Password** and click on the **Sign in**
+4.  Enter Office **365 Tenant Password** and click on the **Sign in**
     button.
 
 ![](./media/image9.png)
 
-6.  On **Stayed signed in?** dialog box, click on **Yes** button.
+5.  On **Stayed signed in?** dialog box, click on **Yes** button.
 
 ![A screenshot of a computer Description automatically
 generated](./media/image10.png)
