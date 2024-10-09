@@ -7,6 +7,7 @@
 
 2.  In your VM, navigate and click in the **Search bar**, type
     **Settings** and then click on **Settings** under **Best match**.
+    
     ![](./media/image1.png)
 
 2.  On Settings window, navigate and click on **Time & language**.
