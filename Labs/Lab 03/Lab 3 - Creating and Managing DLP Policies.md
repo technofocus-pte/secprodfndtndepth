@@ -1,4 +1,4 @@
-# Lab 7 – Creating and Managing DLP Policies
+# Lab 3 – Creating and Managing DLP Policies
 
 ## Objective:
 
