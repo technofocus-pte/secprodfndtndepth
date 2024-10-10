@@ -1,4 +1,4 @@
-**Lab 8 - Manage Device Enrollment into Microsoft Intune**
+# Lab 7 - Manage Device Enrollment into Microsoft Intune
 
 **Summary**
 
