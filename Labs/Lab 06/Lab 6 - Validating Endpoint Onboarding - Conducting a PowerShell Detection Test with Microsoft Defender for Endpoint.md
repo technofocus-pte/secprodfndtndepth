@@ -1,4 +1,4 @@
-# **Lab 2 - Validating Endpoint Onboarding: Conducting a PowerShell
+# Lab 6 - Validating Endpoint Onboarding: Conducting a PowerShell
 Detection Test with Microsoft Defender for Endpoint**
 
 **Introduction**
