@@ -1,4 +1,4 @@
-## Lab 01 - Securing identities with Microsoft Entra ID
+# Lab 01 - Securing identities with Microsoft Entra ID
 
 ## Task 0: Sync Host environment time
 
