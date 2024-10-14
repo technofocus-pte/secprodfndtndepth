@@ -115,9 +115,7 @@ Internal documents and a sublabel for the HR department.
 1.  In **Microsoft Edge** navigate to
     **+++**https://purview.microsoft.com**+++** and log in as **Patti
     Fernandez** using the username **PattiF@WWLxXXXXXX.onmicrosoft.com**
-    and the User Password given on your resources tab.
-
-2.  
+    and the User Password given on your resources tab.  
 
 3.  In the Microsoft Purview portal, on the left navigation pane, select
     **Solutions** \ **Information Protection**.
@@ -332,10 +330,6 @@ to their HR documents.
 
 ![](./media/image13.png)
 
-3.  
-
-4.  
-
 5.  From the sub-navigation select **Sensitivity Labels** \ **Publish**
     **Labels**.
 
@@ -383,14 +377,10 @@ generated](./media/image54.png)
 ![A screenshot of a computer Description automatically
 generated](./media/image56.png)
 
-15. 
-
 16. On the **Apply a default label to emails** page, select **Next**.
 
 17. On the **Default settings for meetings and calendar events**,
     select **Next**.
-
-18. 
 
 19. On the **Default settings for Fabric and Power BI content page**,
     select **Next**.
@@ -434,18 +424,16 @@ In this task, you will create sensitivity labels in Word and Outlook
 emails. The document created will be stored in OneDrive and sent to an
 HR employee via email.
 
-1.  
-
-2.  Navigate to **+++https://portal.office.com+++** and log in as
+1. Navigate to **+++https://portal.office.com+++** and log in as
     **Patti Fernandez**.
 
-3.  If a **Get your work done with Office 365** message is shown, close
+2.  If a **Get your work done with Office 365** message is shown, close
     it.
 
 ![Graphical user interface Description automatically
 generated](./media/image63.png)
 
-4.  Select the **Microsoft Word** symbol from the left side pane to open
+3.  Select the **Microsoft Word** symbol from the left side pane to open
     Word Online.
 
 ![Graphical user interface, website Description automatically
@@ -528,14 +516,10 @@ generated](./media/image76.png)
 
 17. Select the **paperclip symbol** from the bottom menu.
 
-![](./media/image78.png)
-
-18. 
+![](./media/image78.png) 
 
 19. Select the **HR Document.docx** below **Suggested attachments** to
     attach the document.
-
-20. 
 
 21. Select **Send** to send out the email message with attached
     document.
@@ -642,8 +626,6 @@ generated](./media/image90.png)
 ![A screenshot of a computer Description automatically
 generated](./media/image91.png)
 
-17. 
-
 18. On the **Auto-labeling for schematized data** **assets
     (preview)** page, select **Next**.
 
@@ -662,8 +644,6 @@ automatically generated](./media/image93.png)
 
 22. From the sub-navigation select **Sensitivity Labels** \ **Publish
     Labels**.
-
-23. 
 
 ![](./media/image48.png)
 
@@ -715,12 +695,6 @@ generated](./media/image101.png)
 
 33. On the **Default settings for meetings and calendar events**,
     select **Next**.
-
-34. 
-
-35. 
-
-36. 
 
 37. On the **Default settings for Fabric and Power BI content page**,
     select **Next**.
