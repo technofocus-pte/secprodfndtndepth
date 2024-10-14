@@ -19,7 +19,7 @@ for ongoing monitoring of the environment. A list of supported firewalls
 is
 documented [**https://technet.microsoft.com/en-US/library/mt489024(TechNet.10).aspx**](urn:gd:lg:a:send-vm-keys).
 
-### *Task 1: Create a Cloud Discovery Snapshot Report*
+### Task 1: Create a Cloud Discovery Snapshot Report*
 
 To perform a one-time upload of discovery logs, perform the following
 steps:
@@ -72,8 +72,8 @@ generated](./media/image6.png)
 9.  On the next page of **Snapshot reports,** Click on **Create snapshot
     report.**
 
-> ![A screenshot of a computer Description automatically
-> generated](./media/image10.png)
+ ![A screenshot of a computer Description automatically
+ generated](./media/image10.png)
 
 10. On **Create new Cloud Discovery snapshot report,** click
     on **Next**.
@@ -160,7 +160,7 @@ generated](./media/image22.png)
 2.  On the Microsoft Defender portal left side navigation pane, click on
     **Settings** cog, and then navigate to **Cloud Apps.**
 
-> ![](./media/image24.png)
+ ![](./media/image24.png)
 
 3.  On the **Cloud Apps** page, navigate to **Connected apps** and click
     on **App Connectors.**
@@ -175,7 +175,7 @@ generated](./media/image25.png)
 5.  To upload files in Microsoft 365, Click on the App launcher on the
     top left corner of the page, and click on the **OneDrive** icon.
 
-> ![](./media/image27.png)
+ ![](./media/image27.png)
 
 6.  Upload the following test files to **OneDrive** from C:\Resources,
     and click on **Open.**
@@ -211,8 +211,8 @@ based on a combination of risk score and usage.
 ### Task 1: Explore Your Organization's Cloud Usage
 
 1.  To review the applications in use,
-    navigate !!**<https://Security.microsoft.com>!!** to **Cloud
-    Apps** **\>** **Cloud Discovery \>Dashboard**.
+    navigate !!**<https://Security.microsoft.com!!** to **Cloud
+    Apps** **\** **Cloud Discovery \Dashboard**.
 
 ![](./media/image31.png)
 
@@ -255,8 +255,8 @@ transport or if it supports multifactor authentication.
 
 3.  Under **Cloud Discovery**. Click on **Score Metric**.
 
-> ![A screenshot of a computer Description automatically
-> generated](./media/image36.png)
+ ![A screenshot of a computer Description automatically
+ generated](./media/image36.png)
 
 4.  Notice the **Importance sliders** for the appropriate attributes to
     reflect in the risk score. Sample attributes shown below in the
