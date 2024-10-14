@@ -1,6 +1,6 @@
-# Lab 3 – Creating and Managing DLP Policies
+# **Lab 3 – Creating and Managing DLP Policies**
 
-## Objective:
+## Objectives
 
 You are Patti Fernandez, the newly hired Compliance Administrator for
 Contoso Ltd. tasked to configure the company's Microsoft 365 tenant for
