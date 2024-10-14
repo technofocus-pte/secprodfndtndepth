@@ -183,25 +183,23 @@ inform users if they want to share this content in an e-mail.
     the policy named **Credit Card DLP Policy** and then select **Edit
     policy**(pencil icon) to open the policy wizard.
 
-![](./media/image48.png)
+![](./media/image48.png)  
 
-4.  
-
-5.  On the **Name your DLP policy** and **Assign admin units** page,
+4.  On the **Name your DLP policy** and **Assign admin units** page,
     select **Next**.
 
-6.  On the **Choose locations to apply the policy** page, enable
+5.  On the **Choose locations to apply the policy** page, enable
     the **Exchange email** option and then select **Next** until you
     reach the **Review and** **finish** page. Make sure that the rest of
     the locations are disabled.
 
     ![](./media/image51.png)
 
-10. Select **Submit** to apply the change you made in the policy.
+6. Select **Submit** to apply the change you made in the policy.
 
     ![](./media/image53.png)
 
-11. Once the policy is updated select **Done**.
+7. Once the policy is updated select **Done**.
 
    ![](./media/image56.png)
 
@@ -226,7 +224,7 @@ and then sign in as **Patti Fernandez.**
 
 ![](./media/image57.png)
 
-Note: If it shows error try running the following commands one by one
+**Note**: If it shows error try running the following commands one by one
 first and then execute the step again.
 
 **+++Install-ModuleExchangeOnlineManagement+++**
@@ -285,11 +283,11 @@ you created in test mode so it enforces its protective actions.
 
    ![](./media/image63.png)
 
-2.  Select **Next**, then select **Submit** to activate the policy.
+5.  Select **Next**, then select **Submit** to activate the policy.
 
 ![](./media/image66.png)
 
-5. Once the policy is updated select **Done**.
+6. Once the policy is updated select **Done**.
 
    ![](./media/image68.png)
 
@@ -416,19 +414,19 @@ quarantine files containing credit card information if they are shared.
 
     ![](./media/image88.png)
 
-10. Keep the **Policy Severity** on **Low** (one lighted icon) and make
+4. Keep the **Policy Severity** on **Low** (one lighted icon) and make
     sure the **Category** is set to **DLP**. For a file policy, this
     should be the default.
 
     ![](./media/image89.png)
 
-11. In the **Files matching all of the following** area, expand the
+5. In the **Files matching all of the following** area, expand the
     dropdown menu **Public (Internet), External, Public** and
     add **Internal**.
 
     ![](./media/image90.png)
 
-12. Under Apply to in the **Inspection Method** dropdown menu,
+6. Under Apply to in the **Inspection Method** dropdown menu,
     select **Data Classification Service**.
 
     ![](./media/image91.png)
@@ -440,44 +438,44 @@ for name: Credit card** \>**Select Credit Card Information for files**.
 
    ![](./media/image92.png)
 
-13. Select **Data Classification Service** from the dropdown
+7. Select **Data Classification Service** from the dropdown
     of **Inspection method**.
 
     ![](./media/image93.png)
 
-14. In the **Choose inspection type…** dropdown menu, select **Sensitive
+8. In the **Choose inspection type…** dropdown menu, select **Sensitive
     information type…**.
 
     ![](./media/image95.png)
 
-15. In the **Select a sensitive information type** dialog,
+9. In the **Select a sensitive information type** dialog,
     select **Credit Card Number**, then select **Done** in the upper
     right corner.
 
     ![](./media/image96.png)
 
-16. Under **Alerts**, check the **Create an alert for each matching
+10. Under **Alerts**, check the **Create an alert for each matching
     file** checkbox and review your options. Keep the settings at the
     default by selecting **Save as default settings**.
 
    ![](./media/image99.png)
 
-17. In the **Governance actions** section, expand **Microsoft OneDrive
+11. In the **Governance actions** section, expand **Microsoft OneDrive
     for Business** and select **Put in user quarantine**.
 
    ![](./media/image101.png)
 
-18. In the **Governance actions** section, expand **Microsoft SharePoint
+12. In the **Governance actions** section, expand **Microsoft SharePoint
     Online** and select **Put in user quarantine**.
 
    ![](./media/image102.png)
 
-19. Select **Create** at the bottom of the page.
+13. Select **Create** at the bottom of the page.
 
     ![](./media/image104.png)
 
 
-20. Select the **Profile picture** of the MOD Admin in the top right and
+14. Select the **Profile picture** of the MOD Admin in the top right and
     select **Sign out** next to the cogwheel, then close the browser.
 
 You have now created a file policy that will continuously scan files
