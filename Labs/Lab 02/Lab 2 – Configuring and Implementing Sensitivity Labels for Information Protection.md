@@ -1,6 +1,6 @@
-# Lab 2 – Configuring and Implementing Sensitivity Labels for Information Protection
+# **Lab 2 – Configuring and Implementing Sensitivity Labels for Information Protection**
 
-# Objective:
+# Objective
 
 In this lab you will assume the role of Patti Fernandez, a System
 Administrator for Contoso Ltd. Your organization is based in
