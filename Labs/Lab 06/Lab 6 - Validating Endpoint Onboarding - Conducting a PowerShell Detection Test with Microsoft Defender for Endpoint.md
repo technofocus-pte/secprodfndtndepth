@@ -51,7 +51,7 @@ generated](./media/image5.png)
  generated](./media/image6.png)
 
 7.  On **Enter your credentials** dialog box, enter the password (here,
-    **Administrator5801@***) and click on the **OK** button.
+    `Administrator5801@`) and click on the **OK** button.
 
 ![A screenshot of a computer screen Description automatically
 generated](./media/image7.png)
@@ -136,7 +136,7 @@ generated](./media/image15.png)
  generated](./media/image18.png)
 
 8.  On **Enter your credentials** dialog box, enter the password (here,
-    **Administrator5801@***) and click on the **OK** button.
+    `Administrator5801@`) and click on the **OK** button.
 
 ![](./media/image19.png)
 

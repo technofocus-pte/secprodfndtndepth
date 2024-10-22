@@ -70,7 +70,7 @@ generated](./media/image4.png)
  generated](./media/image7.png)
 
 7.  On **Enter your credentials** dialog box, enter the password (here,
-    **Administrator5801@***) and click on the **OK** button.
+    `Administrator5801@` and click on the **OK** button.
 
 ![A screenshot of a computer Description automatically
 generated](./media/image8.png)
@@ -223,7 +223,7 @@ Code Copy
 ![A screenshot of a computer Description automatically
 generated](./media/image32.png)
 
-3.  Now, in testvm1 search bar, type +++**environment variables**+++,
+3.  Now, in testvm1 search bar, type `environment variables`,
     then navigate and click on **Edit environment variables for your
     account** as shown in the below image.
 
@@ -245,8 +245,8 @@ generated](./media/image34.png)
 [TABLE]
 
 7. On the **New User Variable** dialog box, in the **Variable name**
-field, enter +++ **TargetPath**+++, and in the **Variable value** field,
-enter +++ **C:RanSim**+++, then press the **OK** button.
+field, enter `TargetPath`, and in the **Variable value** field,
+enter `C:RanSim`, then press the **OK** button.
 
 ![](./media/image36.png)
 
@@ -257,8 +257,8 @@ enter +++ **C:RanSim**+++, then press the **OK** button.
 generated](./media/image37.png)
 
 8. On the **New User Variable** dialog box, in the **Variable name**
-field, enter +++**Extension**+++, and in the **Variable value** field,
-enter +++**.encrypted**+++. Then, click on the **OK** button.
+field, enter `Extension`, and in the **Variable value** field,
+enter `.encrypted`. Then, click on the **OK** button.
 
 ![](./media/image38.png)
 
@@ -268,8 +268,8 @@ enter +++**.encrypted**+++. Then, click on the **OK** button.
 ![](./media/image39.png)
 
 10. On the **New User Variable** dialog box, in the **Variable name**
-field, enter +++**Key**+++, and in the **Variable value** field, enter
-+++ **Q5KyUru6wn82hlY9k8xUjJOPIC9da41jgRkpt21jo2L=**+++. Then, click on
+field, enter `Key`, and in the **Variable value** field, enter
+` **Q5KyUru6wn82hlY9k8xUjJOPIC9da41jgRkpt21jo2L=`. Then, click on
 the **OK** button.
 
 ![A screenshot of a computer Description automatically
@@ -281,10 +281,10 @@ button as shown in the below image.
 ![](./media/image41.png)
 
 12. On the **New User Variable** dialog box, in the **Variable name**
-field, enter +++ **TargetFiles**+++, and in the **Variable value**
-field, enter +++ **.pdf .xls* .ppt* .doc* .accd* .rtf .txt .csv .jpg
+field, enter ` **TargetFiles`, and in the **Variable value**
+field, enter ` **.pdf .xls* .ppt* .doc* .accd* .rtf .txt .csv .jpg
 .jpeg .png .gif .avi .midi .mov mp3 .mp4 .mpeg .mpeg2 .mpeg3 .mpg .ogg**
-+++. Then, click on the **OK** button.
+`. Then, click on the **OK** button.
 
 ![](./media/image42.png)
 
@@ -356,7 +356,7 @@ generated](./media/image51.png)
 generated](./media/image52.png)
 
 5.  You will be prompted to enter the password, provide the password as
-    +++**WDATP!diy#**+++ and click on the **OK** button.
+    `WDATP!diy#` and click on the **OK** button.
 
 ![A screenshot of a computer Description automatically
 generated](./media/image53.png)
@@ -438,16 +438,16 @@ error.
 
 ![](./media/image64.png)
 
-15. Type +++**ls**+++ to get the list of the scripts in the folder.
+15. Type `ls` to get the list of the scripts in the folder.
     Then, execute the following script:
 
-+++**./SQLDumper.exe**+++
+`./SQLDumper.exe`
 
 ![](./media/image65.png)
 
 16. Run the following command:
 
-**+++.wdtestfile.exe+++**
+`.wdtestfile.exe`
 
 ![A screenshot of a computer Description automatically
 generated](./media/image66.png)
@@ -463,7 +463,7 @@ Microsoft Defender Portal.
 Security**
 
 1.  In **testvm1** click on the search icon, in the search bar type
-    +++**virus and threat protection**+++, then navigate and click on
+    `virus and threat protection`, then navigate and click on
     **Virus & threat protection** under **Best match** as shown in the
     below image.
 

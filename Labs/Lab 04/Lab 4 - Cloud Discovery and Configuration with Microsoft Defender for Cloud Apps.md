@@ -25,7 +25,7 @@ To perform a one-time upload of discovery logs, perform the following
 steps:
 
 1.  In **[Microsoft Defender
-    portal](file:///C:\Users\editoruoap\Downloads\Security.microsoft.com),**
+    portal]`https://Security.microsoft.com`,**
     Under the **settings cog**, select the **Settings** page, navigate
     to **Cloud Apps**.
 
@@ -152,7 +152,7 @@ generated](./media/image22.png)
 ### Task 1: Test Microsoft 365 connection
 
 1.  Navigate to [**Microsoft
-    defender**](file:///C:\Users\editoruoap\Downloads\security.microsoft.com)
+    defender**]`https://Security.microsoft.com`
     home page.
 
 ![](./media/image23.png)

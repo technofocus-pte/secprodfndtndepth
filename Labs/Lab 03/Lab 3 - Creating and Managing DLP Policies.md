@@ -21,7 +21,7 @@ will be implemented in test mode because you do not want the block
 action to affect your users yet.
 
 1.  In **Microsoft Edge**, navigate
-    to **+++https://purview.microsoft.com+++** and make sure you are
+    to `https://purview.microsoft.com` and make sure you are
     logged into the **Microsoft Purview** portal as **Patti Fernandez**.
 
 2.  In the **Microsoft Purview** portal, in the left navigation pane,
@@ -43,8 +43,8 @@ action to affect your users yet.
     ![](./media/image6.png)
 
 5.  On the **Name your DLP policy** page,
-    type **+++Credit Card DLP Policy+++** in the **Name** field
-    and **+++Protect credit card numbers from being shared.+++** in
+    type `Credit Card DLP Policy` in the **Name** field
+    and `Protect credit card numbers from being shared.` in
     the **Description** field. Select **Next**.
 
    ![](./media/image8.png)
@@ -67,8 +67,8 @@ action to affect your users yet.
 
    ![](./media/image14.png)
 
-10. On the **Create rule** page, type **+++Credit card
-    information+++** in the **Name** field.
+10. On the **Create rule** page, type `Credit card
+    information` in the **Name** field.
 
    ![](./media/image16.png)
 
@@ -170,7 +170,7 @@ previous step to also scan e-mails for Credit Card information and
 inform users if they want to share this content in an e-mail.
 
 1.  In **Microsoft Edge**, navigate
-    to **+++https://purview.microsoft.com+++** and make sure you are
+    to `https://purview.microsoft.com` and make sure you are
     logged into the **Microsoft Purview** portal as **Patti Fernandez**.
 
 2.  In the **Microsoft Purview** portal, in the left navigation pane,
@@ -218,7 +218,7 @@ EmployeeIDs.
 
 2.  In the **PowerShell** window, enter
 
-**+++Connect-IPPSSession+++**
+`Connect-IPPSSession`
 
 and then sign in as **Patti Fernandez.**
 
@@ -227,31 +227,31 @@ and then sign in as **Patti Fernandez.**
 **Note**: If it shows error try running the following commands one by one
 first and then execute the step again.
 
-**+++Install-ModuleExchangeOnlineManagement+++**
+`Install-ModuleExchangeOnlineManagement`
 
-**+++Import-ModuleExchangeOnlineManagement+++**
+`Import-ModuleExchangeOnlineManagement`
 
 3.  Enter the following command into PowerShell to create a DLP policy
     that scans all Exchange mailboxes:
 
-**+++New-DlpCompliancePolicy -Name"EmployeeID DLP Policy" -Comment "This
-policy blocks sharing of Employee IDs" -ExchangeLocation All+++**
+`New-DlpCompliancePolicy -Name"EmployeeID DLP Policy" -Comment "This
+policy blocks sharing of Employee IDs" -ExchangeLocation All`
 
 ![](./media/image58.png)
 
 4.  Enter the following command into PowerShell to add a DLP rule to the
     DLP policy you created in the previous step:
 
-**+++New-DlpComplianceRule -Name"EmployeeID DLP rule" -Policy"EmployeeID
+`New-DlpComplianceRule -Name"EmployeeID DLP rule" -Policy"EmployeeID
 DLP
 Policy" -BlockAccess\\true -ContentContainsSensitiveInformation@{Name="Contoso
-Employee IDs"}+++**
+Employee IDs"}`
 
 ![](./media/image59.png)
 
 5.  Use the following command to review the **EmployeeID DLP rule**:
 
-**+++Get-DLPComplianceRule -Identity "EmployeeID DLP rule"+++**
+`Get-DLPComplianceRule -Identity "EmployeeID DLP rule"`
 
 ![](./media/image60.png)
 
@@ -264,7 +264,7 @@ In this task, you will activate the credit card information DLP policy
 you created in test mode so it enforces its protective actions.
 
 1.  In **Microsoft Edge**, navigate
-    to **+++https://purview.microsoft.com+++** and make sure you are
+    to `https://purview.microsoft.com` and make sure you are
     logged into the **Microsoft Purview** portal as **Patti Fernandez**.
 
 2.  In the **Microsoft Purview** portal, in the left navigation pane,
@@ -306,7 +306,7 @@ restrictive policy. For this reason, you want to move the EmployeeID DLP
 Policy into the higher priority.
 
 1.  In **Microsoft Edge**, navigate
-    to **+++https://purview.microsoft.com+++** and make sure you are
+    to `https://purview.microsoft.com` and make sure you are
     logged into the **Microsoft Purview** portal as **Patti Fernandez**.
 
 2.  In the **Microsoft Purview** portal, in the left navigation pane,
@@ -342,7 +342,7 @@ create a file policy, you need to enable file monitoring so Microsoft
   
 
 1.  Open **Microsoft Edge** and navigate
-    to **+++https://security.microsoft.com+++** and log into the
+    to `https://security.microsoft.com` and log into the
     Microsoft 365 Defender portal as **MOD Administrator**.  
 
 2.  In the navigation select **Cloud apps** \> **Files** from the menu.
@@ -365,7 +365,7 @@ to scan files in OneDrive and SharePoint Online and automatically
 quarantine files containing credit card information if they are shared.
 
 1.  Open **Microsoft Edge** and navigate
-    to **+++https://security.microsoft.com+++** and log into the
+    to `https://security.microsoft.com` and log into the
     Microsoft 365 Defender portal as **MOD Administrator**.
 
 2.  In the navigation select **Settings** under **System**, and
@@ -408,9 +408,9 @@ quarantine files containing credit card information if they are shared.
    ![](./media/image87.png)
 
 3.  On the **Create file policy** page,
-    type **+++Credit Card Information for** **files+++** in the **Policy
-    name** field, and type **+++Protect credit card numbers from being
-    shared in files.+++** in the **Description** field.
+    type `Credit Card Information for** **files` in the **Policy
+    name** field, and type `Protect credit card numbers from being
+    shared in files.` in the **Description** field.
 
     ![](./media/image88.png)
 

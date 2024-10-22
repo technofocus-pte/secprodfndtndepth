@@ -30,7 +30,7 @@
 ## Task 1: Redeeming Azure pass and implementing Multifactor authentication
 
 1.  In your lab VM, open Microsoft Edge and
-    enter [**http://www.microsoftazurepass.com**](urn:gd:lg:a:send-vm-keys)
+    enter `http://www.microsoftazurepass.com`
 
      ![](./media/image6.png)
 
@@ -41,12 +41,12 @@
 **Note**: Do not use your Company/Work Account to login to redeem the
 Azure Pass, another Azure Pass will not be issued.
 
-3.  In the **Sign in** window, enter the **Office 365 Tenant ID** -
-    <admin@WWLxxxx.onmicrosoft.com and click on the **Next** button.
+3.  **Sign in** with the username given in the
+**Home/Resources** tab of your Lab environment. and click on the **Next** button.
 
     ![](./media/image8.png)
 
-4.  Enter Office **365 Tenant Password** and click on the **Sign in**
+4.  Enter **Office 365 Tenant Password** and click on the **Sign in**
     button.
 
     ![](./media/image9.png)
@@ -147,12 +147,11 @@ Azure Pass, another Azure Pass will not be issued.
 1.  Launch a new InPrivate browser window in your lab VM.
 
 
-2.  Navigate to +++**https://www.office.com+++**.
+2.  Navigate to `https://www.office.com`.
 
 3. When prompted, log in as **Allan Deyoung**:
 
- Username – +++**alland@+++Paste the Tenant name from the Resources
- tab**
+ Username – `alland@`Paste the Tenant name from the **Home/Resources tab**
 
  Password – Paste the User Password from the Resources tab.
 
@@ -177,7 +176,7 @@ can access your resources. Using Conditional Access, you can protect
 your applications by limiting users’ access based on things like groups,
 device type, location, and role.
 
-1.  Browse to **+++https://entra.microsoft.com/+++** and sign in using
+1.  Browse to `https://entra.microsoft.com/` and sign in using
     the **Office 365 tenant credentials**.
 
 
@@ -190,7 +189,7 @@ device type, location, and role.
 3. On the **New Conditional Access Policy** page, provide the below
     details
 
-    - Name – +++**Block Engage for Allan Deyoung+++**
+    - Name – `Block Engage for Allan Deyoung`
 
     - Under **Users**, select **0 users and groups selected/Specific
       users included**. Then under **Include**, choose **Select users
@@ -238,11 +237,11 @@ as expected.
 2.  Launch a new InPrivate browser window in your lab VM.
 
 
-3. Navigate to +++**https://www.office.com+++**.
+3. Navigate to `https://www.office.com`.
 
 4. When prompted, log in as **Allan Deyoung**:
 
- Username – +++**alland@+++Paste the Tenant name from the Resources
+ Username – `alland@`Paste the Tenant name from the Resources
  tab**
 
  Password – Paste the User Password from the Resources tab.
@@ -268,7 +267,7 @@ policy, follow the given steps.
 
 ### Task 4 – Use ‘What if’ to test conditional access policies
 
-1.  Browse to **+++https://entra.microsoft.com/+++** and sign in using
+1.  Browse to `https://entra.microsoft.com/` and sign in using
     the **Office 365 tenant credentials**.
 
 2.  On the lefthand menu, under Identity, expand Protection, and then
@@ -316,7 +315,7 @@ enabling the policies.
 As part of your company’s larger security configuration, you must test a
 conditional access policy that can be used to control sign in frequency.
 
-1.  Browse to **+++https://entra.microsoft.com/+++** and sign in using
+1.  Browse to `https://entra.microsoft.com/` and sign in using
     the **Office 365 tenant credentials**.
 
 
@@ -329,7 +328,7 @@ conditional access policy that can be used to control sign in frequency.
 3. On the **New Conditional Access Policy** page, provide the below
     details.
 
-    - Name – +++**Sign in frequency+++**
+    - Name – `Sign in frequency`
 
     - Under **Users**, select **0 users and groups selected/Specific
       users included**. Then under **Include**, choose **Select users

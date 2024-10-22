@@ -64,132 +64,9 @@ macOS, Linux, Android, and iOS devices.
 
 ![](./media/image5.png)
 
-## **Task 1: Redeem Azure pass**
+## **Task 1: Add Owner role to subscription**
 
-1.  In your lab VM, open Microsoft Edge browser and enter the following
-    URL:
-    [**http://www.microsoftazurepass.com**](http://www.microsoftazurepass.com)
-
-  ![](./media/image6.png)
-
-2.  On **Ready to get started?** page, click on the **Start** button.
-
-![Graphical user interface, website Description automatically
-generated](./media/image7.jpeg)
-
-**Note**: Do not use your Company/Work Account to login to redeem the
-Azure Pass, another Azure Pass will not be issued.
-
-4.  In the **Sign in** window, enter the **Office 365 Tenant ID** -
-    <admin@WWLxxxx.onmicrosoft.com  and click on the **Next** button.
-
-![](./media/image8.png)
-
-5.  Enter **Office 365 Tenant Password** and click on the **Sign in**
-    button.
-
-![](./media/image9.png)
-
-6.  On **The following Microsoft Account will be used for Azure pass**
-    page, click on **Confirm Microsoft Account** button.
-
-  ![](./media/image10.png)
-
-7.  Enter the Promocode provided in the lab environment in the **Enter
-    Promo code** field, then enter the characters under the **Enter the
-    characters you see** field and click on the **Submit** button.
-
-![](./media/image11.png)
-
-8.  **We are processing your request** page will appear, it may take few
-    seconds to process the redemption.
-
-![](./media/image12.png)
-
-9.  Enter correct details in **Your Profile** page, tick all the check
-    boxes, and then click on **Sign up** button.
-
-![](./media/image13.jpeg)
-
-  ![Graphical user interface, text, application Description
-  automatically generated](./media/image14.png)
-
-In case you are asked to set up your account using Microsoft
-Authenticator App, then perform the following steps:
-
-10. In your mobile, install the **Microsoft Authenticator App**. Then,
-    go back to Microsoft Azure port. In the Azure portal, **Microsoft
-    Authenticator -** **Start by getting the app** window, navigate and
-    click on the **Next** button.
-
-![](./media/image15.png)
-
-11. In **Microsoft Authenticator –** **Set up your account** window,
-    click on the **Next** button.
-
-![A  of a computer Description automatically
-generated](./media/image16.png)
-
-12. **Scan the QR code** using the **Authenticator app** installed in
-    your mobile phone and click on the **Next** button.
-
-![A  of a computer Description automatically
-generated](./media/image17.png)
-
-13. Enter the number in your mobile authenticator app and select
-    **Yes**.
-
-![A  of a computer error Description automatically
-generated](./media/image18.png)
-
-14. Click on the **Next** button.
-
-![A  of a computer Description automatically
-generated](./media/image19.png)
-
-15. Click on the **Done** button.
-
-![](./media/image20.png)
-
-16. If prompted, then enter the number again in your mobile
-    authenticator app and select **Yes**..
-
-![](./media/image21.png)
-
-17. In the **Stay signed in?** window, click on the **Yes** button.
-
-![](./media/image22.png)
-
-18. On **Are you satisfied with your signup experience** window, enter
-    your feedback and click on the **Submit** button.
-
-![](./media/image23.png)
-
-19. In **Welcome to Microsoft Azure** page, click on **Get started**.
-
-![A  of a computer Description automatically
-generated](./media/image24.png)
-
-20. On **How do you plan to use Azure?** page, click on the **Skip**
-    button.
-
-![A  of a computer Description automatically
-generated](./media/image25.png)
-
-21. On **Now, let’s show you around Azure** page, click on the **Skip**
-    button.
-
-![A  of a computer Description automatically
-generated](./media/image26.png)
-
-22. You’ll be directed to Azure portal page.
-
-![A  of a computer Description automatically
-generated](./media/image27.png)
-
-## **Task 2: Add Owner role to subscription**
-
-1.  In the Azure portal search box, type **subscription**, navigate and
+1.  In the Azure portal `https://portal.azure.com` search box, type **subscription**, navigate and
     click on **Subscriptions** under **Services**.
 
 ![A  of a computer Description automatically
@@ -252,7 +129,7 @@ generated](./media/image29.png)
 **Note**: Microsoft 365 E5 license is assigned to your O365 tenant ID,
 which included Microsoft Defender for Endpoint feature.
 
-## **Task 3: Onboarding testserver1 in Microsoft Defender for Endpoints**
+## **Task 2: Onboarding testserver1 in Microsoft Defender for Endpoints**
 
   1\. In the Azure portal search bar, type **virtual machine**, then
   navigate and click on **Virtual machines** under **Services**.
@@ -346,7 +223,7 @@ and select **Standard**. In the **Image** field, select **Windows Server
   generated](./media/image53.png)
 
 15. On **Enter your credentials** dialog box, enter the password (here,
-    **Administrator5801@\***) and click on the **OK** button.
+    `Administrator5801@`) and click on the **OK** button.
 
 ![](./media/image54.png)
 
@@ -443,7 +320,7 @@ generated](./media/image64.png)
 
 ![](./media/image70.png)
 
-## **Task 4: Onboarding testVM1 in Microsoft Defender for Endpoints**
+## **Task 3: Onboarding testVM1 in Microsoft Defender for Endpoints**
 
   1\. In the Azure portal search bar, type virtual machine, then
   navigate and click on **Virtual machines** under **Services**.
@@ -457,7 +334,7 @@ click on **Azure virtual machine**.
 
 3\. In **Create a virtual machine**, under the **Resource group** field,
 select **MCS-RG** resource group. Then, navigate to **Instance details**
-section, in the **Virtual machine name** field, enter +++**testvm1**+++.
+section, in the **Virtual machine name** field, enter `testvm1`.
 In the **Region** field, ensure **EAST US** region is selected.
 
 ![A  of a computer Description automatically
@@ -529,7 +406,7 @@ Troubleshoot the issue… then wait for 10-15 minutes and reload the page.
   generated](./media/image84.png)
 
 15. On **Enter your credentials** dialog box, enter the password (here,
-    +++**Administrator5801@\***+++) and click on the **OK** button.
+    `Administrator5801@`) and click on the **OK** button.
 
 ![A  of a computer Description automatically
 generated](./media/image85.png)
@@ -615,7 +492,7 @@ generated](./media/image95.png)
 
 ![](./media/image97.png)
 
-## **Task 5: Onboarding testVM2 in Microsoft Defender for Endpoints**
+## **Task 4: Onboarding testVM2 in Microsoft Defender for Endpoints**
 
   1\. In the Azure portal search bar, type virtual machine, then
   navigate and click on **Virtual machines** under **Services**.
@@ -630,7 +507,7 @@ generated](./media/image99.png)
 
 3\. In **Create a virtual machine**, under the **Resource group** field,
 select **RG-DOE** resource group. Then, navigate to **Instance details**
-section, in the **Virtual machine name** field, enter +++**testvm2**+++.
+section, in the **Virtual machine name** field, enter `testvm2`.
 In the **Region** field, ensure **EAST US** region is selected.
 
 ![](./media/image100.png)
@@ -697,7 +574,7 @@ generated](./media/image107.png)
   generated](./media/image109.png)
 
 14. On **Enter your credentials** dialog box, enter the password (here,
-    +++**Administrator5801@\***+++) and click on the **OK** button.
+    `Administrator5801@`) and click on the **OK** button.
 
 ![A  of a computer screen Description automatically
 generated](./media/image110.png)
@@ -722,7 +599,7 @@ generated](./media/image88.png)
 generated](./media/image89.png)
 
 17. Go back to your VM and open the WindowsDefenderATPOnboardingPackage
-    that you have downloaded in **Task 4, Step \#22**.
+    that you have downloaded in **Task 3, Step \#22**.
 
 ![A search box with words Description automatically
 generated](./media/image64.png)
@@ -771,10 +648,10 @@ generated](./media/image117.png)
 
 32. Close all the VMs.
 
-## Task 6: Create test account using Microsoft Entra ID
+## Task 5: Create test account using Microsoft Entra ID
 
 1.  Open a new tab and enter the following link:
-    **https://admin.microsoft.com/AdminPortal/#/homepage**
+    `https://admin.microsoft.com/AdminPortal/#/homepage`
 
 ![](./media/image118.png)
 
@@ -790,12 +667,12 @@ generated](./media/image117.png)
   generated](./media/image120.png)
 
 4.  Under **Set up the basics** pane, in the **First name** field, enter
-    +++**Robert**+++, and in the **Last name** field, enter
-    +++**Frost**+++. Navigate to **Username** field, and enter
-    +++**bob**+++ as shown in the below image.
+    `Robert`, and in the **Last name** field, enter
+    `Frost`. Navigate to **Username** field, and enter
+    `bob` as shown in the below image.
 
 5.  Uncheck all the boxes, in the **Password** field, enter the
-    following password: +++**Xof37931@**+++
+    following password: `Xof37931@`
 
 [TABLE]
 
@@ -844,7 +721,7 @@ generated](./media/image127.png)
 
 ![](./media/image128.png)
 
-## Task 7: Preparing the prerequisite on the testvm1 virtual machine
+## Task 6: Preparing the prerequisite on the testvm1 virtual machine
 
 1\. Go back to Azure portal. In the Azure portal search bar, type
 **virtual machines**, then navigate and click on **Virtual machines**
@@ -888,7 +765,7 @@ generated](./media/image80.png)
   generated](./media/image84.png)
 
 28. On **Enter your credentials** dialog box, enter the password (here,
-    +++**Administrator5801@\***+++) and click on the **OK** button.
+    `Administrator5801@`) and click on the **OK** button.
 
 ![A  of a computer Description automatically
 generated](./media/image85.png)
@@ -1052,9 +929,9 @@ generated](./media/image153.png)
 
 ![](./media/image154.png)
 
-## Task 8: Stop all the Virtual Machines
+## Task 7: Stop all the Virtual Machines
 
-1\. In the Azure portal search box, type +++**virtual machines**+++,
+1\. In the Azure portal search box, type `virtual machines`,
 then navigate and click on **Virtual machines** under **Services**.
 
 ![A  of a computer Description automatically

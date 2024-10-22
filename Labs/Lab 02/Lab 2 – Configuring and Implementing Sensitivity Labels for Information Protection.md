@@ -27,7 +27,7 @@ generated](./media/image1.png)
 3.  Enter the following cmdlet to install the latest Microsoft Online
     PowerShell module version:
 
-**+++Install-Module -Name MSOnline+++**
+`Install-Module -Name MSOnline`
 
 ![A screenshot of a computer Description automatically
 generated](./media/image2.png)
@@ -41,7 +41,7 @@ generated](./media/image2.png)
 5.  Enter the following cmdlet to install the latest SharePoint Online
     PowerShell module version:
 
-**+++Install-Module -NameMicrosoft.Online.SharePoint.PowerShell+++**
+`Install-Module -NameMicrosoft.Online.SharePoint.PowerShell`
 
 ![A screenshot of a computer Description automatically
 generated](./media/image4.png)
@@ -54,12 +54,12 @@ generated](./media/image4.png)
 7.  Enter the following cmdlet to connect to the Microsoft Online
     service:
 
-**+++Connect-MsolService+++**
+`Connect-MsolService`
 
 ![](./media/image6.png)
 
 8.  In the **Sign in to your account** form, log in as **Patti
-    Fernandez** using the username **PattiF@WWLxXXXXXX.onmicrosoft.com**
+    Fernandez** using the username `PattiF@` paste the Office 365 Tenant name
     and the User Password given on your resources tab.
 
 ![](./media/image7.png)
@@ -68,20 +68,20 @@ generated](./media/image4.png)
 
 10. Enter the following cmdlet to get the domain:
 
-**+++\\domain = get-msoldomain+++**
+`\\domain = get-msoldomain`
 
 ![](./media/image8.png)
 
 11. Enter the following cmdlet to create the SharePoint admin url:
 
-**+++\\adminurl = "https://" +\\domain.Name.split('.')\[0\] +"-admin.sharepoint.com"+++**
+`\\adminurl = "https://" +\\domain.Name.split('.')\[0\] +"-admin.sharepoint.com"`
 
 ![](./media/image9.png)
 
 12. Enter the following cmdlet to sign in to the SharePoint Online admin
     center:
 
-**+++Connect-SPOService -url \\adminurl+++**
+`Connect-SPOService -url \\adminurl`
 
 ![](./media/image10.png)
 
@@ -93,7 +93,7 @@ generated](./media/image4.png)
 
 15. Enter the following cmdlet to enable support for sensitivity labels:
 
-**+++Set-SPOTenant -EnableAIPIntegration $true+++**
+`Set-SPOTenant -EnableAIPIntegration $true`
 
 ![](./media/image11.png)
 
@@ -113,8 +113,8 @@ apply to HR employee documents. You will create a sensitivity label for
 Internal documents and a sublabel for the HR department.
 
 1.  In **Microsoft Edge** navigate to
-    **+++**https://purview.microsoft.com**+++** and log in as **Patti
-    Fernandez** using the username **PattiF@WWLxXXXXXX.onmicrosoft.com**
+    `**https://purview.microsoft.com`** and log in as **Patti
+    Fernandez** using the username `PattiF@`  paste the Office 365 tenant name 
     and the User Password given on your resources tab.  
 
 3.  In the Microsoft Purview portal, on the left navigation pane, select
@@ -132,14 +132,14 @@ Internal documents and a sublabel for the HR department.
     admins** and **Description for users**, enter the following
     information:
 
-    - Name: **+++Internal+++**
+    - Name: `Internal`
 
-    - Display name: **+++Internal+++**
+    - Display name: `Internal`
 
-    - Description for users: **+++Internal sensitivity label+++**
+    - Description for users: `Internal sensitivity label`
 
-    - Description for admins: **+++Internal sensitivity
-      label for Contoso.+++**
+    - Description for admins: `Internal sensitivity
+      label for Contoso.`
 
 ![Graphical user interface, text, application, email Description
 automatically generated](./media/image16.png)
@@ -209,18 +209,18 @@ generated](./media/image26.png)
 18. The **New sensitivity label** wizard will start. On the **Label
     details** page, enter the following information:
 
-    - Name: **+++Employee data (HR)** **+++**
+    - Name: `Employee data (HR)** `**
 
-    - Display name: **+++Employee data (HR)** **+++**
+    - Display name: `Employee data (HR)** `**
 
-    - Description for users: **+++This HR
+    - Description for users: `This HR
       label is the default label for all specified documents in the
-      HR Department.** **+++**
+      HR Department.** `**
 
-    - Description for admins: **+++This label is created in**
+    - Description for admins: `This label is created in**
       **consultation with Ms.Jones (Head of HR
       department). Contact her,** **when you want to change
-      settings of the label.** **+++**
+      settings of the label.** `**
 
 ![](./media/image28.png)
 
@@ -321,8 +321,8 @@ published sensitivity labels will be available for the HR users to apply
 to their HR documents.
 
 1.  In **Microsoft Edge** navigate to
-    **+++https://purview.microsoft.com+++** and log in as **Patti
-    Fernandez** using the username **PattiF@WWLxXXXXXX.onmicrosoft.com**
+    `https://purview.microsoft.com` and log in as **Patti
+    Fernandez** using the username **PattiF@  paste the Office 365 tenant name 
     and the User Password given on your resources tab.
 
 2.  In the Microsoft Purview portal, on the left navigation pane, select
@@ -387,11 +387,11 @@ generated](./media/image56.png)
 
 20. On the **Name your policy** page, enter the following information:
 
-    - Name: **+++Internal HR employee data+++**
+    - Name: `Internal HR employee data`
 
     - Enter a description for your sensitivity label
-      policy: **+++This HR label is to be applied to internal HR
-      employee data.** **+++**
+      policy: `This HR label is to be applied to internal HR
+      employee data.** `**
 
 ![Graphical user interface, text, application, email Description
 automatically generated](./media/image59.png)
@@ -424,7 +424,7 @@ In this task, you will create sensitivity labels in Word and Outlook
 emails. The document created will be stored in OneDrive and sent to an
 HR employee via email.
 
-1. Navigate to **+++https://portal.office.com+++** and log in as
+1. Navigate to `https://portal.office.com` and log in as
     **Patti Fernandez**.
 
 2.  If a **Get your work done with Office 365** message is shown, close
@@ -451,7 +451,7 @@ generated](./media/image65.png)
 
 7.  Enter the following contents into the word document:
 
-**+++Important HR employee document.+++**
+`Important HR employee document.`
 
 ![Graphical user interface, application, Word Description automatically
 generated](./media/image67.png)
@@ -498,18 +498,18 @@ generated](./media/image72.png)
 
 ![](./media/image74.png)
 
-15. In the subject field, enter: **+++Employee data for HR+++**.
+15. In the subject field, enter: `Employee data for HR`.
 
 16. Within the email message (the large content panel at the bottom of
     the page), insert the following message:
 
- **+++Dear** **Ms. Adele,**
+ `Dear** **Ms. Adele,**
 
  **Please find attached the important HR employee document.**
 
  **Kind regards,**
 
- **Patti Fernandez+++**
+ **Patti Fernandez`
 
 ![A screenshot of a computer Description automatically
 generated](./media/image76.png)
@@ -556,16 +556,16 @@ generated](./media/image81.png)
 4.  The **New sensitivity label** wizard will start. On the **label
     details** page, enter the following information:
 
-    - Name: **+++GDPR Germany+++**
+    - Name: `GDPR Germany`
 
-    - Display name: **+++GDPR Germany+++**
+    - Display name: `GDPR Germany`
 
-    - Description for users: **+++This document or email contains data
+    - Description for users: `This document or email contains data
       related to the European General Data
-      Protection Regulation(GPDR) for the region Germany.** **+++**
+      Protection Regulation(GPDR) for the region Germany.** `**
 
-    - Description for admins: **+++This label is auto applied
-      to German GDPR documents.** **+++**
+    - Description for admins: `This label is auto applied
+      to German GDPR documents.** `**
 
 5.  Select **Next**.
 
@@ -701,11 +701,11 @@ generated](./media/image101.png)
 
 38. On the **Name your policy** page, enter the following information:
 
-    - Name: **+++GDPR Germany policy+++**
+    - Name: `GDPR Germany policy`
 
     - Enter a description for your sensitivity label
-      policy: **+++This auto apply sensitivity labels policy is for the
-      GDPR region of** **Germany.** **+++**
+      policy: `This auto apply sensitivity labels policy is for the
+      GDPR region of** **Germany.** `**
 
 39. Select **Next**.
 

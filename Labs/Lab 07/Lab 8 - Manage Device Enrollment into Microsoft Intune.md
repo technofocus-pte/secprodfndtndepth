@@ -34,7 +34,7 @@ devices.
 
 **Task 1: Review and assign licenses for device management**
 
-1.  On [*SEA-SVR1*](https://labclient.labondemand.com/Instructions/e7cc4ae1-e3d9-4c55-accc-696f537e1e17?rc=10),
+1.  On *SEA-SVR1*,
     navigate to **Microsoft Entra admin center** window, navigate and
     click on **Identity**.
 
@@ -74,7 +74,7 @@ generated](./media/image4.png)
 ![A screenshot of a computer Description automatically
 generated](./media/image8.png)
 
-7.  Search and select !!**Cindy White**!!
+7.  Search and select `Cindy White`
 
 ![A screenshot of a computer Description automatically
 generated](./media/image9.png)
@@ -120,13 +120,13 @@ a usage location set.*
 3.  In the **Windows PowerShell** window, type the following command,
     and then press **Enter**:
 
-!!**Connect-MsolService**!!
+`Connect-MsolService`
 
 ![A computer screen with white text Description automatically
 generated](./media/image17.png)
 
 4.  In the **Sign in to your account** dialog box, sign in using the
-    Office 365 Tenant credentials from the Home tab.
+    Office 365 Tenant credentials from the **Home/Resources** tab.
 
 **Note – If you had been prompted to change the Tenant admin credentials
 password, ensure to provide the updated password.**
@@ -140,9 +140,9 @@ generated](./media/image19.png)
 5.  In the **Windows PowerShell** window, type the following command to
     reset the passwords of the **Cindy White**
 
-!!**Get-MsolUser | Where-Object DisplayName -EQ "Cindy White" |
+`Get-MsolUser | Where-Object DisplayName -EQ "Cindy White" |
 Set-MsolUserPassword -NewPassword P@55w.rd1234 -ForceChangePassword
-$false**!!
+$false`
 
 ![A computer screen shot of a program Description automatically
 generated](./media/image20.png)
@@ -150,7 +150,7 @@ generated](./media/image20.png)
 **Task 3: Enable Windows Automatic Enrollment into Microsoft Intune**
 
 1.  In **SEA-SVR1**, open a new tab in **Microsoft Edge**, and then in
-    the address bar type !!**https://Endpoint.microsoft.com**!! and then
+    the address bar type `https://Endpoint.microsoft.com` and then
     press **Enter**. If prompted to sign in, provide the Credential of
     the **Office 365 Tenant Admin**.
 
@@ -199,7 +199,7 @@ device.
 ![](./media/image28.png)
 
 4.  On the **Create restriction** page, in the **Name** box,
-    enter !!**Android Personal Device Restriction**!! Select **Next**.
+    enter `Android Personal Device Restriction` Select **Next**.
 
 ![](./media/image29.png)
 
@@ -263,8 +263,8 @@ to All Users. This default restriction sets a device enrollment limit to
 ![A screenshot of a computer Description automatically
 generated](./media/image38.png)
 
-13. On the Create restriction page, in the **Name** box, enter !!**Sales
-    Device Enrollment Limit**!! Select **Next**.
+13. On the Create restriction page, in the **Name** box, enter `Sales
+    Device Enrollment Limit` Select **Next**.
 
 ![A screenshot of a computer Description automatically
 generated](./media/image39.png)
@@ -333,8 +333,8 @@ generated](./media/image49.png)
 
 5.  In the **Add user** page, under User name, enter the email address
     of Allan [DeYoung
-     !!**AllanD@M365xXXXXXXX.onmicrosoft.com**](mailto:DeYoung !!AllanD@M365xXXXXXXX.onmicrosoft.com)!!
-     (substitute **XXXXXX** with your tenant name) and then
+     `AllanD@`
+     (substitute the tenant name) and then
     select **Add**.
 
 ![A screenshot of a computer Description automatically
