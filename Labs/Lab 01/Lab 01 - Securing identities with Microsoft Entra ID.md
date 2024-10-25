@@ -38,7 +38,7 @@
 
     ![](./media/image7.jpeg)
 
-**Note**: Do not use your Company/Work Account to login to redeem the
+> **Note**: Do not use your Company/Work Account to login to redeem the
 Azure Pass, another Azure Pass will not be issued.
 
 3.  **Sign in** with the username given in the
@@ -176,6 +176,8 @@ can access your resources. Using Conditional Access, you can protect
 your applications by limiting users’ access based on things like groups,
 device type, location, and role.
 
+> **Note**: This Feature is the part of Microsoft Entra P1 License.
+
 1.  Browse to `https://entra.microsoft.com/` and sign in using
     the **Office 365 tenant credentials**.
 
@@ -222,7 +224,7 @@ device type, location, and role.
 
     ![](./media/image36.png)
 
-**Note** - This policy is being configured for the exercise only and is
+> **Note** - This policy is being configured for the exercise only and is
 being used to quickly demonstrate a conditional access policy.
 
 
@@ -251,15 +253,17 @@ as expected.
 
 6. Verify you are prevented from accessing **Viva Engage**.
 
-![](./media/image37.png)
+    ![](./media/image37.png)
 
-**Note** - If you are signed in, close the tab, wait 1 minute, and then
+> **Note** - If you are signed in, close the tab, wait 1 minute, and then
 retry. If you are auto-logged into Engage as Allan, then you will need
 to manually log out. Your credentials / access were cached. Once you log
 out and sign-in, your Engage session should deny access. To disable the
 policy, follow the given steps.
 
-7. Close the tab and return to the Conditional Access page.
+7. Close the tab and return to the Conditional Access page, then select policies.
+
+    ![](./media/image37a.png)
 
 8. Select the **Block Engage for Allan Deyoung** policy.
 
@@ -280,7 +284,7 @@ policy, follow the given steps.
     principal selected**. Under **Select identity type**, select
     **User**, and then choose **No user selected**.
 
-![](./media/image39.png)
+    ![](./media/image39.png)
 
 4. Choose **Allan Deyoung** as the user. Then choose **Select**.
 
@@ -290,7 +294,7 @@ policy, follow the given steps.
     select **Any cloud app**. Under **Select what this policy applies
     to**, choose **Select apps** and then **None** under **Select**.
 
-![](./media/image41.png)
+    ![](./media/image41.png)
 
 6. In the select pane, choose **Viva Engage**. And then choose
     **Select**.
