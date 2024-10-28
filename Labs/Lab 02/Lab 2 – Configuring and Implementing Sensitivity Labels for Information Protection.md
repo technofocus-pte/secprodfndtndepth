@@ -110,23 +110,23 @@ Internal documents and a sublabel for the HR department.
 
 > **Note** - This Feature is available with Microsoft 365 E3 License.
 
-1.	Navigate to https://admin.microsoft.com and then enter Admin tenant Id into the field and then click on the Next button.
+1.	Navigate to `https://admin.microsoft.com` and then enter Admin tenant Id into the field and then click on the **Next** button.
 
     ![](./media/image-0.png)
 
-2.	Enter the tenant password in the field and then click on the Sign In button.
+2.	Enter the tenant password in the field and then click on the **Sign In** button.
 
     ![](./media/image-1.png)
 
-3.	Stay signed in window will pop up, click on the Yes button.
+3.	Stay signed in window will pop up, click on the **Yes** button.
 
     ![](./media/image-2.png)
 
-4.	From the Left navigation bar, select the Users and then click on the Active User.
+4.	From the Left navigation bar, select the **Users** and then click on the **Active User**.
 
     ![](./media/image-3.png)
 
-5.	From the top Search bar, search for the Patti Fernandez. Select the Patti Fernandez user.
+5.	From the top Search bar, search for the `Patti Fernandez`. Select the Patti Fernandez user.
 
     ![](./media/image-4.png)
 
@@ -148,6 +148,10 @@ Internal documents and a sublabel for the HR department.
     `https://purview.microsoft.com` and log in as **Patti
     Fernandez** using the username `PattiF@`  paste the Office 365 tenant name 
     and the User Password given on your resources tab.  
+
+2. On **Welcome to the new Microsoft Purview** portal, select the checkbox of agreement and then click on **Get started** button as shown in the below image.
+
+    ![](./media/nw22.png
 
 3.  In the Microsoft Purview portal, on the left navigation pane, select
     **Solutions** \ **Information Protection**.
