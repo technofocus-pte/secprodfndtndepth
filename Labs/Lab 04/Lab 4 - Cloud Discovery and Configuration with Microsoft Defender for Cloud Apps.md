@@ -28,54 +28,68 @@ steps:
     ![](./media/nw31.png)
 
 2.  Scroll down to **Information Protection** then click on **Microsoft Information Protection**, then select **Automatically scan new files
-    for sensitivity labels from Microsoft Information Protection and content inspection warnings...**
+    for sensitivity labels from Microsoft Information Protection and content inspection warnings...** Scroll down and click on the Save button.
 
     ![](./media/image2.png)
 
     ![](./media/image3.png)
 
-3.  Under **Inspect protected files**, check if **Inspect protected
+    ![](./media/nw32.png)
+
+3. Scroll down and click on the **Grant** button.
+
+   ![](./media/nw33.png)
+
+4. Select the admin account.
+
+   ![](./media/nw34.png)
+
+5. In the **Permission Requested** dialog box, click on the **Accept** button.
+
+   ![](./media/nw35.png)
+ 
+6.  Under **Inspect protected files**, check if **Inspect protected
     files** is active.
 
     ![](./media/image4.png)
 
-4.  Now go to **Files** under **Information protection**.
+7.  Now go to **Files** under **Information protection**.
 
 ![A screenshot of a computer Description automatically
 generated](./media/image5.png)
 
-5.  Check the box near **Enable file Monitoring** and click on **Save**.
+8.  Check the box near **Enable file Monitoring** and click on **Save**.
 
 ![A screenshot of a computer Description automatically
 generated](./media/image6.png)
 
-6.  In the left navigation pane, select **Connected apps**, and click on
+9.  In the left navigation pane, select **Connected apps**, and click on
     **App Connectors**.
 
 ![](./media/image7.png)
 
-7.  Notice that **Microsoft Office** connected by default.
+10.  Notice that **Microsoft Office** connected by default.
 
 ![](./media/image8.png)
 
-8.  On the central pane, navigate to **Cloud Discovery,** and click on
+11.  On the central pane, navigate to **Cloud Discovery,** and click on
     **Snapshot reports**.
 
 ![](./media/image9.png)
 
-9.  On the next page of **Snapshot reports,** Click on **Create snapshot
+12.  On the next page of **Snapshot reports,** Click on **Create snapshot
     report.**
 
  ![A screenshot of a computer Description automatically
  generated](./media/image10.png)
 
-10. On **Create new Cloud Discovery snapshot report,** click
+13. On **Create new Cloud Discovery snapshot report,** click
     on **Next**.
 
 ![A screenshot of a computer Description automatically
 generated](./media/image11.png)
 
-11. Update the details as below:
+14. Update the details as below:
 
     - Report name: `Contoso Snapshot Report`
 
@@ -87,17 +101,17 @@ generated](./media/image11.png)
 
 ![](./media/image12.png)
 
-12. In the **View log format section**, download sample log file and
+15. In the **View log format section**, download sample log file and
     save locally. From its saved location, unzip the sample log file.
 
 ![](./media/image13.png)
 
-13. Optionally, choose **Anonymize private information** to encrypt
+16. Optionally, choose **Anonymize private information** to encrypt
     usernames in the **Discover dashboard**. Click on **Next**.
 
 ![](./media/image14.png)
 
-14. Click the **Browse button** in the **Upload traffic logs** section
+17. Click the **Browse button** in the **Upload traffic logs** section
     to select the unzipped sample log file from its saved location and
     then upload it.
 
@@ -108,17 +122,17 @@ generated](./media/image11.png)
 ![A screenshot of a computer Description automatically
 generated](./media/image17.png)
 
-15. On the next page, click on **Close**.
+18. On the next page, click on **Close**.
 
 ![A screenshot of a computer Description automatically
 generated](./media/image18.png)
 
-16. You will be navigated to a new setting window where the status
+19. You will be navigated to a new setting window where the status
     is **Processing**.
 
 ![](./media/image19.png)
 
-17. Once the snapshot is ready, the Status will change
+20. Once the snapshot is ready, the Status will change
     from **Processing** to **Ready**.
 
 ### Task 2: Track the Status of the Snapshot Report
