@@ -96,7 +96,7 @@ action to affect your users yet.
 15. On the **Sensitive info types** page, select **Credit Card
     Number** and select **Add**.
 
-    ![](./media/image26.png)
+    ![](./media/nw30.png)
 
 16. On the **Create rule** page, select **+ Add an action** and
     select **Restrict access or encrypt the content in Microsoft 365
