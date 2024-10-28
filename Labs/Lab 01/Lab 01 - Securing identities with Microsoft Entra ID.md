@@ -138,83 +138,11 @@ Azure Pass, another Azure Pass will not be issued.
     ![A screenshot of a computer Description automatically
     generated](./media/image10.png)
 
-## Task 2: Redeeming Azure pass and implementing Multifactor authentication
-
-1. Navigate to Microsoft Azure Portal.
+22. Navigate to Microsoft Azure Portal.
 
    ![](./media/new2.png)
 
-2. In the Azure portal search bar, type `Microsoft Entra`, then navigate and click on **Microsoft Entra ID** under **Services**.
-
-   ![](./media/new5.png)
-
-3. In the **Create new user** page, in the **User principal name** field, enter **allan**. In the** Display name** field, enter **Allan DeYoung**, then uncheck Auto-generate password box. Enter the password of your choice (here, we've entered **Admin@5801**). Click on **Next: Properties >**
-
-  ![](./media/new7.png)
-
-4. Click on **Review + create** button.
-
-   ![](./media/new8.png)
-
-5. Click on **Create** button to successfully create the user.
-
-   ![](./media/new9.png)
-
-   ![](./media/new10.png)
-   
-## Exercise 2 – Set a conditional access policy to block a user from accessing Viva Engage
-
-> **Note**: This feature is the part of Microsoft Entra P1 License.
-
-### Task 1 – Confirm Allan Deyoung has access to Engage
-
-1.  Launch a new InPrivate browser window in your lab VM.
-
-    ![](./media/new3.png)
-
-2.  Navigate to `https://www.office.com`.
-
-    ![](./media/new3.png)
-
-3. Click on **Sign in** button.
-
-   ![](./media/nw12.png)
-
-5. Log in as **Allan Deyoung**:
-
-   Username – `alland@`Paste the Tenant name from the **Home/Resources tab**
-
-   Password – Paste the User Password (here, we entered **Admin@5801***)
-
- ![](./media/nw13.png)
-
- ![](./media/nw14.png)
-
-5. On Update your password page, upgrade your password (here, we've updated the previous password to **Admin5801@***)
-
-    ![](./media/nw15.png)
-
-6. On **Stay signed in?** dialog box, click on the **Yes** button.
-
-    ![](./media/nw16.png)
-
-4. When prompted, log in as **Allan Deyoung**:
-
- 
-4. Click on **Explore App** and then click on the **Engage** icon to
-    see that it loads correctly.
-
-![](./media/image27.png)
-
-5. Click on **Log in with Microsoft account**.
-
-    ![](./media/image28.png)
-
-6. The portal should load successfully.
-
-    ![](./media/image29.png)
-
-### Task 2 – Create a conditional access policy
+## Exercise 2 – Set a conditional access policy to block a user from accessing Sway
 
 Microsoft Entra conditional access is an advanced feature of Microsoft
 Entra ID that allows you to specify detailed policies that control who
@@ -222,195 +150,167 @@ can access your resources. Using Conditional Access, you can protect
 your applications by limiting users’ access based on things like groups,
 device type, location, and role.
 
-> **Note**: This Feature is the part of Microsoft Entra P1 License.
+**Information**: Sway is a new app from Microsoft Office that makes it
+easy to create and share interactive reports, personal stories,
+presentations, and more.
 
-1.  Browse to `https://entra.microsoft.com/` and sign in using
+**Note**: This feature is the part of Microsoft Entra P1 License.
+
+1. Click on the following Microsoft Entra admin center link: `https://entra.microsoft.com/` and sign in using
     the **Office 365 tenant credentials**.
+  
+2. In the **Microsoft Entra admin center** page, navigate and click on
+**Identity**, click on **Users**, then click on **All users**.
 
+![](./media/a2.png)
 
-2. On the lefthand menu, under Identity, expand Protection, and then
-    select **Conditional access**. On the **Overview (Preview)**,
-    click **+ Create new policy**.
+3. Click on **Allan Deyoung**.
 
-   ![](./media/image30.png)
+![](./media/a3.png)
 
-3. On the **New Conditional Access Policy** page, provide the below
-    details
+4. Click on Reset password.
 
-    - Name – `Block Engage for Allan Deyoung`
+![A screenshot of a computer Description automatically
+generated](./media/a4.png)
 
-    - Under **Users**, select **0 users and groups selected/Specific
-      users included**. Then under **Include**, choose **Select users
-      and groups**. Select the check box near **Users and groups**. Then
-      under **Select**, choose **0 users and groups selected**.
+5. Then, click on the Reset password button as shown in the below image.
 
-   ![](./media/image31.png)
+![A screenshot of a computer Description automatically
+generated](./media/a5.png)
 
-- Scroll down on the **Select users and groups** page, select **Allan
-  Deyoung**. Choose **Select**.
+6. Note down the temporary password.
 
-   ![](./media/image32.png)
+![](./media/a6.png)
 
-- Under **Target Resources**, select **No target resources selected**.
-  Then under **Include**, choose **Select apps**. Under select, choose
-  **None**. In the side pane, search for and select **Viva Engage** by
-  selecting the check box near the app. Then choose **Select**.
+7. Open a new browser and enter the following URL:
+`https://sway.cloud.microsoft/`
 
-   ![](./media/image33.png)
+![](./media/a7.png)
 
-- Under **Access controls**, within the **Grant** section, select **0
-  controls selected**. In the Grant pane, select **Block access** |
-  **Required all the selected controls** and then choose **Select**.
+8. Sign in using Allan credentials as shown in the below images.
 
-    ![](./media/image34.png)
+![A screenshot of a computer Description automatically
+generated](./media/a8.png)
 
-- Enable policy – **On**. Click on **Create**.
+![](./media/a9.png)
 
-   ![](./media/image35.png)
+9. In **Update your password** dialog box, update the password.
 
-    ![](./media/image36.png)
+![](./media/a10.png)
 
-> **Note** - This policy is being configured for the exercise only and is
-being used to quickly demonstrate a conditional access policy.
+10. You will be directed to **Sway** website.
 
+![](./media/a11.png)
 
-### Task 3 – Test the conditional access policy
+11. You have successfully logged in Sway website using Allan credentials,
+now log out from the Sway website.
 
-You should test your conditional access policies to ensure they working
-as expected.
+**Note**: Sign out from Sway website.
 
-1.  Close the InPrivate Window or Log out completely.
+![](./media/a12.png)
 
+12. Go back to **Microsoft Entra Admin Center**. Click on **Protection** and
+then click on **Conditional Access**.
 
-2.  Launch a new InPrivate browser window in your lab VM.
+![A screenshot of a computer Description automatically
+generated](./media/a13.png)
 
+13. In the **Conditional Access** page, click on **+ Create new policy**.
 
-3. Navigate to `https://www.office.com`.
+![](./media/a14.png)
 
-4. When prompted, log in as **Allan Deyoung**:
+14. In the **Name** field, enter `Blocking Access to Sway`
 
- Username – `alland@`Paste the Tenant name from the Resources
- tab**
+![A screenshot of a computer Description automatically
+generated](./media/a15.png)
 
- Password – Paste the User Password from the Resources tab.
+15. Navigate and click on **Specific users included** link, then choose the
+radio button of **Select users and groups**, tick on the **Users and
+groups** checkbox.
 
-5. Click on **Explore App** and then click on the **Engage** icon to
-    see that it loads correctly.
+![A screenshot of a computer Description automatically
+generated](./media/a16.png)
 
-6. Verify you are prevented from accessing **Viva Engage**.
+16. In **Select users and groups** pane that appear on the right side, navigate
+to the search field, then enter the name `Allan`  Select the checkbox
+and click on the **Select** button.
 
-    ![](./media/image37.png)
+![A screenshot of a computer Description automatically
+generated](./media/a17.png)
 
-> **Note** - If you are signed in, close the tab, wait 1 minute, and then
-retry. If you are auto-logged into Engage as Allan, then you will need
-to manually log out. Your credentials / access were cached. Once you log
-out and sign-in, your Engage session should deny access. To disable the
-policy, follow the given steps.
+17. Allan user is successfully selected. Now, under **Target resources**,
+click on **No target resources selected** link.
 
-7. Close the tab and return to the Conditional Access page, then select policies.
+![A screenshot of a computer Description automatically
+generated](./media/a18.png)
 
-    ![](./media/image37a.png)
+18. Navigate and click on **Select resources** radio button, then click on
+**None** link as shown in the below image.
 
-8. Select the **Block Engage for Allan Deyoung** policy.
+![A screenshot of a computer Description automatically
+generated](./media/a19.png)
 
-9. Under **Enable policy**, select **Off** and then select **Save**.
+19. In the **Select **pane that appears on the right side, type `Sway` and
+then select it.
 
-### Task 4 – Use ‘What if’ to test conditional access policies
+![A screenshot of a computer Description automatically
+generated](./media/a20.png)
 
-1.  Browse to `https://entra.microsoft.com/` and sign in using
-    the **Office 365 tenant credentials**.
+20. Navigate to **Conditions** section, click on **0 conditions selected**
+link.
 
-2.  On the lefthand menu, under Identity, expand Protection, and then
-    select **Conditional access.** In the navigation pane,
-    select **Policies**. Select **What If**.
+![A screenshot of a computer Description automatically
+generated](./media/a21.png)
 
-   ![](./media/image38.png)
+21. Navigate to **Insider risk** section and click on **Not configured**
+link.
 
-3. Under **User or Workload identity**, select **No user or service
-    principal selected**. Under **Select identity type**, select
-    **User**, and then choose **No user selected**.
+![](./media/a22.png)
 
-    ![](./media/image39.png)
+22. In the **Insider risk** pane, under **Configure**, select **Yes**.
+Select **Moderate** check box and then click on **Done** button.
 
-4. Choose **Allan Deyoung** as the user. Then choose **Select**.
+![](./media/a23.png)
 
-   ![](./media/image40.png)
+23. In the **Grant** section click on **0 controls selected** link. In the
+**Grant** pane, navigate and select **Block access** radio button, then
+click on the **Select** button.
 
-5. Under **Cloud apps, actions, or authentication context**,
-    select **Any cloud app**. Under **Select what this policy applies
-    to**, choose **Select apps** and then **None** under **Select**.
+![](./media/a24.png)
 
-    ![](./media/image41.png)
+24. Navigate to **Enable policy** section and select **On** toggle button.
+Then, click on **Create** button.
 
-6. In the select pane, choose **Viva Engage**. And then choose
-    **Select**.
+![](./media/a25.png)
 
-   ![](./media/image42.png)
+25. You will see the message that the **Blocking Access to Sway**
+Conditional Access policy is successfully created.
 
-7. Select **What if**.
+![A screenshot of a computer Description automatically
+generated](./media/a26.png)
 
-   ![](./media/image43.png)
+26. Wait for 5-10 minutes for the policy to be implemented. Then, open a new
+browser and enter the following URL: `https://sway.cloud.microsoft/`
 
-8. You will be provided with a report at the bottom of the tile
-    for **Policies that will apply** and **Policies that will not
-    apply**.
+27. Login to the Sway website.
 
-   ![](./media/image44.png)
+![](./media/a27.png)
 
-This allows you to test the policies and their effectiveness before
-enabling the policies.
+28. Sign in using Allan credentials.
 
-### Task 5 – Configure sign in frequency controls using a conditional access policy
+![A screenshot of a computer Description automatically
+generated](./media/a28.png)
 
-As part of your company’s larger security configuration, you must test a
-conditional access policy that can be used to control sign in frequency.
+![A screenshot of a login page Description automatically
+generated](./media/a29.png)
 
-1.  Browse to `https://entra.microsoft.com/` and sign in using
-    the **Office 365 tenant credentials**.
+29. In the **Stay signed in?** dialog box, click on the **Yes** button.
 
+![](./media/a30.png)
 
-2. On the lefthand menu, under Identity, expand Protection, and then
-    select **Conditional access**. On the **Overview (Preview)**,
-    click **+ Create new policy**.
+30. You will observe that the access to the website is blocked.
 
-   ![](./media/image30.png)
-
-3. On the **New Conditional Access Policy** page, provide the below
-    details.
-
-    - Name – `Sign in frequency`
-
-    - Under **Users**, select **0 users and groups selected/Specific
-      users included**. Then under **Include**, choose **Select users
-      and groups**. Select the check box near **Users and groups**. Then
-      under **Select**, choose **0 users and groups selected**.
-
-   ![](./media/image45.png)
-
-- Scroll down on the **Select users and groups** page, select **Joni
-  Sherman**. Choose **Select**.
-
-   ![](./media/image46.png)
-
-- Under **Target Resources**, select **No target resources selected**.
-  Then under **Include**, choose **Select apps**. Under select, choose
-  **None**. In the side pane, search for and select **Office 365** by
-  selecting the check box near the app. Then choose **Select**.
-
-   ![](./media/image47.png)
-
-- Under **Access controls**, within the **Sessions** section, select **0
-  controls selected**. In the **Grant** pane, select **Sign-in
-  frequency,** in the value box, enter **14**. Select the units menu,
-  select **Days**, and then choose **Select.**
-
-  ![](./media/image48.png)
-
-- Enable policy – **On**. Click on **Create**.
-
-  ![](./media/image49.png)
-
-  ![](./media/image50.png)
+![](./media/a31.png)
 
 ## Summary:
 
