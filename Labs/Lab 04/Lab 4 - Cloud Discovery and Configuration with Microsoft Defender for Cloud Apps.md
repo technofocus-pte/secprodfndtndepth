@@ -13,7 +13,7 @@ The discovery module supports two modes of operation: a manual one-time
 upload of logs to receive a snapshot report and a continuous log upload
 for ongoing monitoring of the environment.
 
-**Objectives**
+# Objectives
 
 - Enable file monitoring and protection in Microsoft Defender for Cloud Apps
 
@@ -147,7 +147,7 @@ generated](./media/image18.png)
 
 ![](./media/nw38.png)
 
-#Summary
+# Summary
 
 This lab walks you through setting up file monitoring and generating a Cloud Discovery Snapshot Report within Microsoft Defender for Cloud Apps. You began by enabling information protection settings to monitor and inspect protected files. Next, you established permissions and ensured Microsoft Office integration with Defender. In the final steps, you've created a Cloud Discovery Snapshot Report to capture and analyze logs from an external source. This snapshot provides a detailed overview of cloud app usage patterns and potential security gaps, enabling improved visibility and governance over cloud-based resources.
      
