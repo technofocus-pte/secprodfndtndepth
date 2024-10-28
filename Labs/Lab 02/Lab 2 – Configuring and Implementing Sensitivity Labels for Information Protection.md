@@ -64,7 +64,7 @@ your tenant.
 
 10. Enter the following cmdlet to get the domain:
 
-    `$domain = get-msoldomain`
+    **$domain = get-msoldomain**
 
     ![](./media/image8.png)
 
