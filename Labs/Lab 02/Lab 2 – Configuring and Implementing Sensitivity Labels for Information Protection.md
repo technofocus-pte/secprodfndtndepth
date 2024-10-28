@@ -1,13 +1,22 @@
 # **Lab 2 – Configuring and Implementing Sensitivity Labels for Information Protection**
 
-# Objective
+# Introduction
 
-In this lab you will assume the role of Patti Fernandez, a System
-Administrator for Contoso Ltd. Your organization is based in
-Rednitzhembach, Germany and is currently implementing a sensitivity plan
-to ensure that all employee documents in the HR department have been
-marked with a sensitivity label as part of your organizations
-information protection policies.
+You can apply sensitivity labels to your files and emails to keep them compliant with your organization's information protection policies.
+
+Sensitivity labels are configured by your administrator and because they're published to users rather than locations such as sites and mailboxes, users in the same organization might see different sensitivity labels to apply. For example, two users collaborating on the same document or using a shared mailbox might see a different set of labels that can be applied.
+
+In this lab you will assume the role of Patti Fernandez, a System Administrator for Contoso Ltd. Your organization is based in Rednitzhembach, Germany and is currently implementing a sensitivity plan to ensure that all employee documents in the HR department have been marked with a sensitivity label as part of your organizations information protection policies.
+
+# Objectives
+
+- Install the required PowerShell modules for managing sensitivity labels in Microsoft 365
+
+- Enable sensitivity labels support on the SharePoint Online tenant
+
+- Create and configure sensitivity labels and sublabels for internal and HR document protection
+
+- Publish sensitivity labels to make them available for users
 
 ## Exercise 1 – Enabling support for sensitivity labels
 
@@ -406,9 +415,4 @@ users and services.
 
 ## Summary:
 
-You have successfully created and published an auto apply sensitivity
-label for GDPR documents in the region Germany.
-
-Be aware that it can take up to 24 hours for auto applied sensitivity
-labels to be applied, this duration will be longer when applied to more
-than 25,000 documents (that is, the daily limit).​
+In this lab, you've installed necessary PowerShell modules, connected to SharePoint and Microsoft Online services, and enabled support for sensitivity labels. Then, you've created sensitivity labels for internal documents and a sublabel for HR-related data. Finally, you've published the sensitivity labels, making them accessible to users for document protection. These steps provide a structured approach to securing sensitive data and applying appropriate access controls.
