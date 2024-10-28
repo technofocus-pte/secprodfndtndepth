@@ -104,9 +104,7 @@ action to affect your users yet.
 
     ![](./media/image28.png)
 
-17. Check the box in front of **Restrict access or encrypt the content
-    in Microsoft 365 locations** and then select **Block only people
-    outside your organization**.
+17. Ensure that the radio button in front of **Block users from receiving email, or accessing shared SharePoint, OneDrive, and Team files, and Power BI items** and **Block only people outside your organization** are selected.
 
    ![](./media/image29.png)
 
