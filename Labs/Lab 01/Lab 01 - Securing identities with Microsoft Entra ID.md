@@ -178,7 +178,7 @@ Azure Pass, another Azure Pass will not be issued.
 
 3. Click on **Sign in** button.
 
-   ![](./media/new12.png)
+   ![](./media/nw12.png)
 
 5. Log in as **Allan Deyoung**:
 
@@ -186,17 +186,17 @@ Azure Pass, another Azure Pass will not be issued.
 
    Password – Paste the User Password (here, we entered **Admin@5801***)
 
- ![](./media/new13.png)
+ ![](./media/nw13.png)
 
- ![](./media/new14.png)
+ ![](./media/nw14.png)
 
 5. On Update your password page, upgrade your password (here, we've updated the previous password to **Admin5801@***)
 
-    ![](./media/new15.png)
+    ![](./media/nw15.png)
 
 6. On **Stay signed in?** dialog box, click on the **Yes** button.
 
-    ![](./media/new16.png)
+    ![](./media/nw16.png)
 
 4. When prompted, log in as **Allan Deyoung**:
 
