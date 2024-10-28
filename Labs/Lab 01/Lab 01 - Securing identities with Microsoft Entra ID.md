@@ -154,16 +154,19 @@ Azure Pass, another Azure Pass will not be issued.
 
     ![](./media/new6.png)
 
-4.
+4. In the **Create new user** page, in the **User principal name** field, enter **allan**. In the** Display name** field, enter **Allan DeYoung**, then uncheck Auto-generate password box. Enter the password of your choice (here, we've entered **Admin@5801**). Click on **Next: Properties >**
 
   ![](./media/new7.png)
 
+5. Click on **Review + create** button.
+
   ![](./media/new8.png)
 
-  ![](./media/new9.png)
+6. Click on **Create** button to successfully create the user.
+
+   ![](./media/new9.png)
 
   ![](./media/new10.png)
-
 
 ## Exercise 2 – Set a conditional access policy to block a user from accessing Viva Engage
 
