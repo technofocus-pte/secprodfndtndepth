@@ -41,6 +41,8 @@
 > **Note**: Do not use your Company/Work Account to login to redeem the
 Azure Pass, another Azure Pass will not be issued.
 
+> **Note**: In case, you are directed to the page - The following Microsoft Account will be used for Azure Pass page, then ignore steps #3 to #5
+
 3.  **Sign in** with the username given in the
 **Home/Resources** tab of your Lab environment. and click on the **Next** button.
 
@@ -72,13 +74,15 @@ Azure Pass, another Azure Pass will not be issued.
     ![](./media/image13.png)
 
 9. Enter correct details in **Your Profile** page, tick all the check
-    boxes, and then click on **Sign up** button.
+    boxes, and then click on **Sign up** button. Then, select your address and click on **Sign up** button.
 
      ![](./media/image14.png)
 
      ![](./media/image15.png)
  
      ![](./media/image16.png)
+
+     ![](./media/new1.png)
 
 10. On **Protect your account** dialog box, click on the **Next**
     button.
