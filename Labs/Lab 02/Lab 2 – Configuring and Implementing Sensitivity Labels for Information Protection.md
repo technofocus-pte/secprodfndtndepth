@@ -352,7 +352,7 @@ to their HR documents.
 
 12. On **Assign admin units** page, click on the **Next** button.
 
-    ![computer ](./media/nw29.png)
+    ![](./media/nw29.png)
 
 12. On the **Publish to users and groups page**, select **Next**.
 
