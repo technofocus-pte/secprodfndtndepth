@@ -321,19 +321,10 @@ You will now publish the Internal and HR sensitivity label so that the
 published sensitivity labels will be available for the HR users to apply
 to their HR documents.
 
-1.  In **Microsoft Edge** navigate to
-    `https://purview.microsoft.com` and log in as **Patti Fernandez** using the username `PattiF@`  paste the Office 365 tenant name 
-    and the User Password given on your resources tab.
+1.  From the sub-navigation select **Sensitivity Labels** \ **Publish**
+    **Labels**, which is represented by a computer-shaped icon  as shown in the below image.
 
-2.  In the Microsoft Purview portal, on the left navigation pane, select
-    **Solutions** \ **Information Protection**.
-
-    ![](./media/image13.png)
-
-5.  From the sub-navigation select **Sensitivity Labels** \ **Publish**
-    **Labels**.
-
-    ![](./media/image48.png)
+    ![](./media/nw28.png)
 
 6.  The publish sensitivity labels wizard will start.
 
