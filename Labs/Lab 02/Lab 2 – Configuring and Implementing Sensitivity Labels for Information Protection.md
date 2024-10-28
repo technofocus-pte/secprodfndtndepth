@@ -262,13 +262,13 @@ automatically generated](./media/image16.png)
 
 22. On **Access control** page, leave all the fields in the default state. 
 
-    ![](./media/25nw.png)
+    ![](./media/nw25.png)
 
-    ![](./media/26.png)
+    ![](./media/nw26.png)
 
 24. Scroll down and click on **Assign permissions** link.
 
-    ![](./media/27.png)
+    ![](./media/nw27.png)
 
 25. On the **Assign permissions** pane, select the **+ Add any
     authenticated users**.
