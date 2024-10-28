@@ -175,128 +175,128 @@ presentations, and more.
 
 5. Then, click on the Reset password button as shown in the below image.
 
-    ![A screenshot of a computer Description automatically
+   ![A screenshot of a computer Description automatically
     generated](./media/a5.png)
 
-6. Note down the temporary password.
-
+7. Note down the temporary password.
+   
     ![](./media/a6.png)
 
-7. Open a new browser and enter the following URL:
-`https://sway.cloud.microsoft/`
+8. Open a new browser and enter the following URL:
+    `https://sway.cloud.microsoft/`
 
     ![](./media/a7.png)
 
-8. Sign in using Allan credentials as shown in the below images.
+9. Sign in using Allan credentials as shown in the below images.
 
     ![A screenshot of a computer Description automatically
-generated](./media/a8.png)
+    generated](./media/a8.png)
 
     ![](./media/a9.png)
 
-9. In **Update your password** dialog box, update the password.
+10. In **Update your password** dialog box, update the password.
 
     ![](./media/a10.png)
 
-10. You will be directed to **Sway** website.
+11. You will be directed to **Sway** website.
 
     ![](./media/a11.png)
 
-11. You have successfully logged in Sway website using Allan credentials,
+12. You have successfully logged in Sway website using Allan credentials,
 now log out from the Sway website.
 
 **Note**: Sign out from Sway website.
 
     ![](./media/a12.png)
 
-12. Go back to **Microsoft Entra Admin Center**. Click on **Protection** and
+13. Go back to **Microsoft Entra Admin Center**. Click on **Protection** and
 then click on **Conditional Access**.
 
     ![A screenshot of a computer Description automatically
 generated](./media/a13.png)
 
-13. In the **Conditional Access** page, click on **+ Create new policy**.
+14. In the **Conditional Access** page, click on **+ Create new policy**.
 
     ![](./media/a14.png)
 
-14. In the **Name** field, enter `Blocking Access to Sway`
+15. In the **Name** field, enter `Blocking Access to Sway`
 
     ![A screenshot of a computer Description automatically
 generated](./media/a15.png)
 
-15. Navigate and click on **Specific users included** link, then choose the
+16. Navigate and click on **Specific users included** link, then choose the
 radio button of **Select users and groups**, tick on the **Users and
 groups** checkbox.
 
     ![A screenshot of a computer Description automatically
 generated](./media/a16.png)
 
-16. In **Select users and groups** pane that appear on the right side, navigate
+17. In **Select users and groups** pane that appear on the right side, navigate
 to the search field, then enter the name `Allan`  Select the checkbox
 and click on the **Select** button.
 
     ![A screenshot of a computer Description automatically
 generated](./media/a17.png)
 
-17. Allan user is successfully selected. Now, under **Target resources**,
+18. Allan user is successfully selected. Now, under **Target resources**,
 click on **No target resources selected** link.
 
     ![A screenshot of a computer Description automatically
 generated](./media/a18.png)
 
-18. Navigate and click on **Select resources** radio button, then click on
+19. Navigate and click on **Select resources** radio button, then click on
 **None** link as shown in the below image.
 
     ![A screenshot of a computer Description automatically
 generated](./media/a19.png)
 
-19. In the **Select **pane that appears on the right side, type `Sway` and
+20. In the **Select **pane that appears on the right side, type `Sway` and
 then select it.
 
     ![A screenshot of a computer Description automatically
 generated](./media/a20.png)
 
-20. Navigate to **Conditions** section, click on **0 conditions selected**
+21. Navigate to **Conditions** section, click on **0 conditions selected**
 link.
 
     ![A screenshot of a computer Description automatically
 generated](./media/a21.png)
 
-21. Navigate to **Insider risk** section and click on **Not configured**
+22. Navigate to **Insider risk** section and click on **Not configured**
 link.
 
     ![](./media/a22.png)
 
-22. In the **Insider risk** pane, under **Configure**, select **Yes**.
+23. In the **Insider risk** pane, under **Configure**, select **Yes**.
 Select **Moderate** check box and then click on **Done** button.
 
     ![](./media/a23.png)
 
-23. In the **Grant** section click on **0 controls selected** link. In the
+24. In the **Grant** section click on **0 controls selected** link. In the
 **Grant** pane, navigate and select **Block access** radio button, then
 click on the **Select** button.
 
     ![](./media/a24.png)
 
-24. Navigate to **Enable policy** section and select **On** toggle button.
+25. Navigate to **Enable policy** section and select **On** toggle button.
 Then, click on **Create** button.
 
     ![](./media/a25.png)
 
-25. You will see the message that the **Blocking Access to Sway**
+26. You will see the message that the **Blocking Access to Sway**
 Conditional Access policy is successfully created.
 
     ![A screenshot of a computer Description automatically
 generated](./media/a26.png)
 
-26. Wait for 5-10 minutes for the policy to be implemented. Then, open a new
+27. Wait for 5-10 minutes for the policy to be implemented. Then, open a new
 browser and enter the following URL: `https://sway.cloud.microsoft/`
 
-27. Login to the Sway website.
+28. Login to the Sway website.
 
     ![](./media/a27.png)
 
-28. Sign in using Allan credentials.
+29. Sign in using Allan credentials.
 
     ![A screenshot of a computer Description automatically
 generated](./media/a28.png)
@@ -304,11 +304,11 @@ generated](./media/a28.png)
     ![A screenshot of a login page Description automatically
 generated](./media/a29.png)
 
-29. In the **Stay signed in?** dialog box, click on the **Yes** button.
+30. In the **Stay signed in?** dialog box, click on the **Yes** button.
 
     ![](./media/a30.png)
 
-30. You will observe that the access to the website is blocked.
+31. You will observe that the access to the website is blocked.
 
     ![](./media/a31.png)
 
