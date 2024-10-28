@@ -144,7 +144,7 @@ Azure Pass, another Azure Pass will not be issued.
 
    ![](./media/new2.png)
 
-2. In the Azure portal search bar, type **Microsoft Entra**, then navigate and click on **Microsoft Entra ID** under **Services**.
+2. In the Azure portal search bar, type `Microsoft Entra`, then navigate and click on **Microsoft Entra ID** under **Services**.
 
    ![](./media/new5.png)
 
@@ -161,7 +161,7 @@ Azure Pass, another Azure Pass will not be issued.
    ![](./media/new9.png)
 
    ![](./media/new10.png)
-
+   
 ## Exercise 2 – Set a conditional access policy to block a user from accessing Viva Engage
 
 > **Note**: This feature is the part of Microsoft Entra P1 License.
@@ -176,12 +176,31 @@ Azure Pass, another Azure Pass will not be issued.
 
     ![](./media/new3.png)
 
-3. When prompted, log in as **Allan Deyoung**:
+3. Click on **Sign in** button.
 
- Username – `alland@`Paste the Tenant name from the **Home/Resources tab**
+    ![](./media/new12.png)
 
- Password – Paste the User Password from the Resources tab.
+4. Log in as **Allan Deyoung**:
 
+   Username – `alland@`Paste the Tenant name from the **Home/Resources tab**
+
+   Password – Paste the User Password (here, we entered **Admin@5801***)
+
+ ![](./media/new13.png)
+
+ ![](./media/new14.png)
+
+5. On Update your password page, upgrade your password (here, we've updated the previous password to **Admin5801@***)
+
+    ![](./media/new15.png)
+
+6. On **Stay signed in?** dialog box, click on the **Yes** button.
+
+    ![](./media/new16.png)
+
+4. When prompted, log in as **Allan Deyoung**:
+
+ 
 4. Click on **Explore App** and then click on the **Engage** icon to
     see that it loads correctly.
 
