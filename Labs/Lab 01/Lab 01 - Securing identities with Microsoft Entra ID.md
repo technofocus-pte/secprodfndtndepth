@@ -114,7 +114,6 @@ Azure Pass, another Azure Pass will not be issued.
 
     ![](./media/image22.png)
 
-
 17. Enter the number in your mobile authenticator app and select
     **Yes**. In **testvm1**, click on the **Next** button.
 
@@ -124,7 +123,6 @@ Azure Pass, another Azure Pass will not be issued.
 
 ![A screenshot of a computer Description automatically
     generated](./media/image24.png)
-
 
 19. Click on the **Done** button.
 
@@ -144,29 +142,25 @@ Azure Pass, another Azure Pass will not be issued.
 
 1. Navigate to Microsoft Azure Portal.
 
-    ![](./media/new2.png)
+   ![](./media/new2.png)
 
 2. In the Azure portal search bar, type **Microsoft Entra**, then navigate and click on **Microsoft Entra ID** under **Services**.
 
-    ![](./media/new5.png)
+   ![](./media/new5.png)
 
-3. In the Azure portal search bar, type **Microsoft Entra**, then navigate and click on **Microsoft Entra ID** under **Services**.
-
-    ![](./media/new6.png)
-
-4. In the **Create new user** page, in the **User principal name** field, enter **allan**. In the** Display name** field, enter **Allan DeYoung**, then uncheck Auto-generate password box. Enter the password of your choice (here, we've entered **Admin@5801**). Click on **Next: Properties >**
+3. In the **Create new user** page, in the **User principal name** field, enter **allan**. In the** Display name** field, enter **Allan DeYoung**, then uncheck Auto-generate password box. Enter the password of your choice (here, we've entered **Admin@5801**). Click on **Next: Properties >**
 
   ![](./media/new7.png)
 
-5. Click on **Review + create** button.
+4. Click on **Review + create** button.
 
-  ![](./media/new8.png)
+   ![](./media/new8.png)
 
-6. Click on **Create** button to successfully create the user.
+5. Click on **Create** button to successfully create the user.
 
    ![](./media/new9.png)
 
-  ![](./media/new10.png)
+   ![](./media/new10.png)
 
 ## Exercise 2 – Set a conditional access policy to block a user from accessing Viva Engage
 
