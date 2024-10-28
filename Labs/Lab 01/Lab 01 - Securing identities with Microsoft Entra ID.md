@@ -135,13 +135,36 @@ Azure Pass, another Azure Pass will not be issued.
   
     ![](./media/image26.png)
 
-21. In the **Stay signed in?** window, click on the **Yes** button. Then, navigate to Microsoft Azure Portal.
-
+21. In the **Stay signed in?** window, click on the **Yes** button.
+    
     ![A screenshot of a computer Description automatically
     generated](./media/image10.png)
 
+## Task 2: Redeeming Azure pass and implementing Multifactor authentication
+
+1. Navigate to Microsoft Azure Portal.
+
     ![](./media/new2.png)
-    
+
+2. In the Azure portal search bar, type **Microsoft Entra**, then navigate and click on **Microsoft Entra ID** under **Services**.
+
+    ![](./media/new5.png)
+
+3. In the Azure portal search bar, type **Microsoft Entra**, then navigate and click on **Microsoft Entra ID** under **Services**.
+
+    ![](./media/new6.png)
+
+4.
+
+  ![](./media/new7.png)
+
+  ![](./media/new8.png)
+
+  ![](./media/new9.png)
+
+  ![](./media/new10.png)
+
+
 ## Exercise 2 – Set a conditional access policy to block a user from accessing Viva Engage
 
 > **Note**: This feature is the part of Microsoft Entra P1 License.
@@ -150,8 +173,11 @@ Azure Pass, another Azure Pass will not be issued.
 
 1.  Launch a new InPrivate browser window in your lab VM.
 
+    ![](./media/new3.png)
 
 2.  Navigate to `https://www.office.com`.
+
+    ![](./media/new3.png)
 
 3. When prompted, log in as **Allan Deyoung**:
 
