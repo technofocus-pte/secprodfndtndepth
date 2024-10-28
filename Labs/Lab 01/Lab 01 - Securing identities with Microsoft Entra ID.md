@@ -81,7 +81,7 @@ Azure Pass, another Azure Pass will not be issued.
      ![](./media/image15.png)
  
      ![](./media/image16.png)
-
+   
 11. On **Protect your account** dialog box, click on the **Next**
     button.
 
