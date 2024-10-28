@@ -1,12 +1,21 @@
 # **Lab 3 – Creating and Managing DLP Policies**
 
+## Introduction
+
+Data loss prevention is a security solution that identifies and helps prevent unsafe or inappropriate sharing, transfer, or use of sensitive data. It can help your organization monitor and protect sensitive information across on-premises systems, cloud-based locations, and endpoint devices. It also helps you achieve compliance with regulations such as the Health Insurance Portability and Accountability Act (HIPAA) and General Data Protection Regulation (GDPR).
+
+You are Patti Fernandez, the newly hired Compliance Administrator for Contoso Ltd. tasked to configure the company's Microsoft 365 tenant for
+data loss prevention. Contoso Ltd. is a company that offers driving instruction in the United States and you need to make sure that sensitive customer information does not leave the organization.
+
 ## Objectives
 
-You are Patti Fernandez, the newly hired Compliance Administrator for
-Contoso Ltd. tasked to configure the company's Microsoft 365 tenant for
-data loss prevention. Contoso Ltd. is a company that offers driving
-instruction in the United States and you need to make sure that
-sensitive customer information does not leave the organization.
+- Create a Data Loss Prevention (DLP) policy in test mode to safeguard sensitive data in Microsoft Purview.
+
+- Modify an existing DLP policy to expand its scanning to include additional data locations.
+
+- Activate a DLP policy to enforce its protective actions across the organization.
+
+- Adjust policy priority settings to ensure higher-priority policies are enforced over others.
 
 ## Exercise 1 – Creating DLP Policies
 
@@ -263,5 +272,4 @@ will be enforced.
 
 ## Summary:
 
-In this lab we learned how to create new DLP policies, enabling file
-protection and managing the DLP policies.
+In this lab, you've configured and managed Data Loss Prevention (DLP) policies within Microsoft Purview to enhance data security. First, you've created a DLP policy in test mode designed to detect credit card information shared externally within Microsoft Teams, notifying users and allowing them to justify overrides. Then, you've modified this policy to scan email communications as well. Finally, you've activated the policy to enforce restrictions and adjust policy priorities to ensure the most restrictive policies are processed first. By completing these tasks, you've understood the essentials of configuring and managing DLP policies to protect sensitive data effectively.
