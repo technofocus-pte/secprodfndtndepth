@@ -82,12 +82,12 @@ Azure Pass, another Azure Pass will not be issued.
  
      ![](./media/image16.png)
    
-11. On **Protect your account** dialog box, click on the **Next**
+10. On **Protect your account** dialog box, click on the **Next**
     button.
 
     ![](./media/image17.png)
 
-12. Then, on **More information required** dialog box, click on
+11. Then, on **More information required** dialog box, click on
     the **Next** button.
 
      ![](./media/image18.png)
@@ -205,9 +205,9 @@ presentations, and more.
 12. You have successfully logged in Sway website using Allan credentials,
 now log out from the Sway website.
 
-**Note**: Sign out from Sway website.
-
     ![](./media/a12.png)
+
+**Note**: Sign out from Sway website.
 
 13. Go back to **Microsoft Entra Admin Center**. Click on **Protection** and
 then click on **Conditional Access**.
