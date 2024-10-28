@@ -135,12 +135,16 @@ Azure Pass, another Azure Pass will not be issued.
   
     ![](./media/image26.png)
 
-21. In the **Stay signed in?** window, click on the **Yes** button.
+21. In the **Stay signed in?** window, click on the **Yes** button. Then, navigate to Microsoft Azure Portal.
 
     ![A screenshot of a computer Description automatically
     generated](./media/image10.png)
 
+    ![](./media/new2.png)
+    
 ## Exercise 2 – Set a conditional access policy to block a user from accessing Viva Engage
+
+> **Note**: This feature is the part of Microsoft Entra P1 License.
 
 ### Task 1 – Confirm Allan Deyoung has access to Engage
 
