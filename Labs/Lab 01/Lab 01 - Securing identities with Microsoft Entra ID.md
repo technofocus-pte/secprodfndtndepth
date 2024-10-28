@@ -74,7 +74,7 @@ Azure Pass, another Azure Pass will not be issued.
     ![](./media/image13.png)
 
 9. Enter correct details in **Your Profile** page, tick all the check
-    boxes, and then click on **Sign up** button. Then, select your address and click on **Sign up** button.
+    boxes, and then click on **Sign up** button.
 
      ![](./media/image14.png)
 
@@ -82,64 +82,60 @@ Azure Pass, another Azure Pass will not be issued.
  
      ![](./media/image16.png)
 
-     ![](./media/new1.png)
-
-10. On **Protect your account** dialog box, click on the **Next**
+11. On **Protect your account** dialog box, click on the **Next**
     button.
 
     ![](./media/image17.png)
 
-11. Then, on **More information required** dialog box, click on
+12. Then, on **More information required** dialog box, click on
     the **Next** button.
 
      ![](./media/image18.png)
 
-12. If prompted, then enter the password and click on the **Sign in**
+13. If prompted, then enter the password and click on the **Sign in**
     button.
 
     ![](./media/image19.png)
 
-13. In your mobile, install the **Microsoft Authenticator App**. Then,
+14. In your mobile, install the **Microsoft Authenticator App**. Then,
     go back to Microsoft Azure port. In the Azure portal, **Microsoft
     Authenticator -** **Start by getting the app** window, navigate and
     click on the **Next** button.
 
     ![](./media/image20.png)
 
-14. In **Microsoft Authenticator –** **Set up your account** window,
+15. In **Microsoft Authenticator –** **Set up your account** window,
     click on the **Next** button.
     
     ![](./media/image21.png)
 
-15. **Scan the QR code** using the **Authenticator app** installed in
+16. **Scan the QR code** using the **Authenticator app** installed in
     your mobile phone and click on the **Next** button.
 
     ![](./media/image22.png)
 
 
-16. Enter the number in your mobile authenticator app and select
+17. Enter the number in your mobile authenticator app and select
     **Yes**. In **testvm1**, click on the **Next** button.
 
     ![](./media/image23.png)
 
-
-17. Click on the **Next** button.
-
+18. Click on the **Next** button.
 
 ![A screenshot of a computer Description automatically
     generated](./media/image24.png)
 
 
-18. Click on the **Done** button.
+19. Click on the **Done** button.
 
     ![](./media/image25.png)
 
-19. Enter the number again in your mobile authenticator app and select
+20. Enter the number again in your mobile authenticator app and select
     **Yes**..
   
     ![](./media/image26.png)
 
-20. In the **Stay signed in?** window, click on the **Yes** button.
+21. In the **Stay signed in?** window, click on the **Yes** button.
 
     ![A screenshot of a computer Description automatically
     generated](./media/image10.png)
