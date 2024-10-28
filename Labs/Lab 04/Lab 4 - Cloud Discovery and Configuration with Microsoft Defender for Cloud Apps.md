@@ -132,11 +132,11 @@ generated](./media/image17.png)
 generated](./media/image18.png)
 
 19. You will be navigated to a new setting window where the status
-    is **Processing**.
+    is **Processing**. If you are not directed, then click on **Settings > Cloud Apps > Cloud Discovery > Snapsho reports**
+    
+    ![](./media/image19.png)
 
-![](./media/image19.png)
-
-20. Once the snapshot is ready, the Status will change
+21. Once the snapshot is ready, the Status will change
     from **Processing** to **Ready**.
     
 **Important Note**: Analysis can take up to 24 hours.
