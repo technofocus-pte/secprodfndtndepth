@@ -15,35 +15,29 @@ understanding and reduce risk.
 
 The discovery module supports two modes of operation: a manual one-time
 upload of logs to receive a snapshot report and a continuous log upload
-for ongoing monitoring of the environment. A list of supported firewalls
-is
-documented [**https://technet.microsoft.com/en-US/library/mt489024(TechNet.10).aspx**](urn:gd:lg:a:send-vm-keys).
+for ongoing monitoring of the environment.
 
-### Task 1: Create a Cloud Discovery Snapshot Report*
+### Task 1: Create a Cloud Discovery Snapshot Report
 
 To perform a one-time upload of discovery logs, perform the following
 steps:
 
-1.  In **[Microsoft Defender
-    portal]`https://Security.microsoft.com`,**
-    Under the **settings cog**, select the **Settings** page, navigate
-    to **Cloud Apps**.
+1.  Log in to Microsoft Defender portal using the following URL with Admin credentials: `https://Security.microsoft.com`
+    Scroll down and click on **Settings** and then click on **Cloud Apps**.
 
-![](./media/image1.png)
+    ![](./media/nw31.png)
 
-2.  Under  **Information Protection**, scroll down to **Microsoft
-    Information Protection and** select **Automatically scan new files
-    for sensitivity labels from Microsoft Information Protection and
-    content inspection warnings**…
+2.  Scroll down to **Information Protection** then click on **Microsoft Information Protection**, then select **Automatically scan new files
+    for sensitivity labels from Microsoft Information Protection and content inspection warnings...**
 
-![](./media/image2.png)
+    ![](./media/image2.png)
 
-![](./media/image3.png)
+    ![](./media/image3.png)
 
 3.  Under **Inspect protected files**, check if **Inspect protected
     files** is active.
 
-![](./media/image4.png)
+    ![](./media/image4.png)
 
 4.  Now go to **Files** under **Information protection**.
 
@@ -83,13 +77,13 @@ generated](./media/image11.png)
 
 11. Update the details as below:
 
-    - Report name: !!**Contoso Snapshot Report**!!
+    - Report name: `Contoso Snapshot Report`
 
-    - Description: !!**Contoso Snapshot Report**!!
+    - Description: `Contoso Snapshot Report`
 
-    - Source: !!**Cisco IronPort WSA**!!
+    - Source: `Cisco IronPort WSA`
 
-    - Click on !!**View Log Format**!!
+    - Click on `View Log Format`
 
 ![](./media/image12.png)
 
