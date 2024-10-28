@@ -6,7 +6,7 @@
     the Home tab of the Lab interface.
 
 2.  In your VM, navigate and click in the **Search bar**, type
-    **`Settings`** and then click on **Settings** under **Best match**.
+    `Settings` and then click on **Settings** under **Best match**.
     
     ![](./media/image1.png)
 
