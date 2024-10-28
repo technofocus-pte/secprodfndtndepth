@@ -354,15 +354,15 @@ to their HR documents.
 
     ![](./media/nw29.png)
 
-12. On the **Publish to users and groups page**, select **Next**.
+13. On the **Publish to users and groups page**, select **Next**.
 
     ![computer ](./media/image54.png)
 
-13. On the **Policy settings** page, select **Next**.
+14. On the **Policy settings** page, select **Next**.
 
     ![](./media/image55.png)
 
-14. On the **Apply a default label to documents** page, select **Next**.
+15. On the **Apply a default label to documents** page, select **Next**.
 
     ![computer ](./media/image56.png)
 
@@ -371,10 +371,10 @@ to their HR documents.
 17. On the **Default settings for meetings and calendar events**,
     select **Next**.
 
-19. On the **Default settings for Fabric and Power BI content page**,
+18. On the **Default settings for Fabric and Power BI content page**,
     select **Next**.
 
-20. On the **Name your policy** page, enter the following information:
+19. On the **Name your policy** page, enter the following information:
 
     - Name: `Internal HR employee data`
 
@@ -385,306 +385,24 @@ to their HR documents.
     ![Graphical user interface, text, application, email Description
 automatically generated](./media/image59.png)
 
-21. Select **Next**.
+20. Select **Next**.
 
     ![Graphical user interface, text, application ](./media/image60.png)
 
-22. On the **Review and finish** page, select **Submit**.
+21. On the **Review and finish** page, select **Submit**.
 
     ![Graphical user interface, text, application ](./media/image61.png)
 
-23. The policy will be created and when complete a message will
+22. The policy will be created and when complete a message will
     display **New policy created**.
 
-24. Select **Done and proceed to next task without closing the window**.
+23. Select **Done and proceed to next task without closing the window**.
 
     ![computer ](./media/image62.png)
 
 You have successfully published the Internal and HR sensitivity labels.
 Note that it can take up to 24 hours for changes to replicate to all
 users and services.
-
-## Exercise 4 – Working with Sensitivity Labels
-
-In this task, you will create sensitivity labels in Word and Outlook
-emails. The document created will be stored in OneDrive and sent to an
-HR employee via email.
-
-1. Navigate to `https://portal.office.com` and log in as
-    **Patti Fernandez**.
-
-2.  If a **Get your work done with Office 365** message is shown, close
-    it.
-
-    ![Graphical user interface ](./media/image63.png)
-
-3.  Select the **Microsoft Word** symbol from the left side pane to open
-    Word Online.
-
-    ![Graphical user interface, website ](./media/image64.png)
-
-5.  Select **New blank document** to create a new document.
-
-    ![Graphical user interface, website ](./media/image65.png)
-
-6.  If a **Your privacy options** message is shown, close it with
-    selecting **Close**.
-
-    ![](./media/image66.png)
-
-7.  Enter the following contents into the word document:
-
-    `Important HR employee document.`
-
-    ![Graphical user interface, application, Word ](./media/image67.png)
-
-8.  Select **Sensitivity** from the top pane to open the dropdown menu.
-
-    ![Graphical user interface, application, Word ](./media/image68.png)
-
-9.  Select **Internal** \ **Employee data (HR)** to apply the label.
-
-    > **Note**: Be aware, the script you ran in task 1 of this exercise
-    activated sensitivity labels in Word for your tenant. It can sometimes
-    take an hour for that activation to be realized in Microsoft Word
-    online. If you don't see the Sensitivity label menu in Word, you may
-    need to return to this lab later or make sure you properly completed
-    task 1 of this exercise.
-
-
-    ![](./media/image69.png)
-
-10. Select the **Document – Saved** in the upper left of the window,
-    enter **HR Document** as the File Name and press **Enter** key.
-
-    ![Graphical user interface, application, Word ](./media/image70.png)
-
-11. Close the word tab to return to the **Office 365** tab. Select
-    the **Outlook** symbol from the left side pane to
-    open **Outlook** on the web.
-
-    ![Graphical user interface, text, application ](./media/image71.png)
-
-12. If a welcome message is shown, close it with selecting the **X**.
-
-13. In Outlook on the web, select **New message** from the upper left of
-    the window.
-
-    ![computer ](./media/image72.png)
-
-14. In the **To** field enter the name: **Adele** and select **Adele
-    Vance** from the drop-down list.
-
-    ![](./media/image74.png)
-
-15. In the subject field, enter: `Employee data for HR`.
-
-16. Within the email message (the large content panel at the bottom of
-    the page), insert the following message:
-
-    `Dear Ms. Adele,
-    Please find attached the important HR employee document.
-    Kind regards,
-    Patti Fernandez`
-
-    ![computer ](./media/image76.png)
-
-17. Select the **paperclip symbol** from the bottom menu.
-
-    ![](./media/image78.png) 
-
-19. Select the **HR Document.docx** below **Suggested attachments** to
-    attach the document.
-
-21. Select **Send** to send out the email message with attached
-    document.
-
-22. Leave the browser window open.
-
-You have successfully created an HR Word document with a sensitivity
-label, which was saved onto your OneDrive. You then emailed to document
-to an HR staff member where the email was also set with a sensitivity
-label.
-
-In the trial account, note that you will be able to send the mail but it
-will bounce back and will not be able to reach the receiver from your
-current tenant.
-
-## Exercise 5 – Configuring Auto Labelling
-
-n this task, you will create a **Sensitivity Label** that will auto
-label documents and emails found to contain information related to
-the **European General Data Protection Regulation (GPDR)**.
-
-1.  In **Microsoft Edge**, the Microsoft Purview portal tab should still
-    be open.
-
-2.  You should be logged into the portal as **Patti** **Fernandez**.
-
-3.  Under the **Information protection**, select **Label**, highlight
-    (without selecting) the existing **Internal** label, and select the
-    three dots. Select the **+ Create sublabel** menu item.
-
-    ![computer ](./media/image81.png)
-
-4.  The **New sensitivity label** wizard will start. On the **label
-    details** page, enter the following information:
-
-    - Name: `GDPR Germany`
-
-    - Display name: `GDPR Germany`
-
-    - Description for users: `This document or email contains data
-      related to the European General Data
-      Protection Regulation(GPDR) for the region Germany.`
-
-    - Description for admins: `This label is auto applied
-      to German GDPR documents.`
-
-5.  Select **Next**.
-
-    ![](./media/image82.png)
-
-6.  On the **Define the scope for this label** page, select the
-    option **Items** which protects Files, Emails, and Meetings items.
-    Then select **Next**.
-
-    ![](./media/image83.png)
-
-7.  On the **Choose protection settings for labeled items** page,
-    select **Next**.
-
-    ![](./media/image84.png)
-
-8.  On the **Auto-labeling for files and emails** page, set
-    the **Auto-labeling for files and emails** to enabled.
-
-    ![Graphical user interface, text, application ](./media/image85.png)
-
-9.  In the **Detect content that matches these conditions** section,
-    select **+Add condition** and then select **Content contains**.
-
-    ![](./media/image86.png)
-
-10. In **Content contains** section select the **Add** text and then
-    select **Sensitive info types**.
-
-    ![computer ](./media/image87.png)
-
-11. A **Sensitive info types** panel will be displayed on the right.
-
-12. In the **Search for sensitive info types** search panel, enter the
-    following information:
-
-    `German`
-
-13. Press the enter button, the results will display sensitivity info
-    types related to Germany. Press the **Select all** check box.
-
-    ![](./media/image88.png)
-
-14. Select **Add**.
-
-    ![](./media/image89.png)
-
-15. Select **Next**.
-
-    ![computer ](./media/image90.png)
-
-16. On the **Define protection settings for groups and sites** page,
-    select **Next**.
-
-    ![computer ](./media/image91.png)
-
-18. On the **Auto-labeling for schematized data** **assets
-    (preview)** page, select **Next**.
-
-19. On the **Auto-labeling for schematized data assets (preview)** page,
-    select **Next**.
-
-20. On the **Review your settings and finish** page, select **Create
-    label**.
-
-21. Select the Automatically apply label to sensitive content option and then click on the **Done** button
-
-    ![Graphical user interface, text, application, Word Description
-automatically generated](./media/image93.png)
-
-22. From the sub-navigation select **Sensitivity Labels** \ **Publish
-    Labels**.
-
-    ![](./media/image48.png)
-
-24. The **Publish sensitivity labels wizard** will start.
-
-    ![Graphical user interface, text, application, Word Description
-automatically generated](./media/image94.png)
-
-25. On the Choose sensitivity labels to publish page, select the Choose
-    sensitivity labels to publish link.
-
-    ![computer ](./media/image95.png)
-
-26. A side bar called **Sensitivity labels to publish** will appear on
-    the right.
-
-    ![Graphical user interface, application, Word ](./media/image96.png)
-
-27. Select the **Internal** and **Internal/GDPR Germany** checkbox and
-    select **Add**.
-
-    ![Graphical user interface, application, Word ](./media/image97.png)
-
-28. On the **Choose sensitivity labels to publish** page,
-    select **Next**.
-
-    ![Graphical user interface, text, application, Word Description
-automatically generated](./media/image98.png)
-
-29. On the **Publish to users and groups** page, select **Next**.
-
-    ![Graphical user interface, text, application ](./media/image99.png)
-
-30. On the **Policy settings** page, select **Next**.
-
-    ![Graphical user interface, text, application, Word Description
-automatically generated](./media/image100.png)
-
-31. On the **Apply a default label to documents** page, select **Next**.
-
-    ![Graphical user interface, text, application ](./media/image101.png)
-
-32. On the **Apply a default label to emails** page, select **Next**.
-
-33. On the **Default settings for meetings and calendar events**,
-    select **Next**.
-
-37. On the **Default settings for Fabric and Power BI content page**,
-    select **Next**.
-
-38. On the **Name your policy** page, enter the following information:
-
-    - Name: `GDPR Germany policy`
-
-    - Enter a description for your sensitivity label
-      policy: `This auto apply sensitivity labels policy is for the
-      GDPR region of Germany.`
-
-39. Select **Next**.
-
-    ![Graphical user interface, text, application ](./media/image104.png)
-
-40. On the **Review and finish** page, select **Submit**.
-
-    ![Graphical user interface, application ](./media/image105.png)
-
-41. The policy will be created and when complete a message will
-    display, **New policy created**.
-
-42. Select **Done**.
-
-    ![Graphical user interface, text, application, Word Description
-automatically generated](./media/image106.png)
 
 ## Summary:
 
