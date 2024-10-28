@@ -1,5 +1,14 @@
 # **Lab 01 - Securing identities with Microsoft Entra ID**
 
+## Introduction
+
+Microsoft Entra is our new product family that encompasses all of Microsoft’s identity and access capabilities. The Entra family includes Microsoft Azure Active Directory (Azure AD), as well as two new product categories: Cloud Infrastructure Entitlement Management (CIEM) and decentralized identity. The products in the Entra family will help provide secure access to everything for everyone, by providing identity and access management, cloud infrastructure entitlement management, and identity verification.
+
+## Objectives
+
+- Redeem the Azure Pass and set up Multi-factor Authentication (MFA).
+- Configure a Conditional Access policy to restrict user access to the Sway application.
+
 ## Task 0: Sync Host environment time
 
 1.  Login to the Lab Virtual Machine using the credentials provided on
@@ -312,8 +321,8 @@ generated](./media/a29.png)
 
     ![](./media/a31.png)
 
-## Summary:
+## Summary
 
-In this lab we enabled user risk policy, created a conditional access
-policy to block a user from accessing a cloud app, and explored the
-Identity Secure Score.
+Summary:
+
+In this lab, you've redeemed an Azure Pass and implemented Multi-factor Authentication, enhancing account security within the Azure environment. Then, you've configured Conditional Access policy in Microsoft Entra, blocking a specific user from accessing the Sway application. This lab provides foundational steps for securing cloud resources and managing user access through advanced policies.
