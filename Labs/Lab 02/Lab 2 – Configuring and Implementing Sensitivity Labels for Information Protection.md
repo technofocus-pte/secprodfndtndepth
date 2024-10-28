@@ -111,8 +111,42 @@ Internal documents and a sublabel for the HR department.
 
 > **Note** - This Feature is available with Microsoft 365 E3 License.
 
+1.	Navigate to https://admin.microsoft.com and then enter Admin tenant Id into the field and then click on the Next button.
+
+    ![](./media/image-0.png)
+
+2.	Enter the tenant password in the field and then click on the Sign In button.
+
+    ![](./media/image-1.png)
+
+3.	Stay signed in window will pop up, click on the Yes button.
+
+    ![](./media/image-2.png)
+
+4.	From the Left navigation bar, select the Users and then click on the Active User.
+
+    ![](./media/image-3.png)
+
+5.	From the top Search bar, search for the Patti Fernandez. Select the Patti Fernandez user.
+
+    ![](./media/image-4.png)
+
+6.	Scroll down the Patti Fernandez User page and then select Manage roles.
+
+    ![](./media/image-5.png)
+
+7.	Select the Admin center access and then scroll down.
+
+    ![](./media/image-6.png)
+
+
+8.	Scroll down and select the Show all by category and then select, Compliance Administrator and Security Administrator. After select these click on the Save button.
+
+    ![](./media/image-7.png)
+ 
+
 1.  In **Microsoft Edge** navigate to
-    `**https://purview.microsoft.com`** and log in as **Patti
+    `https://purview.microsoft.com` and log in as **Patti
     Fernandez** using the username `PattiF@`  paste the Office 365 tenant name 
     and the User Password given on your resources tab.  
 
@@ -188,29 +222,23 @@ automatically generated](./media/image16.png)
 
     ![](./media/image25.png)
 
-16. On the **Information protection** page, highlight (without
-    selecting) the newly created **Internal** label and select the
-    vertical **…**.
-
-17. Select the **+ Add sub label** from the drop-down menu.
+16. -	On the **Information Protection** page, Select **Sensitivity labels**. In the Sensitivity label select vertical (…) of Internal label and select **Create sublabel**.
 
     ![computer ](./media/image26.png)
 
 18. The **New sensitivity label** wizard will start. On the **Label
     details** page, enter the following information:
 
-    - Name: `Employee data (HR)** `**
+    - Name: `Employee data (HR)`
 
-    - Display name: `Employee data (HR)** `**
+    - Display name: `Employee data (HR)`
 
     - Description for users: `This HR
-      label is the default label for all specified documents in the
-      HR Department.** `**
+      label is the default label for all specified documents in the HR Department.`
 
-    - Description for admins: `This label is created in**
-      **consultation with Ms.Jones (Head of HR
-      department). Contact her,** **when you want to change
-      settings of the label.** `**
+    - Description for admins: `This label is created in consultation with Ms.Jones (Head of HR
+      department). Contact her, when you want to change
+      settings of the label.`
 
     ![](./media/image28.png)
 
