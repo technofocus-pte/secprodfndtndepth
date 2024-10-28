@@ -151,7 +151,7 @@ Internal documents and a sublabel for the HR department.
 
 2. On **Welcome to the new Microsoft Purview** portal, select the checkbox of agreement and then click on **Get started** button as shown in the below image.
 
-    ![](./media/nw22.png
+    ![](./media/nw22.png).
 
 3.  In the Microsoft Purview portal, on the left navigation pane, select
     **Solutions** \ **Information Protection**.
