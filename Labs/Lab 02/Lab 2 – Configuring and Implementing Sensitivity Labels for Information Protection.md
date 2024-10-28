@@ -332,8 +332,7 @@ published sensitivity labels will be available for the HR users to apply
 to their HR documents.
 
 1.  In **Microsoft Edge** navigate to
-    `https://purview.microsoft.com` and log in as **Patti
-    Fernandez** using the username **PattiF@  paste the Office 365 tenant name 
+    `https://purview.microsoft.com` and log in as **Patti Fernandez** using the username `PattiF@`  paste the Office 365 tenant name 
     and the User Password given on your resources tab.
 
 2.  In the Microsoft Purview portal, on the left navigation pane, select
@@ -396,7 +395,7 @@ to their HR documents.
 
     - Enter a description for your sensitivity label
       policy: `This HR label is to be applied to internal HR
-      employee data.** `**
+      employee data.`
 
     ![Graphical user interface, text, application, email Description
 automatically generated](./media/image59.png)
@@ -450,7 +449,7 @@ HR employee via email.
 
 7.  Enter the following contents into the word document:
 
-`Important HR employee document.`
+    `Important HR employee document.`
 
     ![Graphical user interface, application, Word ](./media/image67.png)
 
@@ -458,14 +457,15 @@ HR employee via email.
 
     ![Graphical user interface, application, Word ](./media/image68.png)
 
-9.  Select **Internal** \**Employee data (HR)** to apply the label.
+9.  Select **Internal** \ **Employee data (HR)** to apply the label.
 
-**Note**: Be aware, the script you ran in task 1 of this exercise
-activated sensitivity labels in Word for your tenant. It can sometimes
-take an hour for that activation to be realized in Microsoft Word
-online. If you don't see the Sensitivity label menu in Word, you may
-need to return to this lab later or make sure you properly completed
-task 1 of this exercise.
+    > **Note**: Be aware, the script you ran in task 1 of this exercise
+    activated sensitivity labels in Word for your tenant. It can sometimes
+    take an hour for that activation to be realized in Microsoft Word
+    online. If you don't see the Sensitivity label menu in Word, you may
+    need to return to this lab later or make sure you properly completed
+    task 1 of this exercise.
+
 
     ![](./media/image69.png)
 
@@ -497,13 +497,10 @@ task 1 of this exercise.
 16. Within the email message (the large content panel at the bottom of
     the page), insert the following message:
 
- `Dear** **Ms. Adele,**
-
- **Please find attached the important HR employee document.**
-
- **Kind regards,**
-
- **Patti Fernandez`
+    `Dear Ms. Adele,
+    Please find attached the important HR employee document.
+    Kind regards,
+    Patti Fernandez`
 
     ![computer ](./media/image76.png)
 
@@ -554,10 +551,10 @@ the **European General Data Protection Regulation (GPDR)**.
 
     - Description for users: `This document or email contains data
       related to the European General Data
-      Protection Regulation(GPDR) for the region Germany.** `**
+      Protection Regulation(GPDR) for the region Germany.`
 
     - Description for admins: `This label is auto applied
-      to German GDPR documents.** `**
+      to German GDPR documents.`
 
 5.  Select **Next**.
 
@@ -594,7 +591,7 @@ the **European General Data Protection Regulation (GPDR)**.
 12. In the **Search for sensitive info types** search panel, enter the
     following information:
 
-**German**
+    `German`
 
 13. Press the enter button, the results will display sensitivity info
     types related to Germany. Press the **Select all** check box.
@@ -623,9 +620,7 @@ the **European General Data Protection Regulation (GPDR)**.
 20. On the **Review your settings and finish** page, select **Create
     label**.
 
-21. The label will be created and when complete a message will
-    display: **Your sensitivity label was created**. Then
-    select **Done**.
+21. Select the Automatically apply label to sensitive content option and then click on the **Done** button
 
     ![Graphical user interface, text, application, Word Description
 automatically generated](./media/image93.png)
@@ -688,7 +683,7 @@ automatically generated](./media/image100.png)
 
     - Enter a description for your sensitivity label
       policy: `This auto apply sensitivity labels policy is for the
-      GDPR region of** **Germany.** `**
+      GDPR region of Germany.`
 
 39. Select **Next**.
 
