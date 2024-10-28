@@ -185,10 +185,10 @@ automatically generated](./media/image16.png)
     ![Graphical user interface, text, application ](./media/image17.png)
 
 7.  On the **Define the scope for this label** page, select the
-    option **Items** which protects emails, files, and Power BI items.
+    option **Items** which protects emails, files.
     Uncheck the box near **Meetings**.
 
-    ![computer ](./media/image18.png)
+    ![computer ](./media/nw23.png)
 
 8.  Select **Next**.
 
@@ -260,28 +260,15 @@ automatically generated](./media/image16.png)
 
     ![](./media/image34.png)
 
-22. On **Encryption Page**, select **Configure
-    encryption** **settings**.
+22. On **Access control** page, leave all the fields in the default state. 
 
-    ![](./media/image36.png)
+    ![](./media/25nw.png)
 
-23. Enter the following information into the encryption settings:
+    ![](./media/26.png)
 
-    - Assign permissions now or let users decide?: **Assign permissions
-      now**
+24. Scroll down and click on **Assign permissions** link.
 
-    - User access to content expires: **Never**
-
-    - Allow offline access: **Only for a number of days**
-
-    - Users have offline access to the content for this many
-      days: **15**
-
-    ![computer ](./media/image37.png)
-
-24. Select the **Assign permissions** link.
-
-    ![computer ](./media/image38.png)
+    ![](./media/27.png)
 
 25. On the **Assign permissions** pane, select the **+ Add any
     authenticated users**.
@@ -292,9 +279,9 @@ automatically generated](./media/image16.png)
 
     ![](./media/image40.png)
 
-27. On the **Encryption** page, select **Next**.
+27. On the **Access Control** page, select **Next**.
 
-    ![computer ](./media/image41.png)
+    ![](./media/nw50.png)
 
 28. On the **Auto-labeling for files and emails** page, select **Next**.
 
