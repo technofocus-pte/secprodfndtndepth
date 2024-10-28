@@ -162,21 +162,21 @@ presentations, and more.
 2. In the **Microsoft Entra admin center** page, navigate and click on
 **Identity**, click on **Users**, then click on **All users**.
 
-![](./media/a2.png)
+    ![](./media/a2.png)
 
 3. Click on **Allan Deyoung**.
 
-![](./media/a3.png)
+    ![](./media/a3.png)
 
 4. Click on Reset password.
 
-![A screenshot of a computer Description automatically
-generated](./media/a4.png)
+    ![A screenshot of a computer Description automatically
+    generated](./media/a4.png)
 
 5. Then, click on the Reset password button as shown in the below image.
 
-![A screenshot of a computer Description automatically
-generated](./media/a5.png)
+    ![A screenshot of a computer Description automatically
+    generated](./media/a5.png)
 
 6. Note down the temporary password.
 
