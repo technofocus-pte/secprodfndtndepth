@@ -15,10 +15,9 @@ In this task, you will install the MSOnline module and the SharePoint
 Online PowerShell module and enable support for sensitivity labels on
 your tenant.
 
-1.  Select the windows symbol in the taskbar with the right mouse button
-    and select **Windows PowerShell (Admin)** and run as administrator.
+1.  Click on the windows icon, type **Widows PowerShell**, then right click on **Windows PowerShell (Admin)** and run as administrator.
 
-    ![computer ](./media/image1.png)
+    ![computer ](./media/nw21.png)
 
 2.  Confirm the **User Account Control** window with **Yes** and press
     Enter.
@@ -39,7 +38,7 @@ your tenant.
 5.  Enter the following cmdlet to install the latest SharePoint Online
     PowerShell module version:
 
-`Install-Module -Name Microsoft.Online.SharePoint.PowerShell`
+    `Install-Module -Name Microsoft.Online.SharePoint.PowerShell`
 
     ![computer ](./media/image4.png)
 
