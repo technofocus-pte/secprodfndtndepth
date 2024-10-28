@@ -134,29 +134,10 @@ generated](./media/image18.png)
 
 20. Once the snapshot is ready, the Status will change
     from **Processing** to **Ready**.
-
-### Task 2: Track the Status of the Snapshot Report
-
-1.  Click on **the Settings** icon and navigate to **Cloud Apps**.
-
-![](./media/image20.png)
-
-2.  Under **Cloud Discovery**, click on **Snapshot report**
-
-![A screenshot of a computer Description automatically
-generated](./media/image21.png)
-
-3.  You will see the snapshot report being processed.
-
-![A screenshot of a computer Description automatically
-generated](./media/image22.png)
-
-4.  Once the snapshot is ready, the **Status** will change
-    from **Processing** to **Ready**.
-
+    
 **Important Note**: Analysis can take up to 24 hours.
 
-5. Click on the **View sample report** link. Then, review the sample reports.
+21. Click on the **View sample report** link. Then, review the sample reports.
 
 ![](./media/nw39.png)
 
