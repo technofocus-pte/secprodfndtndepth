@@ -323,6 +323,4 @@ generated](./media/a29.png)
 
 ## Summary
 
-Summary:
-
 In this lab, you've redeemed an Azure Pass and implemented Multi-factor Authentication, enhancing account security within the Azure environment. Then, you've configured Conditional Access policy in Microsoft Entra, blocking a specific user from accessing the Sway application. This lab provides foundational steps for securing cloud resources and managing user access through advanced policies.
