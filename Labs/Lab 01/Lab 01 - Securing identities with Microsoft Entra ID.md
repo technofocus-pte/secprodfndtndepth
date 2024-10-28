@@ -178,9 +178,9 @@ Azure Pass, another Azure Pass will not be issued.
 
 3. Click on **Sign in** button.
 
-    ![](./media/new12.png)
+   ![](./media/new12.png)
 
-4. Log in as **Allan Deyoung**:
+5. Log in as **Allan Deyoung**:
 
    Username – `alland@`Paste the Tenant name from the **Home/Resources tab**
 
