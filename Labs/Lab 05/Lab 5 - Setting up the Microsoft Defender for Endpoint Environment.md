@@ -19,50 +19,11 @@ macOS, Linux, Android, and iOS devices.
 
 - To assign the Owner role to the Azure subscription.
 
-- To create a Windows Server virtual machine (**testserver1**) and
-  onboard it to Microsoft Defender for Endpoints for security
-  monitoring.
-
 - To create a Windows 11 Pro virtual machine (**testVM1**) and onboard
   it to Microsoft Defender for Endpoints for security monitoring.
 
-- To create another Windows 11 Pro virtual machine (**testVM2**) and
-  onboard it to Microsoft Defender for Endpoints for security
-  monitoring.
-
-- To create a new user account (**Robert Frost**) with Office 365
-  license for testing purposes.
-
 - To prepare the testvm1 virtual machine for upcoming tasks, including
   installing Microsoft 365 apps.
-
-## **Task 0: Sync Host environment time**
-
-1.  Login to the Lab Virtual Machine using the credentials provided on
-    the Home tab of the Lab interface.
-
-2.  In your VM, navigate and click in the **Search icon**, in the search
-    bar type **Settings** and then click on **Settings** under **Best
-    match**.
-
-  ![](./media/image1.png)
-
-2.  On Settings window, navigate and click on **Time & language**.
-
-    ![](./media/image2.png)
-
-3.  On **Time & language** page, navigate and click on **Date & time**.
-
-![](./media/image3.png)
-
-4.  Scroll down and navigate to **Additional settings** section, then
-    click on **Syn now** button.
-
-![](./media/image4.png)
-
-5.  Close the **Settings** window.
-
-![](./media/image5.png)
 
 ## **Task 1: Add Owner role to subscription**
 
@@ -129,210 +90,19 @@ generated](./media/image29.png)
 **Note**: Microsoft 365 E5 license is assigned to your O365 tenant ID,
 which included Microsoft Defender for Endpoint feature.
 
-## **Task 2: Onboarding testserver1 in Microsoft Defender for Endpoints**
-
-  1\. In the Azure portal search bar, type **virtual machine**, then
-  navigate and click on **Virtual machines** under **Services**.
- 
-  ![](./media/image39.png)
-
-3.  In the **Virtual machines** page, navigate and click on **Create**,
-    then click on **Azure virtual machine**.
-
-  ![A  of a computer Description automatically
-  generated](./media/image40.png)
-
-4.  In the **Create a virtual machine** page, navigate to **Resource
-    group** row and click on **Create new**. Enter the name of the
-    resource group (here, we entered **RG-DOE** as resource group name),
-    then click on the **OK** button.
-
-  ![A  of a computer Description automatically
-  generated](./media/image41.png)
-
-5\. Navigate to **Instance details** section, in the **virtual machine
-name** field, enter the name of the virtual machine (here, we entered
-**TESTSERVER1**). In the **Security type** field, click on the dropdown
-and select **Standard**. In the **Image** field, select **Windows Server
-2019 Datacenter -x64 Gen2** from the dropdown.
-
-  ![](./media/image42.png)
-
-5.  Scroll down to **Administrator account** section, enter the
-    following details:
-
-[TABLE]
-
-  ![](./media/image43.png)
-
-6.  Scroll down and select the checkbox, then click on **Review +
-    create** button as shown in the below image.
-
-![](./media/image44.png)
-
-7.  In the **Create a virtual machine** page, navigate and click on the
-    **Create** button.
-
-  ![A  of a computer Description automatically
-  generated](./media/image45.png)
- 
-  ![](./media/image46.png)
-
-8.  After the TESTSERVER1 virtual machine is successfully created, click
-    on the **Go to resource** button.
-
-  ![A  of a computer Description automatically
-  generated](./media/image47.png)
-
-9.  You will be directed to the TESTSERVER1 virtual machine page.
-
-  ![A  of a computer Description automatically
-  generated](./media/image48.png)
- 
-  **Note**: If you see testserver1 virtual machine status is not ready.
-  Troubleshoot the issue… then wait for 10-15 minutes and reload the
-  page.
-
-10. In **TESTSERVER1** virtual machine page, navigate and click on
-    **Connect** on the left side navigation menu, then click on
-    **Select** under **Native RDP** section.
-
-![](./media/image49.png)
-
-11. In the **Native RDP** pane that appears on the right side, after
-    fulfilling all the requirements, scroll down and click on **Download
-    RDP file** button.
-
-![](./media/image50.png)
-
-12. On **TESTSERVER1.rdp could harm your device. Do you want to keep it
-    anyway?** dialog box, click on **Keep** button.
-
-  ![A  of a computer Description automatically
-  generated](./media/image51.png)
-
-13. On **TESTSERVER1.rdp** file, click on **Open file** link.
-
-  ![](./media/image52.png)
-
-14. On **The publisher of this remote connection can’t be identified. Do
-    you want to connect anyway?** dialog box, click on **Connect**
-    button.
-
-  ![A  of a computer Description automatically
-  generated](./media/image53.png)
-
-15. On **Enter your credentials** dialog box, enter the password (here,
-    `Administrator5801@`) and click on the **OK** button.
-
-![](./media/image54.png)
-
-16. On **The identity of the remote computer cannot be verified. Do you
-    want to connect anyway?** dialog box, click on **Yes** button.
-
-![](./media/image55.png)
-
-17. The TESTSERVER1 VM will be opened. Minimize the Server Manager –
-    Dashboard then then minimize the virtual machine.
-
-![](./media/image56.png)
-
-18. In the Edge browser, open a new tab and enter the following link:
-    **<https://security.microsoft.com ** to open the Microsoft Defender
-    Portal
-
-![](./media/image57.png)
-
-19. Close **Meet your improved security center** dialog box. Wait for 10
-    minutes and refresh the page before proceeding to the next step.
-
-![A  of a computer Description automatically
-generated](./media/image58.png)
-
-19\. In **Microsoft Defender** portal, navigate and click on **System**,
-then click on **Settings**. In the Settings page, you’ll see **Defender
-for** **Endpoints** as shown in the below images.
-
-![](./media/image59.png)
-
-![](./media/image60.png)
-
-**Note**:
-
-  In case, you did not see **Defender for Endpoint**, then close all the
-  tabs in the browser. Open a new Edge browser and login to Azure
-  portal. Then, open a new tab in Edge browser and enter the following
-  URL and wait for the configuration to be completed:
-  <https://security.microsoft.com/securitysettings/endpoints/integration?tid= 
-
-20\. In the **Endpoints** page, navigate to **Device management**
-section and then click on **Onboarding**.
-
-![](./media/image61.png)
-
-21. Click on the dropdown under **Select operating system to start
-    onboarding process** and select **Windows Server 2019 and 2022**.
-
-![A  of a computer Description automatically
-generated](./media/image62.png)
-
-22. Scroll down and click on **Download onboarding package** button.
-
-![A  of a computer Description automatically
-generated](./media/image63.png)
-
-23. After onboarding package is successfully downloaded, click on **Open
-    file** link.
-
-![A search box with words Description automatically
-generated](./media/image64.png)
-
-24. Copy the Windows Command script
-
-![](./media/image65.png)
-
-25. Go back to your server VM and paste the copied Windows Command
-    Script on the desktop as shown in the below image.
-
-![](./media/image66.png)
-
-26. Right click on the script and select **Run as administrator**.
-
-![](./media/image67.png)
-
-27. Type **Y** and press the **Enter** button to continue the onboarding
-    process.
-
-![](./media/image68.png)
-
-28. After onboarding the machine successfully on Defender for Endpoint,
-    click on any key to continue the onboarding process.
-
-![](./media/image69.png)
-
-29. The onboarding of the **testserver1 VM** usually takes **15-30
-    minutes**; therefore, continue with the next task.
-
-30. After 15-30 minutes, close the **testserver1 VM**, go back to
-    Microsoft Defender portal and refresh the page, navigate and click
-    on **Devices**, you'll see the **testserver1** was successfully
-    onboarded in Microsoft Defender for Endpoint.
-
-![](./media/image70.png)
-
 ## **Task 3: Onboarding testVM1 in Microsoft Defender for Endpoints**
 
-  1\. In the Azure portal search bar, type virtual machine, then
+1. In the Azure portal search bar, type virtual machine, then
   navigate and click on **Virtual machines** under **Services**.
 
 ![](./media/image71.png)
 
-2\. In the Virtual machines page, navigate and click on **Create**, then
+2. In the Virtual machines page, navigate and click on **Create**, then
 click on **Azure virtual machine**.
 
 ![](./media/image72.png)
 
-3\. In **Create a virtual machine**, under the **Resource group** field,
+3. In **Create a virtual machine**, under the **Resource group** field,
 select **MCS-RG** resource group. Then, navigate to **Instance details**
 section, in the **Virtual machine name** field, enter `testvm1`.
 In the **Region** field, ensure **EAST US** region is selected.
@@ -340,7 +110,7 @@ In the **Region** field, ensure **EAST US** region is selected.
 ![A  of a computer Description automatically
 generated](./media/image73.png)
 
-5\. In the **Security type** field, click on the dropdown and select
+5. In the **Security type** field, click on the dropdown and select
 **Standard**. In the **Image** field, select **Windows 11 Pro, version
 22H2 -x64 Gen2** from the dropdown.
 
@@ -492,294 +262,14 @@ generated](./media/image95.png)
 
 ![](./media/image97.png)
 
-## **Task 4: Onboarding testVM2 in Microsoft Defender for Endpoints**
-
-  1\. In the Azure portal search bar, type virtual machine, then
-  navigate and click on **Virtual machines** under **Services**.
-
-![](./media/image98.png)
-
-2\. In the Virtual machines page, navigate and click on **Create**, then
-click on **Azure virtual machine**.
-
-![A  of a computer Description automatically
-generated](./media/image99.png)
-
-3\. In **Create a virtual machine**, under the **Resource group** field,
-select **RG-DOE** resource group. Then, navigate to **Instance details**
-section, in the **Virtual machine name** field, enter `testvm2`.
-In the **Region** field, ensure **EAST US** region is selected.
-
-![](./media/image100.png)
-
-5.  In the **Security type** field, click on the dropdown and select
-    **Standard**. In the **Image** field, select **Windows 11 Pro,
-    version 22H2 -x64 Gen2** from the dropdown.
-
-![](./media/image101.png)
-
-6.  Navigate to **Administrator account** section, enter the following
-    details and leave all the field in the default state:
-
-[TABLE]
-
-![](./media/image102.png)
-
-7.  Under **Licensing** section, select the checkbox **I confirm I have
-    an eligible Windows 10/11 license with multi-tenant hosting
-    rights**. Then, click on **Review + create** button.
-
-![](./media/image76.png)
-
-8.  Click on the **Create** button.
-
-![A  of a computer Description automatically
-generated](./media/image103.png)
-
-![A  of a computer Description automatically
-generated](./media/image104.png)
-
-9.  The virtual machine is successfully created, click on the **Go to
-    resource** button.
-
-![A  of a computer Description automatically
-generated](./media/image105.png)
-
-**Note:** If you see **testvm2 virtual machine status is not ready.
-Troubleshoot the issue**… then wait for 10-15 minutes and reload the
-page.
-
-10. In **testvm2** virtual machine page, navigate and click on
-    **Connect** on the left side navigation menu, scroll down to
-    **Native RDP** tile, and click on the **Download RDP file**.
-
-![](./media/image106.png)
-
-11. In **testvm2.rdp could harm your device. Do you want to keep it
-    anyway?** dialog box, click on **Keep** button.
-
-![A  of a computer Description automatically
-generated](./media/image107.png)
-
-12. On **testvm2.rdp** file, click on **Open file** link.
-
-  ![A  of a computer Description automatically
-  generated](./media/image108.png)
-
-13. On **The publisher of this remote connection can’t be identified. Do
-    you want to connect anyway?** dialog box, click on **Connect**
-    button.
-
-  ![A  of a computer Description automatically
-  generated](./media/image109.png)
-
-14. On **Enter your credentials** dialog box, enter the password (here,
-    `Administrator5801@`) and click on the **OK** button.
-
-![A  of a computer screen Description automatically
-generated](./media/image110.png)
-
-15. On **The identity of the remote computer cannot be verified. Do you
-    want to connect anyway?** dialog box, click on **Yes** button.
-
-![A  of a computer error message Description automatically
-generated](./media/image111.png)
-
-16. On **Choose privacy settings for your device** page, click on
-    **Next** couple of times and then click on **Accept** button as
-    shown in the below images.
-
-![A  of a computer Description automatically
-generated](./media/image87.png)
-
-![A  of a computer Description automatically
-generated](./media/image88.png)
-
-![A  of a computer Description automatically
-generated](./media/image89.png)
-
-17. Go back to your VM and open the WindowsDefenderATPOnboardingPackage
-    that you have downloaded in **Task 3, Step \#22**.
-
-![A search box with words Description automatically
-generated](./media/image64.png)
-
-18. Copy the Windows Command script.
-
-![A  of a computer Description automatically
-generated](./media/image65.png)
-
-19. Go back to **testvm2** and paste the copied Windows Command Script
-    on the desktop as shown in the below image.
-
-![](./media/image112.png)
-
-20. Right click on the script and select **Run as administrator**.
-
-![A  of a computer Description automatically
-generated](./media/image113.png)
-
-21. Type **Y** and press the **Enter** button to continue the onboarding
-    process.
-
-![A  of a computer Description automatically
-generated](./media/image114.png)
-
-22. After onboarding the machine successfully on Defender for Endpoint,
-    click on any key to continue the onboarding process.
-
-![A  of a computer Description automatically
-generated](./media/image115.png)
-
-23. **Refresh** Microsoft Defender portal.
-
-![](./media/image116.png)
-
-30. The onboarding of the **testvm2** usually takes **15-30 minutes**;
-    therefore, continue with the next task.
-
-31. After 15-30 minutes, close the **testvm2**, go back to Microsoft
-    Defender portal and refresh the page, navigate and click
-    on **Devices**, you'll see the **testvm2** was successfully
-    onboarded in Microsoft Defender for Endpoint.
-
-![A  of a computer Description automatically
-generated](./media/image117.png)
-
-32. Close all the VMs.
-
-## Task 5: Create test account using Microsoft Entra ID
-
-1.  Open a new tab and enter the following link:
-    `https://admin.microsoft.com/AdminPortal/#/homepage`
-
-![](./media/image118.png)
-
-2.  Click on the Navigation menu represented by three horizontal bars,
-    navigate and click on **Users**, then click on **Active users** as
-    shown in the below image.
-
-  ![](./media/image119.png)
-
-3.  In the **Active users** page, click on **Add a user**.
-
-  ![A  of a computer Description automatically
-  generated](./media/image120.png)
-
-4.  Under **Set up the basics** pane, in the **First name** field, enter
-    `Robert`, and in the **Last name** field, enter
-    `Frost`. Navigate to **Username** field, and enter
-    `bob` as shown in the below image.
-
-5.  Uncheck all the boxes, in the **Password** field, enter the
-    following password: `Xof37931@`
-
-[TABLE]
-
-6.  Click on the **Next** button.
-
-**Note**: You can use the **Username** and **Password** of your choice,
-kindly note them on a notepad as these are required in the upcoming
-tasks.
-
-  ![A  of a computer Description automatically
-  generated](./media/image121.png)
- 
-  ![A  of a computer Description automatically
-  generated](./media/image122.png)
-
-7.  In the **Product licenses** pane, navigate and select **Office 365
-    E3** license checkbox and click on the **Next** button.
-
-![A  of a computer Description automatically
-generated](./media/image123.png)
-
-8.  In the **Optional settings** pane, enter the following details and
-    click on the **Next** button. You can mentioned your address
-    details.
-
-[TABLE]
-
-![A  of a computer Description automatically
-generated](./media/image124.png)
-
-![A  of a computer Description automatically
-generated](./media/image125.png)
-
-9.  Review the details and click on the **Finish adding** button.
-
-![A  of a computer Description automatically
-generated](./media/image126.png)
-
-10. On **Robert Frost added to active users** pane, navigate and click
-    on the **Close** button.
-
-![A  of a computer Description automatically
-generated](./media/image127.png)
-
-11. You’ll see that Robert Frost is added to the **Active users** page.
-
-![](./media/image128.png)
+32. Close the VM.
 
 ## Task 6: Preparing the prerequisite on the testvm1 virtual machine
 
-1\. Go back to Azure portal. In the Azure portal search bar, type
-**virtual machines**, then navigate and click on **Virtual machines**
-under **Services**.
-
-![A  of a computer Description automatically
-generated](./media/image129.png)
-
-2\. In the **Virtual machines** page, click on **testvm1**.
-
-![A  of a computer Description automatically
-generated](./media/image130.png)
-
-23. **vmtest1** virtual machine page will be opened.
-
-![A  of a computer Description automatically
-generated](./media/image80.png)
-
-24. In **testvm1** virtual machine page, navigate and click on
-    **Connect** on the left side navigation menu, scroll down to
-    **Native RDP** tile, and click on the **Download RDP file**.
-
-![](./media/image81.png)
-
-25. On the **testvm1.rdp could harm your device. Do you want to keep it
-    anyway?** dialog box, click on **Keep** button.
-
-  ![A  of a computer Description automatically
-  generated](./media/image82.png)
-
-26. On **testvm1.rdp** file, click on **Open file** link.
-
-  ![A  of a computer Description automatically
-  generated](./media/image83.png)
-
-27. On **The publisher of this remote connection can’t be identified. Do
-    you want to connect anyway?** dialog box, click on **Connect**
-    button.
-
-  ![A  of a computer Description automatically
-  generated](./media/image84.png)
-
-28. On **Enter your credentials** dialog box, enter the password (here,
-    `Administrator5801@`) and click on the **OK** button.
-
-![A  of a computer Description automatically
-generated](./media/image85.png)
-
-29. On **The identity of the remote computer cannot be verified. Do you
-    want to connect anyway?** dialog box, click on **Yes** button.
-
-![A  of a computer error Description automatically
-generated](./media/image86.png)
-
 30. After logging in to testvm1 virtual machine, open the Edge browser,
-    then select **Start without your data** button \  **Confirm and
-    Continue** button \  **Continue without this data** button \ 
-    **Confirm and start browsing** button \  **Finish** button as shown
+    then select **Start without your data** button   **Confirm and
+    Continue** button   **Continue without this data** button  
+    **Confirm and start browsing** button   **Finish** button as shown
     in the below images.![](./media/image131.png)
 
 ![](./media/image132.png)
@@ -816,7 +306,7 @@ on **No, thanks** button.
 
 34. In case, you see **Microsoft Authenticator -** **Start by getting
     the app** window, navigate and click on the **Next** button, else
-    skip the steps from **\#34 to \#41**.
+    skip the steps from **#34 to #41**.
 
 ![A  of a computer Description automatically
 generated](./media/image15.png)
@@ -929,31 +419,6 @@ generated](./media/image153.png)
 
 ![](./media/image154.png)
 
-## Task 7: Stop all the Virtual Machines
-
-1\. In the Azure portal search box, type `virtual machines`,
-then navigate and click on **Virtual machines** under **Services**.
-
-![A  of a computer Description automatically
-generated](./media/image155.png)
-
-2\. Click on **testvm1** virtual machine.
-
-![A  of a computer Description automatically
-generated](./media/image156.png)
-
-3\. In the **testvm1** virtual machine page, navigate and click on the
-**Stop** button.
-
-![A  of a computer Description automatically
-generated](./media/image157.png)
-
-3.  In **Stop this virtual machine** dialog box, click on the **Yes**
-    button. Similarly, stop **TESTSERVER** and **testvm2** virtual
-    machines.
-
-![A  of a computer Description automatically
-generated](./media/image158.png)
 
 **Summary**
 
