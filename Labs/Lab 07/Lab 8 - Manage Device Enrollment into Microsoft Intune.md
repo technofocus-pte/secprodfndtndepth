@@ -1,8 +1,8 @@
 # Lab 7 - Manage Device Enrollment into Microsoft Intune
 
-**Task 3: Enable Windows Automatic Enrollment into Microsoft Intune**
+**Task 1: Enable Windows Automatic Enrollment into Microsoft Intune**
 
-1.  In **SEA-SVR1**, open a new tab in **Microsoft Edge**, and then in
+1.  In **LON-CL1 VM**, open a new tab in **Microsoft Edge**, and then in
     the address bar type `https://Endpoint.microsoft.com` and then
     press **Enter**. If prompted to sign in, provide the Credential of
     the **Office 365 Tenant Admin**.
@@ -78,10 +78,10 @@ generated](./media/image31.png)
 generated](./media/image32.png)
 
 8.  In **Select groups to include** pane **Search bar**, type and select
-    **Sales**, then click on the **Select** button.
+    **U.S. Sales**, then click on the **Select** button.
 
 ![A screenshot of a computer Description automatically
-generated](./media/image33.png)
+generated](./media/nw56.png)
 
 9.  In the **Assignments** tab, click on the **Next** button.
 
@@ -107,14 +107,13 @@ generated](./media/image36.png)
 generated](./media/image37.png)
 
 Notice that there is a Default device limit restriction that is assigned
-to All Users. This default restriction sets a device enrollment limit to
-5 devices per user.
+to All Users.
 
 12. In the **Enrollment device limit restrictions**, select + **Create
     restriction**.
 
 ![A screenshot of a computer Description automatically
-generated](./media/image38.png)
+generated](./media/nw58.png)
 
 13. On the Create restriction page, in the **Name** box, enter `Sales
     Device Enrollment Limit` Select **Next**.
@@ -140,9 +139,9 @@ generated](./media/image41.png)
 generated](./media/image42.png)
 
 17. In the **Select groups to include** page search box type and select
-    **Sales** and then click on **Select** button.
+    **US Sales** and then click on **Select** button.
 
-![](./media/image43.png)
+![](./media/nw77.png)
 
 18. Click on the **Next** button.
 
@@ -159,7 +158,7 @@ generated](./media/image45.png)
     1.
 
 ![A screenshot of a computer Description automatically
-generated](./media/image46.png)
+generated](./media/nw78.png)
 
 **Task 5: Configure a Device enrollment manager**
 
