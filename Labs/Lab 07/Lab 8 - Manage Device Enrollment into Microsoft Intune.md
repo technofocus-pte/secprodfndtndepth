@@ -1,6 +1,20 @@
 # Lab 7 - Manage Device Enrollment into Microsoft Intune
 
-**Task 1: Enable Windows Automatic Enrollment into Microsoft Intune**
+## Introduction
+
+Microsoft Intune is a cloud-based endpoint management solution. It manages user access to organizational resources and simplifies app and device management across your many devices, including mobile devices, desktop computers, and virtual endpoints.
+
+## Objectives
+
+- Enable automatic enrollment of Windows devices into Microsoft Intune.
+
+- Configure enrollment restrictions for Android devices within Intune.
+
+- Set device enrollment limitations for specific user groups.
+
+- Add a Device Enrollment Manager to oversee bulk device enrollments.
+
+## Task 1: Enable Windows Automatic Enrollment into Microsoft Intune**
 
 1.  In **LON-CL1 VM**, open a new tab in **Microsoft Edge**, and then in
     the address bar type `https://Endpoint.microsoft.com` and then
@@ -31,7 +45,7 @@ generated](./media/image21.png)
 Intune for any User that performs an Azure AD join with a Windows
 device.
 
-**Task 4: Configure Enrollment Restrictions**
+## Task 2: Configure Enrollment Restrictions
 
 1.  Navigate to **Devices onboarding** section and click on
     **Enrollment**. Then, click on **Android** tab as shown in the below
@@ -160,7 +174,7 @@ generated](./media/image45.png)
 ![A screenshot of a computer Description automatically
 generated](./media/nw78.png)
 
-**Task 5: Configure a Device enrollment manager**
+## Task 3: Configure a Device enrollment manager
 
 1.  In the **Microsoft Intune admin center**, select **Devices**.
 
@@ -202,7 +216,7 @@ generated](./media/image51.png)
 
 7.  Close Microsoft Edge.
 
-**Results**: After completing this exercise, you will have successfully
-reviewed and assigned licenses, configured Windows automatic enrollment,
-enabled and assigned enrollment restrictions, and configured a Device
-enrollment manager.
+## Summary
+
+In this lab, you've learned how to streamline device management using Microsoft Intune. You've enabled automatic enrollment for Windows devices, which simplifies device onboarding by allowing devices to be enrolled as soon as they join Azure Active Directory. Then, you've configured enrollment restrictions, including Android device restrictions, ensuring only permitted devices can enroll. You've limited device enrollments for specific groups, setting parameters such as maximum devices allowed per user. Lastly, you've added a Device Enrollment Manager, empowering designated personnel to manage multiple devices efficiently. This lab ensures that you can efficiently manage large device fleets while enforcing organizational security policies.
+
