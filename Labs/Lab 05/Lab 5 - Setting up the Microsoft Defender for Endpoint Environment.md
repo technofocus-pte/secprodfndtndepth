@@ -30,8 +30,7 @@ macOS, Linux, Android, and iOS devices.
 1.  In the Azure portal `https://portal.azure.com` search box, type **subscription**, navigate and
     click on **Subscriptions** under **Services**.
 
-![A  of a computer Description automatically
-generated](./media/image28.png)
+  ![A  of a computer Description automatically generated](./media/image28.png)
 
 2.  Click on your **Azure Pass – Sponsorship** subscription name.
 
