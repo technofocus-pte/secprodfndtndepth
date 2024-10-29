@@ -1,6 +1,6 @@
 # Lab 8: Endpoint Security and Attack Detection using Defender for Endpoint
 
-**Introduction**
+## Introduction
 
 Endpoint detection and response capabilities in Defender for Endpoint
 provide advanced attack detections that are near real-time and
@@ -17,7 +17,7 @@ to collectively investigate and respond to threats.
 In this lab, you’ll be creating a multi-stage incident in Microsoft
 Defender by executing malicious documents and scripts in testvm1.
 
-**Objectives**
+## Objectives
 
 - To install Git and download repositories having malware payloads on
   testvm1 in Azure.
@@ -30,7 +30,7 @@ Defender by executing malicious documents and scripts in testvm1.
 
 ## **Task 1: Install git and download the payloads on testvm1**
 
- 1. In the Azure portal search bar, type virtual machine, then
+ 1. In the Azure portal search bar, type `virtual machine`, then
  navigate and click on **Virtual machines** under **Services**.
 
 ![A screenshot of a computer Description automatically
@@ -70,7 +70,7 @@ generated](./media/image4.png)
  generated](./media/image7.png)
 
 7.  On **Enter your credentials** dialog box, enter the password (here,
-    `Administrator5801@` and click on the **OK** button.
+    `Administrator5801@#` and click on the **OK** button.
 
 ![A screenshot of a computer Description automatically
 generated](./media/image8.png)
@@ -82,7 +82,7 @@ generated](./media/image8.png)
 generated](./media/image9.png)
 
 9.  Open the Edge browser, navigate to the address bar and enter the
-    following link: **https://git-scm.com/downloads**
+    following link: `https://git-scm.com/downloads`
 
 ![](./media/image10.png)
 
@@ -211,9 +211,7 @@ on the system you execute it on.
 
 1.  Download the RanSim folder in testvm1 using the following script:
 
-Code Copy
-
-**git clone https://github.com/lawndoc/RanSim.git**
+`git clone https://github.com/lawndoc/RanSim.git`
 
 ![](./media/image31.png)
 
