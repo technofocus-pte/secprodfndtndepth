@@ -40,14 +40,14 @@ generated](./media/image29.png)
 
 3.  On **Azure Pass – Sponsorship** page, navigate and click on **Access
     control (IAM)**, click on **+Add** button, navigate and click on
-    **Add role assignment** as shown in the below image**.**
+    **Add role assignment** as shown in the below image.
 
   ![A  of a computer Description automatically
   generated](./media/image30.png)
 
 4.  On **Add role assignment** page, click on **Privileged administrator
     roles** tab, navigate and select **Owner** role, then click on the
-    **Next** button**.**
+    **Next** button.
 
   ![A  of a computer Description automatically
   generated](./media/image31.png)
@@ -66,10 +66,6 @@ generated](./media/image29.png)
   ![A  of a computer Description automatically
   generated](./media/image34.png)
 
-7.  Click again on **Review + assign** button.
-
-  ![](./media/image35.png)
-
 8.  In the **Add role assignment** – **Conditions** tab, navigate to
     **What user can do** row and select the radio button **Allow user to
     assign all roles (highly privileged)**. Then, click on **Review +
@@ -87,12 +83,11 @@ generated](./media/image29.png)
   ![A white background with black text Description automatically
   generated](./media/image38.png)
 
-**Note**: Microsoft 365 E5 license is assigned to your O365 tenant ID,
-which included Microsoft Defender for Endpoint feature.
+**Note**: If the owner role is already assigned, then you would get an error in the notification. Ignore it and move on to the next task.
 
 ## **Task 2: Onboarding testserver1 in Microsoft Defender for Endpoints**
 
-  1\. In the Azure portal search bar, type **virtual machine**, then
+  1. In the Azure portal search bar, type `virtual machine`, then
   navigate and click on **Virtual machines** under **Services**.
  
   ![](./media/image39.png)
@@ -111,7 +106,7 @@ which included Microsoft Defender for Endpoint feature.
   ![A  of a computer Description automatically
   generated](./media/image41.png)
 
-5\. Navigate to **Instance details** section, in the **virtual machine
+5. Navigate to **Instance details** section, in the **virtual machine
 name** field, enter the name of the virtual machine (here, we entered
 **TESTSERVER1**). In the **Security type** field, click on the dropdown
 and select **Standard**. In the **Image** field, select **Windows Server
@@ -210,7 +205,7 @@ and select **Standard**. In the **Image** field, select **Windows Server
 ![A  of a computer Description automatically
 generated](./media/image58.png)
 
-19\. In **Microsoft Defender** portal, navigate and click on **System**,
+19. In **Microsoft Defender** portal, navigate and click on **System**,
 then click on **Settings**. In the Settings page, you’ll see **Defender
 for** **Endpoints** as shown in the below images.
 
@@ -226,7 +221,7 @@ for** **Endpoints** as shown in the below images.
   URL and wait for the configuration to be completed:
   <https://security.microsoft.com/securitysettings/endpoints/integration?tid= 
 
-20\. In the **Endpoints** page, navigate to **Device management**
+20. In the **Endpoints** page, navigate to **Device management**
 section and then click on **Onboarding**.
 
 ![](./media/image61.png)
