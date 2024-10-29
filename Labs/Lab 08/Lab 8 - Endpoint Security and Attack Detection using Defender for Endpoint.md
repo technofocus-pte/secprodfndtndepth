@@ -211,9 +211,9 @@ on the system you execute it on.
 
 1.  Download the RanSim folder in testvm1 using the following script:
 
-`git clone https://github.com/lawndoc/RanSim.git`
+    `git clone https://github.com/lawndoc/RanSim.git`
 
-![](./media/image31.png)
+    ![](./media/image31.png)
 
 2.  In the **testVM1,** navigate to **C:UsersAdmin5802 folder**, you
     see the **RanSim** folder is successfully downloaded.
