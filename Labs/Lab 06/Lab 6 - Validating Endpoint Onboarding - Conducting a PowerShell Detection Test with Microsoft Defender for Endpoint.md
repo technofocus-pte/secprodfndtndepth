@@ -139,5 +139,5 @@ generated](./media/image23.png)
 **Summary**
 
 In this lab, you’ve executed a PowerShell detection test on the
-onboarded Windows 11 and Windows Server 2019 devices and checked the
+onboarded Windows 10/11 and Windows Server 2019 devices and checked the
 generated alerts to validate endpoint onboarding.
