@@ -1,82 +1,35 @@
 # Lab 6 - Validating Endpoint Onboarding: Conducting a PowerShell
-Detection Test with Microsoft Defender for Endpoint**
+Detection Test with Microsoft Defender for Endpoint
 
-**Introduction**
+## Introduction
 
 To verify that the device is properly onboarded and reporting to the
 service, run the detection script on the newly onboarded device. If
 successful, the new alert will appear in a few minutes.
 
-**Objective**
+## Objective
 
 - To verify the successful onboarding of Microsoft Defender for Endpoint
-  on Windows 11 and Windows Server 2019 devices by conducting a
+  on Windows 10/11 and Windows Server 2019 devices by conducting a
   PowerShell detection test.
 
-## Exercise 1: Run a detection test on a newly onboarded Microsoft Defender for Endpoint devices
+### Exercise 1: Run a detection test on a newly onboarded Microsoft Defender for Endpoint devices
 
-## Task 1: Verify Microsoft Defender for End point onboarding of a Windows 11 device using a PowerShell detection test
+### Task 1: Verify Microsoft Defender for End point onboarding of a Windows 11 device using a PowerShell detection test
 
-1. In Azure portal search bar, type virtual machines, then click on
-Virtual machines under Services.
-
-![](./media/image1.png)
-
-2. In the **Virtual machines** page, navigate and click on **testvm2**.
-
-![](./media/image2.png)
-
-3. On the **testvm2** page, if your virtual machine is stopped, then
-click on the **Start** button as shown in the below image.
-
-![](./media/image3.png)
-
-4. In **testvm2** virtual machine page, navigate and click on
-**Connect** on the left side navigation menu, scroll down to **Native
-RDP** tile, and click on the **Download RDP file**.
-
-![](./media/image4.png)
-
-5. In **testvm2.rdp could harm your device. Do you want to keep it
-anyway?** dialog box, click on **Keep** button.
-
-![A screenshot of a computer Description automatically
-generated](./media/image5.png)
-
-6.  On **The publisher of this remote connection can’t be identified. Do
-    you want to connect anyway?** dialog box, click on **Connect**
-    button.
-
- ![A screenshot of a computer Description automatically
- generated](./media/image6.png)
-
-7.  On **Enter your credentials** dialog box, enter the password (here,
-    `Administrator5801@`) and click on the **OK** button.
-
-![A screenshot of a computer screen Description automatically
-generated](./media/image7.png)
-
-8.  On **The identity of the remote computer cannot be verified. Do you
-    want to connect anyway?** dialog box, click on **Yes** button.
-
-![A screenshot of a computer error message Description automatically
-generated](./media/image8.png)
-
-9.  Type **cmd** in the windows search bar, navigate to **Command
+1. In your virtual machine (VM1), type **cmd** in the windows search bar, navigate to **Command
     Prompt**, select **Run as administrator**.
 
 ![](./media/image9.png)
 
-10. In the command prompt, enter the following code and press the
+2. In the command prompt, enter the following code and press the
     **Enter** button.
 
-Copycode
-
-powershell.exe -NoExit -ExecutionPolicy Bypass -WindowStyle Hidden
+`powershell.exe -NoExit -ExecutionPolicy Bypass -WindowStyle Hidden
 $ErrorActionPreference= 'silentlycontinue';(New-Object
 System.Net.WebClient).DownloadFile('http://127.0.0.1/1.exe',
 'C:test-WDATP-testinvoice.exe');Start-Process
-'C:test-WDATP-testinvoice.exe'
+'C:test-WDATP-testinvoice.exe'`
 
 11. The Command Prompt window closes automatically. Wait for 5-10
     minutes. If successful, a new alert appears in the portal for the
