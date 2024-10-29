@@ -305,176 +305,178 @@ generated](./media/a67.png)
 ## **Task 3: Onboarding testVM1 in Microsoft Defender for Endpoints**
 
 1. In the Azure portal search bar, type virtual machine, then
-  navigate and click on **Virtual machines** under **Services**.
+ navigate and click on **Virtual machines** under **Services**.
 
-![](./media/image71.png)
+![](./media/a74.png)
 
 2. In the Virtual machines page, navigate and click on **Create**, then
 click on **Azure virtual machine**.
 
-![](./media/image72.png)
+![](./media/a75.png)
 
-3. In **Create a virtual machine**, under the **Resource group** field,
-select **MCS-RG** resource group. Then, navigate to **Instance details**
-section, in the **Virtual machine name** field, enter `testvm1`.
-In the **Region** field, ensure **EAST US** region is selected.
+3.  In **Create a virtual machine**, under the **Resource group** field,
+    select **MCS-RG** resource group. Then, navigate to **Instance
+    details** section, in the **Virtual machine name** field,
+    enter [**testvm1**](urn:gd:lg:a:send-vm-keys). In
+    the **Region** field, ensure **Southeast Asia** region is selected.
 
-![A  of a computer Description automatically
-generated](./media/image73.png)
+ ![](./media/a76.png)
 
-5. In the **Security type** field, click on the dropdown and select
-**Standard**. In the **Image** field, select **Windows 11 Pro, version
-22H2 -x64 Gen2** from the dropdown.
+4.  In the **Security type** field, click on the dropdown and
+    select **Standard**. In the **Image** field, select **Windows 11
+    Pro, version 22H2 -x64 Gen2** from the dropdown.
 
-![A  of a computer Description automatically
-generated](./media/image74.png)
+ ![](./media/a77.png)
 
-6.  Navigate to **Administrator account** section, enter the following
+19. Navigate to **Administrator account** section, enter the following
     details and leave all the field in the default state:
 
-[TABLE]
 
-![](./media/image75.png)
+|Name|Credentials|
+|:------|:------|
+|Username	|`Admin5802`	|
+|Password	|`Administrator5801@#`	|
+|Confirm password	|`Administrator5801@#`|
 
-7.  Under **Licensing** section, select the checkbox **I confirm I have
+![](./media/a78.png)
+
+20. Under **Licensing** section, select the checkbox **I confirm I have
     an eligible Windows 10/11 license with multi-tenant hosting
     rights**. Then, click on **Review + create** button.
 
-![](./media/image76.png)
+![](./media/a79.png)
 
-8.  Click on the **Create** button.
+21. Click on the **Create** button.
 
-![A  of a computer Description automatically
-generated](./media/image77.png)
+![A screenshot of a computer Description automatically
+generated](./media/a80.png)
 
-![A  of a computer Description automatically
-generated](./media/image78.png)
+![A screenshot of a computer Description automatically
+generated](./media/a81.png)
 
-9.  The virtual machine is successfully created, click on the **Go to
+22. The virtual machine is successfully created, click on the **Go to
     resource** button.
 
-![](./media/image79.png)
+![](./media/a82.png)
 
-10. You will be directed to the **vmtest1** virtual machine page.
+23. You will be directed to the **vmtest1** virtual machine page.
 
-![A  of a computer Description automatically
-generated](./media/image80.png)
+![A screenshot of a computer Description automatically
+generated](./media/a83.png)
 
-**Note**: If you see **testvm1** virtual machine status is not ready.
-Troubleshoot the issue… then wait for 10-15 minutes and reload the page.
+**Note**: If you see testvm1 virtual machine status is not ready.
+Troubleshoot the issue... then wait for 10-15 minutes and reload the
+page.
 
-11. In **testvm1** virtual machine page, navigate and click on
+24. In **testvm1** virtual machine page, navigate and click on
     **Connect** on the left side navigation menu, scroll down to
     **Native RDP** tile, and click on the **Download RDP file**.
 
-![](./media/image81.png)
+![](./media/a84.png)
 
-12. On **testvm1.rdp could harm your device. Do you want to keep it
+25. On **testvm1.rdp could harm your device. Do you want to keep it
     anyway?** dialog box, click on **Keep** button.
 
-  ![A  of a computer Description automatically
-  generated](./media/image82.png)
+ ![A screenshot of a computer Description automatically
+ generated](./media/a85.png)
 
-13. On **testvm1.rdp** file, click on **Open file** link.
+26. On **testvm1.rdp** file, click on **Open file** link.
 
-  ![A  of a computer Description automatically
-  generated](./media/image83.png)
+ ![A screenshot of a computer Description automatically
+ generated](./media/a86.png)
 
-14. On **The publisher of this remote connection can’t be identified. Do
+27. On **The publisher of this remote connection can’t be identified. Do
     you want to connect anyway?** dialog box, click on **Connect**
     button.
 
-  ![A  of a computer Description automatically
-  generated](./media/image84.png)
+ ![A screenshot of a computer Description automatically
+ generated](./media/a87.png)
 
-15. On **Enter your credentials** dialog box, enter the password (here,
-    `Administrator5801@`) and click on the **OK** button.
+28. On **Enter your credentials** dialog box, enter the password (here,
+    +++**Administrator5801@***+++) and click on the **OK** button.
 
-![A  of a computer Description automatically
-generated](./media/image85.png)
+![A screenshot of a computer Description automatically
+generated](./media/a88.png)
 
-16. On **The identity of the remote computer cannot be verified. Do you
+29. On **The identity of the remote computer cannot be verified. Do you
     want to connect anyway?** dialog box, click on **Yes** button.
 
-![A  of a computer error Description automatically
-generated](./media/image86.png)
+![A screenshot of a computer error Description automatically
+generated](./media/a89.png)
 
-17. On the **Choose privacy settings for your device** page, click on
+30. On the **Choose privacy settings for your device** page, click on
     **Next** couple of times and then click on **Accept** button as
     shown in the below images.
 
-![A  of a computer Description automatically
-generated](./media/image87.png)
+![A screenshot of a computer Description automatically
+generated](./media/a90.png)
 
-![A  of a computer Description automatically
-generated](./media/image88.png)
+![A screenshot of a computer Description automatically
+generated](./media/a91.png)
 
-![A  of a computer Description automatically
-generated](./media/image89.png)
+![A screenshot of a computer Description automatically
+generated](./media/a92.png)
 
-18. Go back to Microsoft Defender portal. In **Microsoft Defender**
+31. Go back to Microsoft Defender portal. In **Microsoft Defender**
     portal, navigate and click on **Settings**. In the **Settings**
     page, click on **Endpoints**.
 
-![A  of a computer Description automatically
-generated](./media/image90.png)
+![A screenshot of a computer Description automatically
+generated](./media/a93.png)
 
-19. In the **Endpoints** page, navigate to **Device management** section
+32. In the **Endpoints** page, navigate to **Device management** section
     and then click on **Onboarding**.
 
-20. Click on the dropdown under **Select operating system to start
+33. Click on the dropdown under **Select operating system to start
     onboarding process** and select **Windows 10 and 11**.
 
-![A  of a computer Description automatically
-generated](./media/image91.png)
+![](./media/a94.png)
 
-21. Scroll down and click on the **Download onboarding package** button.
+34. Scroll down and click on the **Download onboarding package** button.
 
-![A  of a computer Description automatically
-generated](./media/image92.png)
+![](./media/a95.png)
 
-22. After the onboarding package is successfully downloaded, click on
+35. After the onboarding package is successfully downloaded, click on
     **Open file** link.
 
-![A search box with words Description automatically
-generated](./media/image64.png)
+![A screenshot of a phone Description automatically
+generated](./media/a96.png)
 
-23. Copy the Windows Command script
+36. Copy the Windows Command script
 
-![A  of a computer Description automatically
-generated](./media/image65.png)
+![A screenshot of a computer Description automatically
+generated](./media/a68.png)
 
-24. Go back to **testvm1** and paste the copied Windows Command Script
+37. Go back to **testvm1** and paste the copied Windows Command Script
     on the desktop as shown in the below image.
 
-![](./media/image93.png)
+![](./media/a97.png)
 
-25. Right click on the script and select **Run as administrator**.
+38. Right click on the script and select **Run as administrator**.
 
-![](./media/image94.png)
+![](./media/a98.png)
 
-26. Type **Y** and press the **Enter** button to continue the onboarding
+39. Type **Y** and press the **Enter** button to continue the onboarding
     process.
 
-![A  of a computer Description automatically
-generated](./media/image95.png)
+![A screenshot of a computer Description automatically
+generated](./media/a99.png)
 
-27. After onboarding the machine successfully on Defender for Endpoint,
+40. After onboarding the machine successfully on Defender for Endpoint,
     click on any key to continue the onboarding process.
 
-![](./media/image96.png)
+![](./media/a100.png)
 
-28. The onboarding of the **testvm1** usually takes **15-30 minutes**;
+41. The onboarding of the **testvm1** usually takes **15-30 minutes**;
     therefore, continue with the next task.
 
-29. After 15-30 minutes, close the **testvm1**, go back to Microsoft
+42. After 15-30 minutes, close the **testvm1**, go back to Microsoft
     Defender portal and refresh the page, navigate and click
     on **Devices**, you'll see the **testvm1** was successfully
     onboarded in Microsoft Defender for Endpoint.
 
-![](./media/image97.png)
+![](./media/a101.png)
 
-32. Close the VM.
 
 ## Task 6: Preparing the prerequisite on the testvm1 virtual machine
 
