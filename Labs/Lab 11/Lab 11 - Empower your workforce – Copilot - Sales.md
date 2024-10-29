@@ -161,6 +161,8 @@ In this exercise you will use Copilot in PowerPoint to create your slide
 presentation based on the information in the **Market Trend Report -
 Protein Shake.docx** file, which you download using the provided link.
 
+**Note**: If the market trend note mentioned is not present then please choose the report of other market trends given in the lab files.
+
 1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser,
     then select it now; otherwise, open a new tab and enter the
     following
