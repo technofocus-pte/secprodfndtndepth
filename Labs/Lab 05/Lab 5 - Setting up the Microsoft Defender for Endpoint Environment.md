@@ -240,7 +240,7 @@ for** **Endpoints** as shown in the below image.
 In case, you did not see **Defender for Endpoint**, ensure that you are
 logged into Azure portal, then open a new address bar and enter the
 following URL and wait for the configuration to be completed:
-<https://security.microsoft.com/securitysettings/endpoints/integration?tid=
+`https://security.microsoft.com/securitysettings/endpoints/integration?tid=`
 
 ![](./media/a62.png)
 
