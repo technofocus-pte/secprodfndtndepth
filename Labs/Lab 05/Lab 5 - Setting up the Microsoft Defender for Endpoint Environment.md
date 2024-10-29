@@ -86,7 +86,8 @@ generated](./media/image29.png)
 **Note**: If the owner role is already assigned, then you would get an error in the notification. Ignore it and move on to the next task.
 
 ## **Task 2: Onboarding testserver1 in Microsoft Defender for Endpoints**
-1. In the Azure portal search bar, type **virtual machine**, then
+
+1. In the Azure portal search bar, type `virtual machine`, then
  navigate and click on **Virtual machines** under **Services**.
 
  ![](./media/a38.png)
@@ -99,14 +100,14 @@ generated](./media/image29.png)
 
 4.  In the **Create a virtual machine** page, navigate to **Resource
     group** row and click on **Create new**. Enter the name of the
-    resource group (here, we entered **MCS-RG** as resource group name),
+    resource group (here, we entered `MCS-RG` as resource group name),
     then click on the **OK** button.
 
  ![](./media/a40.png)
 
 5. Navigate to **Instance details** section, in the **virtual machine
 name** field, enter the name of the virtual machine (here, we
-entered [**TESTSERVER1**](urn:gd:lg:a:send-vm-keys)). In
+entered `TESTSERVER1`. In
 the **Region** field, select **Southeast Asia**. In the **Availability
 zone** field, ensure that **Zone 1** is selected. In the **Security
 type** field, click on the dropdown and select **Standard**. In
@@ -138,8 +139,12 @@ uncheck Zone 1, check Zone 2 or 3 box.
 5.  Scroll down to **Administrator account** section, enter the
     following details:
 
-[TABLE]
-
+|Name|Role|
+|:------|:------|
+|Username	|`Admin5801`	|
+|Password	|`Administrator5801@#`	|
+|Confirm password	|`Administrator5801@#`|
+ 
  ![A screenshot of a computer Description automatically
  generated](./media/a46.png)
 
