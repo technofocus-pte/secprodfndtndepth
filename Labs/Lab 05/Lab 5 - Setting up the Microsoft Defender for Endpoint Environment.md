@@ -1,6 +1,6 @@
-## **Lab 5 - Setting up the Microsoft Defender for Endpoint Environment**
+# Lab 5 - Setting up the Microsoft Defender for Endpoint Environment
 
-**Introduction**
+## Introduction
 
 Unprotected or misconfigured devices can pose a risk to your
 organization. Attackers can take advantage and do damage to your devices
@@ -15,7 +15,7 @@ unified platform. It enables you to prevent, detect, investigate, and
 respond to security threats and risks across Windows, Windows Server,
 macOS, Linux, Android, and iOS devices.
 
-**Objectives**
+## Objectives
 
 - To assign the Owner role to the Azure subscription
 
@@ -25,7 +25,7 @@ macOS, Linux, Android, and iOS devices.
 - To prepare the testvm1 virtual machine for upcoming tasks, including
   installing Microsoft 365 apps
 
-## **Task 1: Add Owner role to subscription**
+## Task 1: Add Owner role to subscription
 
 1.  In the Azure portal `https://portal.azure.com` search box, type **subscription**, navigate and
     click on **Subscriptions** under **Services**.
@@ -85,7 +85,7 @@ generated](./media/image29.png)
 
 **Note**: If the owner role is already assigned, then you would get an error in the notification. Ignore it and move on to the next task.
 
-## **Task 2: Onboarding testserver1 in Microsoft Defender for Endpoints**
+## Task 2: Onboarding testserver1 in Microsoft Defender for Endpoints
 
 1. In the Azure portal search bar, type `virtual machine`, then
  navigate and click on **Virtual machines** under **Services**.
@@ -302,7 +302,7 @@ generated](./media/a67.png)
 ![](./media/a73.png)
 
 
-## **Task 3: Onboarding testVM1 in Microsoft Defender for Endpoints**
+## Task 3: Onboarding testVM1 in Microsoft Defender for Endpoints
 
 1. In the Azure portal search bar, type virtual machine, then
  navigate and click on `Virtual machines` under **Services**.
@@ -480,8 +480,7 @@ generated](./media/a99.png)
 
 ![](./media/a101.png)
 
-
-## Task 6: Preparing the prerequisite on the testvm1 virtual machine
+## Task 4: Preparing the prerequisite on the testvm1 virtual machine
 
 1. In testvm1 virtual machine, open the Edge browser,
     then select **Start without your data** button   **Confirm and
