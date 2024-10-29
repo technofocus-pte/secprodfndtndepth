@@ -215,7 +215,7 @@ on the system you execute it on.
 
     ![](./media/image31.png)
 
-2.  In the **testVM1,** navigate to **C:UsersAdmin5802 folder**, you
+2.  In the **testVM1,** navigate to **C:\Users\Admin5802** folder, you
     see the **RanSim** folder is successfully downloaded.
 
 ![A screenshot of a computer Description automatically
@@ -240,11 +240,9 @@ generated](./media/image34.png)
 
 6.  Set the following Parameters:
 
-[TABLE]
-
 7. On the **New User Variable** dialog box, in the **Variable name**
 field, enter `TargetPath`, and in the **Variable value** field,
-enter `C:RanSim`, then press the **OK** button.
+enter `C:\RanSim`, then press the **OK** button.
 
 ![](./media/image36.png)
 
@@ -267,7 +265,7 @@ enter `.encrypted`. Then, click on the **OK** button.
 
 10. On the **New User Variable** dialog box, in the **Variable name**
 field, enter `Key`, and in the **Variable value** field, enter
-` **Q5KyUru6wn82hlY9k8xUjJOPIC9da41jgRkpt21jo2L=`. Then, click on
+`Q5KyUru6wn82hlY9k8xUjJOPIC9da41jgRkpt21jo2L=`. Then, click on
 the **OK** button.
 
 ![A screenshot of a computer Description automatically
@@ -279,8 +277,8 @@ button as shown in the below image.
 ![](./media/image41.png)
 
 12. On the **New User Variable** dialog box, in the **Variable name**
-field, enter ` **TargetFiles`, and in the **Variable value**
-field, enter ` **.pdf .xls* .ppt* .doc* .accd* .rtf .txt .csv .jpg
+field, enter `TargetFiles`, and in the **Variable value**
+field, enter `.pdf .xls* .ppt* .doc* .accd* .rtf .txt .csv .jpg
 .jpeg .png .gif .avi .midi .mov mp3 .mp4 .mpeg .mpeg2 .mpeg3 .mpg .ogg**
 `. Then, click on the **OK** button.
 
@@ -306,12 +304,12 @@ generated](./media/image44.png)
 
 **,**![](./media/image45.png)
 
+**Note**: If you did not see Windows Terminal, then use powershell and provide the specific path of the folder, then run the script. Also note that the Windows Antivirus will stop the execution of ransomware and you may see error while executing the code. Ignore it and  move on to the next step. 
+
 9.  In the command prompt, execute the following command to initiate a
     ransomware attack.
 
-**Copy code**
-
-**.RanSim.ps1 -Mode encrypt**
+`.RanSim.ps1 -Mode encrypt`
 
 **Note**: The script may be successfully executed or it might be blocked
 by Microsoft Antivirus. In both the scenarios, continue with the next
@@ -327,9 +325,7 @@ generated](./media/image46.png)
 1.  In **Git Bash**, execute the following command to download
     **examples** folder containing various malware files and scripts.
 
-Copy code
-
-**git clone https://github.com/directorcia/examples**
+  `git clone https://github.com/directorcia/examples`
 
 ![](./media/image48.png)
 
