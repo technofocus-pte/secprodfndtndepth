@@ -31,23 +31,26 @@ System.Net.WebClient).DownloadFile('http://127.0.0.1/1.exe',
 'C:test-WDATP-testinvoice.exe');Start-Process
 'C:test-WDATP-testinvoice.exe'`
 
-11. The Command Prompt window closes automatically. Wait for 5-10
+
+3. The Command Prompt window closes automatically. Wait for 5-10
     minutes. If successful, a new alert appears in the portal for the
     onboarded device.
 
 ![A screenshot of a computer Description automatically
 generated](./media/image10.png)
 
-12. Go back to **Microsoft Defender** portal and refresh the page.
+4. Go back to **Microsoft Defender** portal and refresh the page.
     Navigate and click on **Incidents & alerts**, then click on
     **Alerts**. You’ll see the Alerts related to the execution of
     **Suspicious PowerShell Command**.
 
 ![](./media/image11.png)
 
-## Task 2: Verify Microsoft Defender for Endpoint onboarding of a Windows Server 2019 server device using a PowerShell detection test
+**Note**: In case, you did not see the Alert, then wait for 5-10 minutes and refresh the page.
 
- 1. In the Azure portal search bar, type virtual machine, then
+### Task 2: Verify Microsoft Defender for Endpoint onboarding of a Windows Server 2019 server device using a PowerShell detection test
+
+ 1. In the Azure portal search bar, type `virtual machine`, then
  navigate and click on **Virtual machines** under **Services**.
 
  ![A screenshot of a computer Description automatically
@@ -65,8 +68,8 @@ generated](./media/image13.png)
 generated](./media/image14.png)
 
 4. In **TESTSERVER1** virtual machine page, navigate and click on
-**Connect** on the left side navigation menu, then click on **Select**
-under **Native RDP** section.
+**Connect** on the left side navigation menu, then click on **Download RDP File**
+button under **Native RDP** section.
 
 ![A screenshot of a computer Description automatically
 generated](./media/image15.png)
@@ -89,7 +92,7 @@ generated](./media/image15.png)
  generated](./media/image18.png)
 
 8.  On **Enter your credentials** dialog box, enter the password (here,
-    `Administrator5801@`) and click on the **OK** button.
+    `Administrator5801@#`) and click on the **OK** button.
 
 ![](./media/image19.png)
 
@@ -113,13 +116,11 @@ generated](./media/image21.png)
 12. In the command prompt, enter the following code and press the
     **Enter** button.
 
-Copy code
-
-**powershell.exe -NoExit -ExecutionPolicy Bypass -WindowStyle Hidden
+`powershell.exe -NoExit -ExecutionPolicy Bypass -WindowStyle Hidden
 $ErrorActionPreference= 'silentlycontinue';(New-Object
 System.Net.WebClient).DownloadFile('http://127.0.0.1/1.exe',
 'C:test-WDATP-testinvoice.exe');Start-Process
-'C:test-WDATP-testinvoice.exe'**
+'C:test-WDATP-testinvoice.exe'`
 
 13. The Command Prompt window closes automatically. Wait for 5-10
     minutes. If successful, a new alert appears in the portal for the
