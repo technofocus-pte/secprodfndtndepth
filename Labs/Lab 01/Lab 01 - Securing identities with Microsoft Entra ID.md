@@ -124,7 +124,7 @@ Azure Pass, another Azure Pass will not be issued.
     ![](./media/image22.png)
 
 17. Enter the number in your mobile authenticator app and select
-    **Yes**. In **testvm1**, click on the **Next** button.
+    **Yes**.
 
     ![](./media/image23.png)
 
@@ -137,17 +137,12 @@ Azure Pass, another Azure Pass will not be issued.
 
     ![](./media/image25.png)
 
-20. Enter the number again in your mobile authenticator app and select
-    **Yes**..
-  
-    ![](./media/image26.png)
-
-21. In the **Stay signed in?** window, click on the **Yes** button.
+20. In the **Stay signed in?** window, click on the **Yes** button.
     
     ![A screenshot of a computer Description automatically
     generated](./media/image10.png)
 
-22. Navigate to Microsoft Azure Portal.
+21. Navigate to Microsoft Azure Portal.
 
    ![](./media/new2.png)
 
@@ -259,7 +254,7 @@ generated](./media/a18.png)
     ![A screenshot of a computer Description automatically
 generated](./media/a19.png)
 
-20. In the **Select **pane that appears on the right side, type `Sway` and
+20. In the **Select** pane that appears on the right side, type `Sway` and
 then select it.
 
     ![A screenshot of a computer Description automatically
