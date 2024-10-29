@@ -30,19 +30,18 @@ macOS, Linux, Android, and iOS devices.
 1.  In the Azure portal `https://portal.azure.com` search box, type **subscription**, navigate and
     click on **Subscriptions** under **Services**.
 
-  ![A  of a computer Description automatically generated](./media/image28.png)
+    ![A  of a computer Description automatically generated](./media/image28.png)
 
-2.  Click on your **Azure Pass – Sponsorship** subscription name.
+2. Click on your **Azure Pass – Sponsorship** subscription name.
 
-![A  of a computer Description automatically
-generated](./media/image29.png)
+  ![A  of a computer Description automatically
+  generated](./media/image29.png)
 
 3.  On **Azure Pass – Sponsorship** page, navigate and click on **Access
     control (IAM)**, click on **+Add** button, navigate and click on
     **Add role assignment** as shown in the below image.
 
-  ![A  of a computer Description automatically
-  generated](./media/image30.png)
+    ![A  of a computer Description automatically generated](./media/image30.png)
 
 4.  On **Add role assignment** page, click on **Privileged administrator
     roles** tab, navigate and select **Owner** role, then click on the
