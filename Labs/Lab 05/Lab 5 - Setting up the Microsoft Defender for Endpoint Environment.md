@@ -206,7 +206,7 @@ generated](./media/a47.png)
  generated](./media/a56.png)
 
 15. On **Enter your credentials** dialog box, enter the password (here,
-    **Administrator5801@***) and click on the **OK** button.
+    `Administrator5801#`) and click on the **OK** button.
 
 ![](./media/a57.png)
 
@@ -221,7 +221,7 @@ generated](./media/a47.png)
 ![](./media/a59.png)
 
 18. In the Edge browser, open a new address bar and enter the following
-    link: **<https://security.microsoft.com** to open the Microsoft
+    link: `https://security.microsoft.com` to open the Microsoft
     Defender Portal
 
 ![](./media/a60.png)
