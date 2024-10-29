@@ -108,14 +108,13 @@ generated](./media/image29.png)
 5. Navigate to **Instance details** section, in the **virtual machine
 name** field, enter the name of the virtual machine (here, we
 entered `TESTSERVER1`. In
-the **Region** field, select **Southeast Asia**. In the **Availability
+the **Region** field, select **Central Canada**. In the **Availability
 zone** field, ensure that **Zone 1** is selected. In the **Security
 type** field, click on the dropdown and select **Standard**. In
 the **Image** field, select **Windows Server 2019 Datacenter -x64
 Gen2** from the dropdown.
 
- ![A screenshot of a computer Description automatically
- generated](./media/a41.png)
+ ![](./media/nw51.png)
 
  ![](./media/a42.png)
 
@@ -139,7 +138,7 @@ uncheck Zone 1, check Zone 2 or 3 box.
 5.  Scroll down to **Administrator account** section, enter the
     following details:
 
-|Name|Role|
+|Name|Credentials|
 |:------|:------|
 |Username	|`Admin5801`	|
 |Password	|`Administrator5801@#`	|
@@ -148,7 +147,7 @@ uncheck Zone 1, check Zone 2 or 3 box.
  ![A screenshot of a computer Description automatically
  generated](./media/a46.png)
 
-6.  Scroll down and select the checkbox, then click on **Review +
+6.  Scroll down and select the checkboxes, then click on **Review +
     create** button as shown in the below image.
 
 ![A screenshot of a computer Description automatically
