@@ -456,7 +456,7 @@ generated](./media/image69.png)
 
 In this lab, you've installed and configured Git on testvm1. You've
 simulated a ransomware attack using RanSim. Then, you've executed
-malicious documents and scripts. Finally, you've checked the protection
+malicious documents. Finally, you've checked the protection
 actions and recommendations from Windows Security, examining details of
 quarantined and blocked threats. All these activities will create a
 multi-stage incident in Microsoft Defender portal.
