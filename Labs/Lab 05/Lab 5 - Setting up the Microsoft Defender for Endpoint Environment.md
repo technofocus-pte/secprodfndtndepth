@@ -90,6 +90,197 @@ generated](./media/image29.png)
 **Note**: Microsoft 365 E5 license is assigned to your O365 tenant ID,
 which included Microsoft Defender for Endpoint feature.
 
+## **Task 2: Onboarding testserver1 in Microsoft Defender for Endpoints**
+
+  1\. In the Azure portal search bar, type **virtual machine**, then
+  navigate and click on **Virtual machines** under **Services**.
+ 
+  ![](./media/image39.png)
+
+3.  In the **Virtual machines** page, navigate and click on **Create**,
+    then click on **Azure virtual machine**.
+
+  ![A  of a computer Description automatically
+  generated](./media/image40.png)
+
+4.  In the **Create a virtual machine** page, navigate to **Resource
+    group** row and click on **Create new**. Enter the name of the
+    resource group (here, we entered **RG-DOE** as resource group name),
+    then click on the **OK** button.
+
+  ![A  of a computer Description automatically
+  generated](./media/image41.png)
+
+5\. Navigate to **Instance details** section, in the **virtual machine
+name** field, enter the name of the virtual machine (here, we entered
+**TESTSERVER1**). In the **Security type** field, click on the dropdown
+and select **Standard**. In the **Image** field, select **Windows Server
+2019 Datacenter -x64 Gen2** from the dropdown.
+
+  ![](./media/image42.png)
+
+5.  Scroll down to **Administrator account** section, enter the
+    following details:
+
+[TABLE]
+
+  ![](./media/image43.png)
+
+6.  Scroll down and select the checkbox, then click on **Review +
+    create** button as shown in the below image.
+
+![](./media/image44.png)
+
+7.  In the **Create a virtual machine** page, navigate and click on the
+    **Create** button.
+
+  ![A  of a computer Description automatically
+  generated](./media/image45.png)
+ 
+  ![](./media/image46.png)
+
+8.  After the TESTSERVER1 virtual machine is successfully created, click
+    on the **Go to resource** button.
+
+  ![A  of a computer Description automatically
+  generated](./media/image47.png)
+
+9.  You will be directed to the TESTSERVER1 virtual machine page.
+
+  ![A  of a computer Description automatically
+  generated](./media/image48.png)
+ 
+  **Note**: If you see testserver1 virtual machine status is not ready.
+  Troubleshoot the issue… then wait for 10-15 minutes and reload the
+  page.
+
+10. In **TESTSERVER1** virtual machine page, navigate and click on
+    **Connect** on the left side navigation menu, then click on
+    **Select** under **Native RDP** section.
+
+![](./media/image49.png)
+
+11. In the **Native RDP** pane that appears on the right side, after
+    fulfilling all the requirements, scroll down and click on **Download
+    RDP file** button.
+
+![](./media/image50.png)
+
+12. On **TESTSERVER1.rdp could harm your device. Do you want to keep it
+    anyway?** dialog box, click on **Keep** button.
+
+  ![A  of a computer Description automatically
+  generated](./media/image51.png)
+
+13. On **TESTSERVER1.rdp** file, click on **Open file** link.
+
+  ![](./media/image52.png)
+
+14. On **The publisher of this remote connection can’t be identified. Do
+    you want to connect anyway?** dialog box, click on **Connect**
+    button.
+
+  ![A  of a computer Description automatically
+  generated](./media/image53.png)
+
+15. On **Enter your credentials** dialog box, enter the password (here,
+    `Administrator5801@`) and click on the **OK** button.
+
+![](./media/image54.png)
+
+16. On **The identity of the remote computer cannot be verified. Do you
+    want to connect anyway?** dialog box, click on **Yes** button.
+
+![](./media/image55.png)
+
+17. The TESTSERVER1 VM will be opened. Minimize the Server Manager –
+    Dashboard then then minimize the virtual machine.
+
+![](./media/image56.png)
+
+18. In the Edge browser, open a new tab and enter the following link:
+    **<https://security.microsoft.com ** to open the Microsoft Defender
+    Portal
+
+![](./media/image57.png)
+
+19. Close **Meet your improved security center** dialog box. Wait for 10
+    minutes and refresh the page before proceeding to the next step.
+
+![A  of a computer Description automatically
+generated](./media/image58.png)
+
+19\. In **Microsoft Defender** portal, navigate and click on **System**,
+then click on **Settings**. In the Settings page, you’ll see **Defender
+for** **Endpoints** as shown in the below images.
+
+![](./media/image59.png)
+
+![](./media/image60.png)
+
+**Note**:
+
+  In case, you did not see **Defender for Endpoint**, then close all the
+  tabs in the browser. Open a new Edge browser and login to Azure
+  portal. Then, open a new tab in Edge browser and enter the following
+  URL and wait for the configuration to be completed:
+  <https://security.microsoft.com/securitysettings/endpoints/integration?tid= 
+
+20\. In the **Endpoints** page, navigate to **Device management**
+section and then click on **Onboarding**.
+
+![](./media/image61.png)
+
+21. Click on the dropdown under **Select operating system to start
+    onboarding process** and select **Windows Server 2019 and 2022**.
+
+![A  of a computer Description automatically
+generated](./media/image62.png)
+
+22. Scroll down and click on **Download onboarding package** button.
+
+![A  of a computer Description automatically
+generated](./media/image63.png)
+
+23. After onboarding package is successfully downloaded, click on **Open
+    file** link.
+
+![A search box with words Description automatically
+generated](./media/image64.png)
+
+24. Copy the Windows Command script
+
+![](./media/image65.png)
+
+25. Go back to your server VM and paste the copied Windows Command
+    Script on the desktop as shown in the below image.
+
+![](./media/image66.png)
+
+26. Right click on the script and select **Run as administrator**.
+
+![](./media/image67.png)
+
+27. Type **Y** and press the **Enter** button to continue the onboarding
+    process.
+
+![](./media/image68.png)
+
+28. After onboarding the machine successfully on Defender for Endpoint,
+    click on any key to continue the onboarding process.
+
+![](./media/image69.png)
+
+29. The onboarding of the **testserver1 VM** usually takes **15-30
+    minutes**; therefore, continue with the next task.
+
+30. After 15-30 minutes, close the **testserver1 VM**, go back to
+    Microsoft Defender portal and refresh the page, navigate and click
+    on **Devices**, you'll see the **testserver1** was successfully
+    onboarded in Microsoft Defender for Endpoint.
+
+![](./media/image70.png)
+
 ## **Task 3: Onboarding testVM1 in Microsoft Defender for Endpoints**
 
 1. In the Azure portal search bar, type virtual machine, then
