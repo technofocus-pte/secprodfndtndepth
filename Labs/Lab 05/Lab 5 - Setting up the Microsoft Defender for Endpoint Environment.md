@@ -204,7 +204,7 @@ generated](./media/a47.png)
  generated](./media/a56.png)
 
 16. On **Enter your credentials** dialog box, enter the password (here,
-    `Administrator5801#`) and click on the **OK** button.
+    `Administrator5801@#`) and click on the **OK** button.
 
 ![](./media/a57.png)
 
