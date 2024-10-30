@@ -17,7 +17,7 @@ successful, the new alert will appear in a few minutes.
 
 ### Task 1: Verify Microsoft Defender for End point onboarding of a Windows 11 device using a PowerShell detection test
 
-1. In your virtual machine (VM1), type **cmd** in the windows search bar, navigate to **Command
+1. In the **testVM1**, type **cmd** in the windows search bar, navigate to **Command
     Prompt**, select **Run as administrator**.
 
 ![](./media/image9.png)
