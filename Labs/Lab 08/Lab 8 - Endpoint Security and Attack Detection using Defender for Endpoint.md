@@ -28,6 +28,8 @@ Defender by executing malicious documents and scripts in testvm1.
 
 - To check protection action and recommendations from Windows Security.
 
+**Note**: This feature is the part of Microsoft Defender for Endpoint P1.
+
 ## **Task 1: Install git and download the payloads on testvm1**
 
  1. In the Azure portal search bar, type `virtual machine`, then
