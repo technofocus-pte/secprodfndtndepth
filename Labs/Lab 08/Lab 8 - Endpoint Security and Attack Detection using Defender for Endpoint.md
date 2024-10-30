@@ -211,7 +211,7 @@ on the system you execute it on.
 
 1.  Download the RanSim folder in testvm1 using the following script:
 
-    `git clone https://github.com/lawndoc/RanSim.git`
+    git clone https://github.com/lawndoc/RanSim.git
 
     ![](./media/image31.png)
 
@@ -307,9 +307,10 @@ generated](./media/image44.png)
 **Note**: If you did not see Windows Terminal, then use powershell and provide the specific path of the folder, then run the script. Also note that the Windows Antivirus will stop the execution of ransomware and you may see error while executing the code. Ignore it and  move on to the next step. 
 
 9.  In the command prompt, execute the following command to initiate a
-    ransomware attack.
+    ransomware attack. Crosscheck the script before executing.
 
 `.RanSim.ps1 -Mode encrypt`
+
 
 **Note**: The script may be successfully executed or it might be blocked
 by Microsoft Antivirus. In both the scenarios, continue with the next
