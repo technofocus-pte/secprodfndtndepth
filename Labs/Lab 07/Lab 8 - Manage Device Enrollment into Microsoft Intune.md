@@ -14,6 +14,8 @@ Microsoft Intune is a cloud-based endpoint management solution. It manages user 
 
 - Add a Device Enrollment Manager to oversee bulk device enrollments.
 
+**Note**: This feature is part of Microsoft Intune P1
+
 ## Task 1: Enable Windows Automatic Enrollment into Microsoft Intune**
 
 1.  In **LON-CL1 VM**, open a new tab in **Microsoft Edge**, and then in
