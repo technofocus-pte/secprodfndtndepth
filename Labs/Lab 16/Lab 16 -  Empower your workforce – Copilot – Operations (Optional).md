@@ -1,4 +1,4 @@
-**Lab 07: Empower your workforce – Copilot – Operations**
+**Lab 15: Empower your workforce – Copilot – Operations**
 
 **Objective:**
 
