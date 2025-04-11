@@ -12,7 +12,7 @@ of which can enhance the quality of your work. In this lab, you will
 - Use Copilot in Word to compare three supplier agreements, identify the
   differences, and provide recommended actions.
 
-## Exercise 1: Create a market research report using Copilot in Loop**
+## Exercise 1: Create a market research report using Copilot in Loop
 
 You're the VP of Sales for VanArsdel Ltd, an OEM of plastic components,
 whose primary market is the agriculture equipment industry. However,
