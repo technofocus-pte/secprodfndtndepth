@@ -126,7 +126,7 @@ speech for you based on your company's Income Statement:
 
 1.  If you have a Microsoft 365 tab open in your Edge browser, then
     select it now; otherwise, open a new tab and enter the following
-    URL:[*https://www.office.com*](https://www.office.com/) to go to
+    URL:`https://www.office.com` to go to
     the **Microsoft 365** home page.
 
  **Note**: You need to sign-in (if prompted) using the **Microsoft 365
@@ -139,7 +139,9 @@ speech for you based on your company's Income Statement:
 
 3.  Browse to the **C:\LabFiles** folder to select and upload a copy
     of **Fabrikam 2023 Income Statement document to
-    OneDrive**. ![](./media/image7.png)
+    OneDrive**.
+
+    ![](./media/image7.png)
 
  **Note**: If you have already uploaded all the lab assets to OneDrive
  as suggested in **Preparing for the lab execution (Lab 0)** you can
@@ -269,7 +271,7 @@ speech for you based on your company's Income Statement:
 16. Close the tab containing this document in your Microsoft Edge
     browser.
 
-**Exercise \#3: Create a slide presentation using Copilot in
+**Exercise #3: Create a slide presentation using Copilot in
 PowerPoint**
 
 In this exercise, you will use Copilot in PowerPoint to create a slide
@@ -289,7 +291,7 @@ create a draft of your presentation:
 
 1.  If you have a Microsoft 365 tab open in your Edge browser, then
     select it now; otherwise, open a new tab and enter the following
-    URL: [***https://www.office.com***](https://www.office.com/) to go
+    URL: `https://www.office.com` to go
     to **Microsoft 365** home page.
 
  **Note**: You need to sign-in (if prompted) using the **Microsoft 365
