@@ -1,6 +1,6 @@
-**Lab 13: Empower your workforce – Copilot – Marketing**
+# Lab 13: Empower your workforce – Copilot – Marketing
 
-**Objective:**
+## Objectives
 
 Marketing professionals can utilize Copilot for Microsoft 365 to
 generate content for their campaigns, improve productivity, get insights
@@ -20,7 +20,7 @@ In this lab you will use:
 
 - Copilot in Excel to analyze market trends in a spreadsheet.
 
-**Exercise #1: Conduct market analysis using Microsoft Copilot**
+## Exercise 1: Conduct market analysis using Microsoft Copilot
 
 Microsoft Copilot (within Bing) is a generative AI service grounded in
 data from the public web in the Microsoft Bing search index only. It
@@ -41,7 +41,7 @@ the tips and choosing the right conversation style (either More
 Creative, More Balanced, or More Precise).
 
 1.  In **Microsoft Edge**, open a new tab and enter the following
-    URL: **[*https://bing.com*](https://bing.com/).**
+    URL: `https://bing.com`
 
 2.  In **Microsoft Bing**, in the list of tabs across the top of the
     page, select **Copilot**. Doing so opens Microsoft Copilot.
@@ -161,7 +161,7 @@ Creative, More Balanced, or More Precise).
 12. Let's explore how Copilot's responses would be different using
     the **More Creative** style. Open a new tab in your **Microsoft
     Edge** browser and enter the following
-    URL: [***https://bing.com***](https://bing.com/)
+    URL: `https://bing.com`
 
 13. In **Microsoft Bing**, select **Copilot** to open Microsoft Copilot.
 
@@ -187,8 +187,7 @@ that you want to export it just to save it for future reference. 
  If you want to consolidate multiple responses into a single document,
  you need to manually copy and paste each response in a text editor.
 
-**Exercise #2: Brainstorm marketing campaign ideas using Copilot in
-Loop**
+## Exercise 2: Brainstorm marketing campaign ideas using Copilot in Loop
 
 You can use Copilot in Loop to brainstorm new marketing strategies, plan
 campaigns, and develop content. Copilot in Loop can help you generate
@@ -368,8 +367,7 @@ line.
     the **Ideas for Outdoor toy campaigns** workspace that Loop
     automatically saved.
 
-**Exercise #3: Consolidate multiple marketing reports using Copilot in
-Word**
+## Exercise 3: Consolidate multiple marketing reports using Copilot in Word
 
 Copilot in Word, an AI-powered writing assistant, can help you rewrite
 existing content, or even transform selected content into a table.
@@ -390,8 +388,7 @@ Latin America.
 1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser,
     then select it now; otherwise, open a new tab and enter the
     following
-    URL: [***https://www.office.com***](https://www.office.com/) to go
-    to the Microsoft 365 home page.
+    URL: `https://www.office.com` to go to the Microsoft 365 home page.
 
  **Note**: You need to sign-in (if prompted) using the **Microsoft 365
  Credentials** provided under the **Resources** tab on the right.
@@ -509,8 +506,7 @@ Latin America.
 
 14. Close this tab in your Microsoft Edge browser.
 
-**Exercise #4: Analyze a market trend spreadsheet using Copilot in
-Excel**
+## Exercise 4: Analyze a market trend spreadsheet using Copilot in Excel
 
 Copilot in Excel is a powerful tool that can help Marketing
 professionals create, edit, understand, and visualize their data with
@@ -534,9 +530,7 @@ trend spreadsheet that already has an Excel table defined.
 
 1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser,
     then select it now; otherwise, open a new tab and enter the
-    following
-    URL: [***https://www.office.com***](https://www.office.com/) to go
-    to the Microsoft 365 home page.
+    following URL: `https://www.office.com` to go to the Microsoft 365 home page.
 
  **Note**: You need to sign-in (if prompted) using the **Microsoft 365
  Credentials** provided under the **Resources** tab on the right.
