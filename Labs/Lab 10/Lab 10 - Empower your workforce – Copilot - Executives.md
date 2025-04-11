@@ -1,4 +1,4 @@
-**Lab 10: Empower your workforce – Copilot - Executives**
+## **Lab 10: Empower your workforce – Copilot - Executives**
 
 In this lab, you will
 
@@ -8,14 +8,14 @@ In this lab, you will
 - Use Copilot in PowerPoint to create a PowerPoint presentation based on
   the speech you created.
 
-Exercise 1
+**Exercise 1**
 
 **Complete setting up Microsoft 365 subscription and access Copilot for
 Microsoft 365**
 
 1.  If you have a Microsoft 365 tab open in your Edge browser, then
     select it now; otherwise, open a new tab and enter the following
-    URL: '**https://portal.office.com**'
+    URL: +++**https://portal.office.com**+++
 
 2.  Use the **Microsoft 365 Credentials** provided under Azure Portal
     section in the **Resources tab** on the right (see screenshot) to
