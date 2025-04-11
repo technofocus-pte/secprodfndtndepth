@@ -1,4 +1,4 @@
-# Lab 13: Empower your workforce – Copilot – Marketing
+# **Lab 13: Empower your workforce – Copilot – Marketing**
 
 ## Objectives
 
