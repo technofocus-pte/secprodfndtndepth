@@ -1,6 +1,6 @@
-**Lab 15: Empower your workforce – Copilot – Operations**
+# Lab 15: Empower your workforce – Copilot – Operations
 
-**Objective:**
+## Objectives
 
 Operations Managers can use Copilot for Microsoft 365 to streamline
 their workflow and enhance their productivity.
@@ -17,8 +17,7 @@ In this lab you will use:
 - Copilot in PowerPoint to create a presentation based on the report you
   created that analyzes boiler and furnace heating systems.
 
-**Exercise \#1: Brainstorm project plan ideas using Copilot in
-Whiteboard**
+## Exercise 1: Brainstorm project plan ideas using Copilot in Whiteboard
 
 Microsoft Whiteboard is a digital canvas that allows users to
 collaborate in real-time, brainstorm ideas, and create content with
@@ -48,7 +47,7 @@ basically an AI-assisted sticky-note exercise.
 
 1.  In your Microsoft Edge browser, open a new tab and enter the
     following URL to go to the Microsoft 365 home
-    page: [***https://www.office.com***](https://www.office.com/)
+    page: `https://www.office.com`
 
 2.  On the **Microsoft 365** home page, if a **Whiteboard** icon appears
     in the left-hand navigation pane, then select it now and proceed to
@@ -292,7 +291,7 @@ basically an AI-assisted sticky-note exercise.
     down to review the entire **Summary** window. You're happy with the
     results, so select **Keep it**.
 
-> ![](./media/image18.png)
+ ![](./media/image18.png)
 
 33. Select the **Fit to Screen** icon on the bottom-right corner of the
     page to fit all the sticky notes and the session summary onto the
@@ -300,7 +299,7 @@ basically an AI-assisted sticky-note exercise.
 
 > ![](./media/image19.png)
 
-**Exercise \#2: Compare reporting results using Copilot in Word**
+## Exercise 2: Compare reporting results using Copilot in Word
 
 As the Operations Manager at Adatum Corporation, you discovered that the
 current boiler system that heats the company's 50-year-old office
@@ -339,7 +338,7 @@ in the Copilot pane or when creating a new document.
 
 1.  If you have a Microsoft 365 tab open in the Edge browser, then
     select it now; otherwise, open a new tab and enter the following
-    URL: [***https://www.office.com***](https://www.office.com/)
+    URL: `https://www.office.com`
 
 > Note: You need to sign-in (if prompted) using the **Microsoft 365
 > Credentials** provided under the **Resources** tab on the right.
@@ -442,8 +441,7 @@ in the Copilot pane or when creating a new document.
 > document. However, doing so may require you to reformat the inserted
 > answers to clean up any formatting issues.
 
-**Exercise \#3: Create a presentation comparing heating systems using
-Copilot in PowerPoint**
+## Exercise #3: Create a presentation comparing heating systems using Copilot in PowerPoint
 
 Proficiency in using Copilot in PowerPoint is a strategic skill for
 professionals aiming to elevate the impact of their presentations.
@@ -468,7 +466,7 @@ formally start this project.
 1.  If you have a **Microsoft 365** tab open in your Microsoft Edge
     browser, then select it now; otherwise, open a new tab and enter the
     following
-    URL: [***https://www.office.com***](https://www.office.com/) to go
+    URL: `https://www.office.com` to go
     to the Microsoft 365 home page.
 
 > **Note**: You need to sign-in (if prompted) using the **Microsoft 365
