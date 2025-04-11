@@ -1,4 +1,4 @@
-# Lab 14: Empower your workforce – Copilot – Finance
+# **Lab 14: Empower your workforce – Copilot – Finance**
 
 ## Objectives
 
