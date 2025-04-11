@@ -1,4 +1,4 @@
-# Lab 11: Empower your workforce – Copilot - Sales
+# **Lab 11: Empower your workforce – Copilot - Sales**
 
 Copilot for Microsoft 365 serves as an AI-powered writing assistant. It
 understands context, suggests phrases, and helps generate content, all
