@@ -1,6 +1,6 @@
 # Lab 12: Empower your workforce – Copilot-IT
 
-## Objective:
+## Objectives:
 
 Copilot for Microsoft 365 serves as an AI-powered writing assistant
 understands context, suggests phrases, and helps generate content, all
@@ -15,7 +15,7 @@ use:
 
 - Copilot in Word to modify a technical specification report.
 
-## Exercise #1: Create a project plan using Microsoft Copilot
+## Exercise 1: Create a project plan using Microsoft Copilot
 
 With Microsoft Copilot seamlessly integrates into Microsoft 365 and
 offers a robust platform for IT professionals to enhance teamwork, share
@@ -39,7 +39,7 @@ In this exercise you will use Microsoft Copilot in Bing
 **Note**: At the end of this exercise, you must save your project plan
 to your OneDrive account. The next exercise uses this file.
 
-1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab and      enter the following URL: **<https://www.office.com>** to go to the **Microsoft 365** home page.
+1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab and      enter the following URL: `https://www.office.com` to go to the **Microsoft 365** home page.
     
     **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**   
     tab on the right.
@@ -61,7 +61,7 @@ to your OneDrive account. The next exercise uses this file.
     ![](./media/image2.png)
 
 5.  In **Microsoft Edge**, navigate to Microsoft Bing by entering the
-    following URL: **[https://bing.com](https://bing.com/).**
+    following URL: `https://bing.com`
 
     ![](./media/image3.png)
 
@@ -201,7 +201,7 @@ to your OneDrive account. The next exercise uses this file.
 
     ![](./media/image21.png)
 
-## Exercise #2: Create a project plan presentation using Copilot in PowerPoint
+## Exercise 2: Create a project plan presentation using Copilot in PowerPoint
 
 Copilot in PowerPoint serves as an intelligent collaborator, offering
 real-time suggestions and enhancements as IT professionals craft their
@@ -233,7 +233,7 @@ that you saved it to your OneDrive account and proceed to the next
 step. However, if you were unable to create this project plan in the
 prior exercise, then upload a copy of the document **Contoso CipherGuard project plan.docx** available in **C:\LabFiles**.</span>
 
-1.  If you have a Microsoft 365 tab open in your Edge browser, then select it now; otherwise, open a new tab and enter the following URL: **<https://www.office.com>** to go     to Microsoft 365 home page.
+1.  If you have a Microsoft 365 tab open in your Edge browser, then select it now; otherwise, open a new tab and enter the following URL: `https://www.office.com` to go to Microsoft 365 home page.
     
     **Note**: If you already have a Microsoft 365 tab open in your Edge browser, then select it now.
 
@@ -382,7 +382,7 @@ prior exercise, then upload a copy of the document **Contoso CipherGuard project
     presentation, you can either discard it or save it if you want it
     for future reference.
 
-## Exercise #3: Update a technical report using Copilot in Word
+## Exercise 3: Update a technical report using Copilot in Word
 
 Copilot in Word can help IT professionals save time and effort when
 creating documents. It can help you generate content, rewrite text, and
@@ -404,7 +404,7 @@ In this exercise, you will use Copilot in Word to update an existing
 document. You direct Copilot to add new text, rewrite existing text, and
 transform text into a table.
 
-1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab and      enter the following URL: **<https://www.office.com>** to go to the Microsoft 365 home page.
+1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab and      enter the following URL: `https://www.office.com` to go to the Microsoft 365 home page.
     
     **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**        tab on the right.
 
