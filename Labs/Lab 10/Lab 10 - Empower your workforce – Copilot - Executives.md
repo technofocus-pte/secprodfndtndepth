@@ -8,10 +8,7 @@ In this lab, you will
 - Use Copilot in PowerPoint to create a PowerPoint presentation based on
   the speech you created.
 
-**Exercise 1**
-
-**Complete setting up Microsoft 365 subscription and access Copilot for
-Microsoft 365**
+## Exercise 1: Complete setting up Microsoft 365 subscription and access Copilot for Microsoft 365
 
 1.  If you have a Microsoft 365 tab open in your Edge browser, then
     select it now; otherwise, open a new tab and enter the following
@@ -93,7 +90,7 @@ account. You can't link to a locally stored file on your PC.
  Now you will have the document(s) in **OneDrive** to work
  with **Copilot for Microsoft 365** labs.
 
-**Exercise \#2: Create a speech using Copilot in Word**
+## Exercise 2: Create a speech using Copilot in Word
 
 In this exercise, you direct Copilot in Word to write a speech for you
 based on your company's Income Statement, which is stored as a Word
@@ -271,8 +268,7 @@ speech for you based on your company's Income Statement:
 16. Close the tab containing this document in your Microsoft Edge
     browser.
 
-**Exercise #3: Create a slide presentation using Copilot in
-PowerPoint**
+## Exercise 3: Create a slide presentation using Copilot in PowerPoint
 
 In this exercise, you will use Copilot in PowerPoint to create a slide
 presentation based on your speech (to the shareholders based on the
