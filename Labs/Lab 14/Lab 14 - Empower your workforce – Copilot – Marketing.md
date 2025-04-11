@@ -146,33 +146,6 @@ Creative, More Balanced, or More Precise).
 
  ![](./media/image14.png)
 
-11. The market analysis and business plan that Copilot generated for you
-    was based on a **More Balanced** conversation style. It's ideal for
-    users who want a balance between precision and creativity. This
-    style provides responses that are longer and more descriptive than
-    the **More Precise** style. As for your reports, you wanted longer
-    and more descriptive responses, since you felt that your SLT expects
-    that level of detail. However, you're curious as to how the reports
-    would look using the **More Creative** style. This style provides
-    responses that are more imaginative and creative.
-
- ![](./media/image15.png)
-
-12. Let's explore how Copilot's responses would be different using
-    the **More Creative** style. Open a new tab in your **Microsoft
-    Edge** browser and enter the following
-    URL: `https://bing.com`
-
-13. In **Microsoft Bing**, select **Copilot** to open Microsoft Copilot.
-
-14. On the **Copilot** page, you still want to be in **Web** mode, but
-    this time you decide to try the **More Creative** conversation
-    style. Repeat steps 4-10. Copy and paste in each prompt. Pay
-    particular attention to the tone that Copilot uses when responding
-    to each prompt. Also note how each response is different from its
-    corresponding response that was based on the **More
-    Balanced** conversation style.
-
 **Export a Copilot response**
 
 When you use Microsoft Copilot in Bing to research different things or
