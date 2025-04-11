@@ -1,6 +1,6 @@
-**Lab 14: Empower your workforce – Copilot – Finance**
+# Lab 14: Empower your workforce – Copilot – Finance
 
-**Objective:**
+## Objectives
 
 By using Copilot for Microsoft 365, Finance professionals can automate
 repetitive financial tasks, gain insights into their financial data,
@@ -22,8 +22,7 @@ In this lab, as a finance professional you will use:
 - Copilot in Word to summarize a company's financial results for the
   past five years.
 
-**Exercise \#1: Draft an email to your insurance company using Copilot
-in Outlook**
+## Exercise #1: Draft an email to your insurance company using Copilot in Outlook
 
 With Copilot, you can quickly generate email drafts that Copilot tailors
 to your specific needs, without having to spend hours writing and
@@ -243,7 +242,7 @@ The purpose of this email is twofold:
     icon in the upper right corner of the email screen and then confirm
     that you want to discard the message.
 
-**Exercise \#2: Analyze a financial spreadsheet using Copilot in Excel**
+## Exercise 2: Analyze a financial spreadsheet using Copilot in Excel
 
 For Finance professionals, Copilot in Excel offers the ability to ask
 questions about your data set in natural language rather than just
@@ -265,7 +264,7 @@ and prompts.
 1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser,
     then select it now; otherwise, open a new tab and enter the
     following
-    URL: [***https://www.office.com***](https://www.office.com/).
+    URL: `https://www.office.com`
 
  **Note**: You need to sign-in (if prompted) using the **Microsoft 365
  Credentials** provided under the **Resources** tab on the right.
@@ -568,8 +567,7 @@ and prompts.
     Copilot in Excel has provided. Since Excel automatically saved your
     file, close your Microsoft Edge browser tab.
 
-**Exercise \#3: Create a financial analysis report using Copilot in
-Word**
+## Exercise 3: Create a financial analysis report using Copilot in Word
 
 If you're a financial analyst and need to write a report on the
 performance of a company, you can use Copilot in Word to draft the
@@ -598,7 +596,7 @@ download in the first step.
 1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser,
     then select it now; otherwise, open a new tab and enter the
     following
-    URL: [***https://www.office.com***](https://www.office.com/) to go
+    URL: `https://www.office.com` to go
     to the Microsoft 365 home page.
 
  **Note**: You need to sign-in (if prompted) using the **Microsoft 365
@@ -733,7 +731,7 @@ download in the first step.
 
 19. Close this tab in your Microsoft Edge browser.
 
-**Exercise \#4: Summarize financial results using Copilot in Word**
+## Exercise 4: Summarize financial results using Copilot in Word
 
 In the previous exercise, you used Copilot in Word (based on a file you
 attached in the promptto analyze) a table of data and then create a
@@ -745,7 +743,7 @@ the file) to summarize the financial results that appear in the table.
 1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser,
     then select it now; otherwise, open a new tab and enter the
     following
-    URL: [***https://www.office.com***](https://www.office.com/) to go
+    URL: `https://www.office.com` to go
     to the **Microsoft 365** home page.
 
  **Note**: You need to sign-in (if prompted) using the **Microsoft 365
