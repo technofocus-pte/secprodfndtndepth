@@ -143,13 +143,13 @@ basically an AI-assisted sticky-note exercise.
     future removal, and so on. In Microsoft Whiteboard, these activities
     are supported through standard whiteboarding functionality.
 
-> If you've never used Whiteboard before, try selecting (double-click) a
-> specific note, and then in the menu bar that appears above it, you can
-> select the **Edit text** (pencil) icon or any of the other options.
-> Selecting the ellipsis icon at the end of the menu bar displays a menu
-> of more options, such as deleting the note. Again, the idea behind
-> Microsoft Whiteboard is to mimic real-world sticky-note exercises.
-> Feel free to edit a note as you wish.
+    If you've never used Whiteboard before, try selecting (double-click) a
+    specific note, and then in the menu bar that appears above it, you can
+    select the **Edit text** (pencil) icon or any of the other options.
+    Selecting the ellipsis icon at the end of the menu bar displays a menu
+    of more options, such as deleting the note. Again, the idea behind
+    Microsoft Whiteboard is to mimic real-world sticky-note exercises.
+    Feel free to edit a note as you wish.
 
     ![](./media/image10.png)
 
@@ -160,8 +160,7 @@ basically an AI-assisted sticky-note exercise.
 15. In the **Suggest content with Copilot** window that appears, enter
     the following prompt to generate more ideas about risk mitigation:
 
-> **Suggest ways to mitigate the risks of installing a new boiler into
-> the building's heating system**.
+    **Suggest ways to mitigate the risks of installing a new boiler into  the building's heating system**.
 
     ![](./media/image11.png)
 
@@ -214,11 +213,11 @@ basically an AI-assisted sticky-note exercise.
     If you're not satisfied with the categories, select
     the **Regenerate** button on the icon tray that appears.
 
-> **Note**: You can select the **Regenerate** button as many times as
-> needed until you're satisfied with the categories that Copilot
-> provides. Select this button several times and note the changes that
-> Copilot makes each time. Besides changing category names, Copilot may
-> add or reduce the number of categories with each regeneration.
+    **Note**: You can select the **Regenerate** button as many times as
+    needed until you're satisfied with the categories that Copilot
+    provides. Select this button several times and note the changes that
+    Copilot makes each time. Besides changing category names, Copilot may
+    add or reduce the number of categories with each regeneration.
 
     ![](./media/image17.png)
 
@@ -242,8 +241,7 @@ basically an AI-assisted sticky-note exercise.
     the following prompt to generate more ideas about minimizing system
     down-time:
 
-> **Suggest ways to limit heating system downtime when installing a new
-> boiler**.
+    **Suggest ways to limit heating system downtime when installing a new boiler**.
 
 27. Review the six ideas that Copilot suggested. You're satisfied with
     these ideas, so select the **Insert (6)** button.
@@ -340,8 +338,8 @@ in the Copilot pane or when creating a new document.
     select it now; otherwise, open a new tab and enter the following
     URL: `https://www.office.com`
 
-> Note: You need to sign-in (if prompted) using the **Microsoft 365
-> Credentials** provided under the **Resources** tab on the right.
+    **Note**: You need to sign-in (if prompted) using the **Microsoft 365
+    Credentials** provided under the **Resources** tab on the right.
 
 2.  With your plan in mind, you decide to first use Copilot in Word to
     create a report that addresses all your questions. On
@@ -352,16 +350,16 @@ in the Copilot pane or when creating a new document.
     blank document, enter the following prompt and select
     the **Generate** button:
 
-> **I'm the Operations Manager for Adatum Corporation. We're thinking
-> about possibly replacing our building's current boiler system with a
-> furnace system. Write a report describing what type of boiler systems
-> are used in most commercial buildings, and include what considerations
-> I need to take into account to change from an existing boiler system
-> to a furnace system, the average cost of transitioning from a boiler
-> system to a furnace system in a commercial two-story building built in
-> the 1970s, whether changing from a boiler system to a furnace system
-> will have any effect on our current air conditioning system, and the
-> average defect rates for boiler systems versus furnace systems.**
+    **I'm the Operations Manager for Adatum Corporation. We're thinking
+    about possibly replacing our building's current boiler system with a
+    furnace system. Write a report describing what type of boiler systems
+    are used in most commercial buildings, and include what considerations
+    I need to take into account to change from an existing boiler system
+    to a furnace system, the average cost of transitioning from a boiler
+    system to a furnace system in a commercial two-story building built in
+    the 1970s, whether changing from a boiler system to a furnace system
+    will have any effect on our current air conditioning system, and the
+    average defect rates for boiler systems versus furnace systems.**
 
   ![](./media/image20.png)
 
@@ -372,8 +370,8 @@ in the Copilot pane or when creating a new document.
 
     ![](./media/image21.png)
 
-> **Note**: Make sure you save the report since you will be usingg it in
-> the next exercise.
+    **Note**: Make sure you save the report since you will be usingg it in
+    the next exercise.
 
 5.  The prompt you entered to create the report included five requests.
     You now want to ask Copilot each of those five questions
@@ -384,8 +382,7 @@ in the Copilot pane or when creating a new document.
     pane, enter the following question and then select
     the **Send** arrow:
 
-> **What type of boilers do most buildings use as part of their heating
-> systems**?
+    **What type of boilers do most buildings use as part of their heating systems**?
 
     ![](./media/image22.png)
 
@@ -427,19 +424,17 @@ in the Copilot pane or when creating a new document.
     - How does the level of information for each reporting method
       compare to one another?
 
-> Compare the level of information provided when Copilot in Word created
-> a report versus the answers it provided when you asked the questions
-> individually in the Copilot pane.
+   Compare the level of information provided when Copilot in Word created a report versus the answers it provided when you asked the questions individually in the Copilot pane.
 
 - What did you notice?
 
-> When you ask Copilot to create a report, it usually provides richer
-> responses that it organizes into an attractive looking report.
-> Conversely, when you ask Copilot to answer questions individually in
-> the Copilot pane, it doesn't return the level of detail as the report,
-> although it does allow you to copy and paste the responses into a
-> document. However, doing so may require you to reformat the inserted
-> answers to clean up any formatting issues.
+  When you ask Copilot to create a report, it usually provides richer
+  responses that it organizes into an attractive looking report.
+  Conversely, when you ask Copilot to answer questions individually in
+  the Copilot pane, it doesn't return the level of detail as the report,
+  although it does allow you to copy and paste the responses into a
+  document. However, doing so may require you to reformat the inserted
+  answers to clean up any formatting issues.
 
 ## Exercise #3: Create a presentation comparing heating systems using Copilot in PowerPoint
 
@@ -469,8 +464,8 @@ formally start this project.
     URL: `https://www.office.com` to go
     to the Microsoft 365 home page.
 
-> **Note**: You need to sign-in (if prompted) using the **Microsoft 365
-> Credentials** provided under the **Resources** tab on the right.
+  **Note**: You need to sign-in (if prompted) using the **Microsoft 365
+  Credentials** provided under the **Resources** tab on the right.
 
 2.  On the **Microsoft 365** navigation pane, select **OneDrive** to
     open it.
@@ -479,14 +474,14 @@ formally start this project.
     of **Comparing boiler and furnace heating systems report** document
     to **OneDrive**.
 
-> **Tip**: open and close the file to get it in your Most Recently Used
-> (MRU) file list.
+  **Tip**: open and close the file to get it in your Most Recently Used
+  (MRU) file list.
 
     ![](./media/image26.png)
 
-> **Note**: If you have already uploaded all the lab assets to OneDrive
-> as suggested in **Preparing for the lab execution** section you can
-> skip this step.
+  **Note**: If you have already uploaded all the lab assets to OneDrive
+  as suggested in **Preparing for the lab execution** section you can
+  skip this step.
 
 4.  On the **Microsoft 365** home page, select the **PowerPoint** icon
     in the navigation pane on the left.
@@ -569,8 +564,8 @@ formally start this project.
     following prompt (don't forget to replace \[enter slide number
     here\] with the number of the slide you picked):
 
-> **Add an image to slide \[enter slide number here\]**. **The image
-> should contain a picture related to the slide contents**.
+  **Add an image to slide \[enter slide number here\]**. **The image
+  should contain a picture related to the slide contents**.
 
    ![](./media/image32.png)
 
@@ -579,8 +574,8 @@ formally start this project.
     You want Copilot to research this topic and then add it into the
     presentation. Enter the following prompt:
 
-> **What is the average lifespan of a boiler heating system versus a
-> furnace heating system**?
+  **What is the average lifespan of a boiler heating system versus a
+  furnace heating system**?
 
   ![](./media/image33.png)
 
@@ -590,7 +585,7 @@ formally start this project.
     replace \[enter slide number here\] with the number of the slide you
     picked):
 
-> **Add this lifespan content to slide \[enter slide number here\]**.
+    **Add this lifespan content to slide \[enter slide number here\]**.
 
   ![](./media/image34.png)
 
@@ -607,9 +602,9 @@ formally start this project.
     content and add it to the slide all in one prompt. This time, enter
     the following prompt:
 
-> **Add content about the average lifespan of a boiler heating system
-> versus a furnace heating system to slide \[enter slide number
-> here\].**
+  **Add content about the average lifespan of a boiler heating system
+  versus a furnace heating system to slide \[enter slide number
+  here\].**
 
   ![](./media/image36.png)
 
@@ -620,8 +615,8 @@ formally start this project.
     Question-and-Answer (Q&A) session. To correct this situation, enter
     the following prompt:
 
-> **Add a Q&A slide at the very end of the presentation with an
-> appropriate image.**
+  **Add a Q&A slide at the very end of the presentation with an
+  appropriate image.**
 
   ![](./media/image37.png)
 
@@ -630,20 +625,20 @@ formally start this project.
     them to the speaker notes for the Q&A slide. Enter the following
     prompt:
 
-> **Create a list of five questions that may be asked during the Q&A
-> session and add them to the speaker notes in the Q&A slide.**
+  **Create a list of five questions that may be asked during the Q&A
+  session and add them to the speaker notes in the Q&A slide.**
 
 18. How did Copilot respond when you tried this prompt? Did it add five
     questions to the speaker notes for the Q&A slide? If so, then
     congratulations!
 
-> **Note**: Copilot may display some exception (remember that Copilot is
-> still a work in progress) like the one below.
+  **Note**: Copilot may display some exception (remember that Copilot is
+  still a work in progress) like the one below.
 
   ![](./media/image38.png)
 
-> Please try rephrasing the prompt or use the suggested prompts like the
-> one below.
+  Please try rephrasing the prompt or use the suggested prompts like the
+  one below.
 
   ![](./media/image39.png)
 
