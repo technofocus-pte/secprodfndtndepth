@@ -436,7 +436,7 @@ in the Copilot pane or when creating a new document.
   document. However, doing so may require you to reformat the inserted
   answers to clean up any formatting issues.
 
-## Exercise #3: Create a presentation comparing heating systems using Copilot in PowerPoint
+## Exercise 3: Create a presentation comparing heating systems using Copilot in PowerPoint
 
 Proficiency in using Copilot in PowerPoint is a strategic skill for
 professionals aiming to elevate the impact of their presentations.
@@ -656,7 +656,7 @@ formally start this project.
 
 25. Now try with another prompt:
 
-**Add a slide about** what the audience may ask about the presentation
+    **Add a slide about** what the audience may ask about the presentation
 
 26. Once you are done with final presentation you can save for future
     reference or discard this presentation.
