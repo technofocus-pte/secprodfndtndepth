@@ -121,9 +121,9 @@ basically an AI-assisted sticky-note exercise.
 
     ![](./media/image7.png)
 
-> **Note**: If Copilot displays an error message of any kind, then
-> select the \*\*Generate more\*\* button again. Do this any time you
-> receive an error message.
+    **Note**: If Copilot displays an error message of any kind, then
+    select the \*\*Generate more\*\* button again. Do this any time you
+    receive an error message.
 
 11. Note how Copilot generated another six ideas, so the **Insert
     (12)** button now displays **12**. While you can keep generating
