@@ -60,30 +60,30 @@ basically an AI-assisted sticky-note exercise.
 
 4.  On the **Whiteboard** home page, select **New Whiteboard**.
 
-> ![](./media/image1.png)
+    ![](./media/image1.png)
 
 5.  On the ribbon at the top of the page, select
     the **Whiteboard** drop-down arrow. In the **Board name** field,
     enter **Boiler installation project plan** and then select the
     checkmark icon.
 
-> ![](./media/image2.png)
+    ![](./media/image2.png)
 
 6.  If a **Suggest content with Copilot** window appears, then proceed
     to the next step. Otherwise, in the tray of icons that appears above
     the taskbar at the bottom of the page, select the **Copilot** icon.
     In the menu that appears, select **Suggest**.
 
-> ![](./media/image3.png)
+  ![](./media/image3.png)
 
 7.  In the **Suggest content with Copilot** window, enter the following
     prompt:
 
-> **I'm the Operations Manager for Adatum Corporation. We're installing
-> a new boiler in our heating system. Please suggest the steps we should
-> follow to install the new boiler**.
->
-> ![](./media/image4.png)
+**I'm the Operations Manager for Adatum Corporation. We're installing
+a new boiler in our heating system. Please suggest the steps we should
+follow to install the new boiler**.
+
+    ![](./media/image4.png)
 
 8.  If a **Suggest content with Copilot** window appears, then proceed
     to the next step. However, if you receive a message indicating that
@@ -92,8 +92,8 @@ basically an AI-assisted sticky-note exercise.
     the **Generate suggestions** arrow in the bottom corner of the
     Copilot window.
 
-> ![](./media/image5.png)
->
+  ![](./media/image5.png)
+
 > Sometimes Copilot completes the process it's working on but stumbles a
 > bit before displaying the results. When you select the **Generate
 > suggestions** arrow again, it usually displays the results without
@@ -113,14 +113,14 @@ basically an AI-assisted sticky-note exercise.
     more suggestions. Notice how the **Insert (6)** button indicates the
     number of ideas that Copilot generated - in this case, 6.
 
-> ![](./media/image6.png)
+    ![](./media/image6.png)
 
 10. While six suggestions are a good starting point, you want to dig
     deeper into the tasks needed to install the security product, so
     select the **Generate more** button.
 
-> ![](./media/image7.png)
->
+    ![](./media/image7.png)
+
 > **Note**: If Copilot displays an error message of any kind, then
 > select the \*\*Generate more\*\* button again. Do this any time you
 > receive an error message.
@@ -130,13 +130,13 @@ basically an AI-assisted sticky-note exercise.
     more ideas, for the sake of time, let's insert the 12 ideas
     currently presented. Select the **Insert (12)** button.
 
-> ![](./media/image8.png)
+    ![](./media/image8.png)
 
 12. When you select the **Insert** button, Copilot attaches the
     suggested ideas to your whiteboard in the form of yellow sticky
     notes.
 
-> ![](./media/image9.png)
+    ![](./media/image9.png)
 
 13. As with a real-world brainstorming session involving actual sticky
     notes, you can edit a particular note, delete it, lock it from
@@ -150,8 +150,8 @@ basically an AI-assisted sticky-note exercise.
 > of more options, such as deleting the note. Again, the idea behind
 > Microsoft Whiteboard is to mimic real-world sticky-note exercises.
 > Feel free to edit a note as you wish.
->
-> ![](./media/image10.png)
+
+    ![](./media/image10.png)
 
 14. In looking at the suggested ideas, you feel they don't cover risk
     mitigation adequately. Select the **Copilot** icon at the bottom of
@@ -162,8 +162,8 @@ basically an AI-assisted sticky-note exercise.
 
 > **Suggest ways to mitigate the risks of installing a new boiler into
 > the building's heating system**.
->
-> ![](./media/image11.png)
+
+    ![](./media/image11.png)
 
 16. Review the six ideas that Copilot suggested. You would like Copilot
     to include more details, so select the **Generate more** button.
@@ -171,12 +171,12 @@ basically an AI-assisted sticky-note exercise.
 17. You're satisfied with the 12 risk mitigation ideas, so select
     the **Insert (12)** button.
 
-> ![](./media/image12.png)
+    ![](./media/image12.png)
 
 18. Note how the block of 12 risk mitigation ideas is selected (see the
     outside border).
 
-> ![](./media/image13.png)
+    ![](./media/image13.png)
 
 19. Copilot overlays the 12 risk mitigation ideas partially over top of
     the original 12 project plan ideas, you can select on this block of
@@ -188,7 +188,7 @@ basically an AI-assisted sticky-note exercise.
     see what areas Copilot proposed so that you can edit any of them if
     you wish.
 
-> ![](./media/image14.png)
+    ![](./media/image14.png)
 
 20. You're now satisfied with the suggestions that Copilot created, and
     you've completed all the edits that you want done to the notes. You
@@ -197,7 +197,7 @@ basically an AI-assisted sticky-note exercise.
     the notes accordingly. Select the **Copilot** icon at the bottom of
     the page and then select **Categorize** from the menu.
 
-> ![](./media/image15.png)
+    ![](./media/image15.png)
 
 21. Note what happened. Copilot generated a set of categories and
     reorganized the notes accordingly. Each category of notes was
@@ -208,7 +208,7 @@ basically an AI-assisted sticky-note exercise.
     increases the size of the image until it can no longer increase it
     anymore without it exceeding the screen size.
 
-> ![](./media/image16.png)
+    ![](./media/image16.png)
 
 22. Note the icon tray that appears below the organized group of notes.
     If you're not satisfied with the categories, select
@@ -219,8 +219,8 @@ basically an AI-assisted sticky-note exercise.
 > provides. Select this button several times and note the changes that
 > Copilot makes each time. Besides changing category names, Copilot may
 > add or reduce the number of categories with each regeneration.
->
-> ![](./media/image17.png)
+
+    ![](./media/image17.png)
 
 23. After regenerating the categories several times, you realize that
     you're missing detailed steps concerning minimization of system
@@ -291,13 +291,13 @@ basically an AI-assisted sticky-note exercise.
     down to review the entire **Summary** window. You're happy with the
     results, so select **Keep it**.
 
- ![](./media/image18.png)
+    ![](./media/image18.png)
 
 33. Select the **Fit to Screen** icon on the bottom-right corner of the
     page to fit all the sticky notes and the session summary onto the
     entire screen.
 
-> ![](./media/image19.png)
+    ![](./media/image19.png)
 
 ## Exercise 2: Compare reporting results using Copilot in Word
 
@@ -362,16 +362,16 @@ in the Copilot pane or when creating a new document.
 > the 1970s, whether changing from a boiler system to a furnace system
 > will have any effect on our current air conditioning system, and the
 > average defect rates for boiler systems versus furnace systems.**
->
-> ![](./media/image20.png)
+
+  ![](./media/image20.png)
 
 4.  Review the report that Copilot generated. Note the level of detail
     in each area of interest. Since you want to save this document for
     the next Use Case exercise, select the **Keep it** button on the
     Copilot tray and then save the document.
 
-> ![](./media/image21.png)
->
+    ![](./media/image21.png)
+
 > **Note**: Make sure you save the report since you will be usingg it in
 > the next exercise.
 
@@ -386,15 +386,15 @@ in the Copilot pane or when creating a new document.
 
 > **What type of boilers do most buildings use as part of their heating
 > systems**?
->
-> ![](./media/image22.png)
+
+    ![](./media/image22.png)
 
 7.  Review the answer. While you can select the **Copy** option if you
     want to paste the response into the document, for this training
     you're just going to select more prompts to see the responses that
     you receive.
 
-> ![](./media/image23.png)
+    ![](./media/image23.png)
 
 8.  Enter separate prompts for each of the remaining four questions:
 
@@ -412,9 +412,9 @@ in the Copilot pane or when creating a new document.
     - **What are the average defect rates for boiler systems versus
       furnace systems?**
 
-> ![](./media/image24.png)
->
-> ![](./media/image25.png)
+    ![](./media/image24.png)
+
+    ![](./media/image25.png)
 
 9.  Note how Copilot answered each of your questions, but it didn't
     insert any of the answers into the current document. While you can
@@ -481,9 +481,9 @@ formally start this project.
 
 > **Tip**: open and close the file to get it in your Most Recently Used
 > (MRU) file list.
->
-> ![](./media/image26.png)
->
+
+    ![](./media/image26.png)
+
 > **Note**: If you have already uploaded all the lab assets to OneDrive
 > as suggested in **Preparing for the lab execution** section you can
 > skip this step.
@@ -496,7 +496,7 @@ formally start this project.
 6.  On the right side of the PowerPoint ribbon, select
     the **Copilot** option.
 
-> ![](./media/image27.png)
+    ![](./media/image27.png)
 
 7.  In the **Copilot** pane that appears, several predefined prompts are
     available for you to choose from. Select the **Create presentation
@@ -509,7 +509,7 @@ formally start this project.
     a **Suggestions** window that displays three of the most recently
     used files.
 
-> ![](./media/image28.png)
+    ![](./media/image28.png)
 
 - If your file appears here, then select it now and proceed to the next
   step.
@@ -541,91 +541,91 @@ formally start this project.
       cursor after the forward slash (**/**) and then paste in
       (**Ctrl+V**) the link to the report.
 
-9.  Note how the file appears in the prompt field. Select
+5.  Note how the file appears in the prompt field. Select
     the **Send** icon in the prompt field.
 
-10. This prompt triggered Copilot to create a slide presentation based
+6. This prompt triggered Copilot to create a slide presentation based
     on the document. In doing so, it first displayed the outline of the
     presentation in the Copilot pane. Then it displayed a separate
     window showing a bulleted list of some of the changes that it made
     to the presentation based on the document.
 
-> ![](./media/image29.png)
+   ![](./media/image29.png)
 
-11. You're now free to review the slides and make any necessary updates.
+7. You're now free to review the slides and make any necessary updates.
     Pay special attention to the changes that Copilot made based on the
     document. You can use the **Designer** tool to adjust the layouts.
 
-> ![](./media/image30.png)
+   ![](./media/image30.png)
 
-12. Review the speaker notes that Copilot added to each slide in the
+8. Review the speaker notes that Copilot added to each slide in the
     presentation. Verify they call out the points that you want to make
     during the presentation.
 
-> ![](./media/image31.png)
+   ![](./media/image31.png)
 
-13. Try using Copilot to update the presentation. Let's begin by adding
+9. Try using Copilot to update the presentation. Let's begin by adding
     an image to a slide. Find a slide without an image and enter the
     following prompt (don't forget to replace \[enter slide number
     here\] with the number of the slide you picked):
 
 > **Add an image to slide \[enter slide number here\]**. **The image
 > should contain a picture related to the slide contents**.
->
-> ![](./media/image32.png)
 
-14. You also notice that there isn't any content in the presentation
+   ![](./media/image32.png)
+
+10. You also notice that there isn't any content in the presentation
     related to the expected lifespan for each type of heating system.
     You want Copilot to research this topic and then add it into the
     presentation. Enter the following prompt:
 
 > **What is the average lifespan of a boiler heating system versus a
 > furnace heating system**?
->
-> ![](./media/image33.png)
 
-15. You now want Copilot to add this content to a slide. Select the
+  ![](./media/image33.png)
+
+11. You now want Copilot to add this content to a slide. Select the
     slide towards the beginning of the presentation that lists the types
     of boiler systems. Then enter the following prompt (don't forget to
     replace \[enter slide number here\] with the number of the slide you
     picked):
 
 > **Add this lifespan content to slide \[enter slide number here\]**.
->
-> ![](./media/image34.png)
 
-16. What did Copilot do? Did it do something like adding "**Lifespan
+  ![](./media/image34.png)
+
+12. What did Copilot do? Did it do something like adding "**Lifespan
     content**" to the top of the slide, overlaying it on top of the
     existing content on the slide? Or did it do something similar?
 
-17. The prompt didn't work as expected. Remove whatever was added to the
+13. The prompt didn't work as expected. Remove whatever was added to the
     slide.
 
-> ![](./media/image35.png)
+  ![](./media/image35.png)
 
-18. Now try it again, but this time ask Copilot to find the lifespan
+14. Now try it again, but this time ask Copilot to find the lifespan
     content and add it to the slide all in one prompt. This time, enter
     the following prompt:
 
 > **Add content about the average lifespan of a boiler heating system
 > versus a furnace heating system to slide \[enter slide number
 > here\].**
->
-> ![](./media/image36.png)
 
-19. Did this work better? You just have to rework your prompts if
+  ![](./media/image36.png)
+
+15. Did this work better? You just have to rework your prompts if
     Copilot doesn't do exactly what you wanted.
 
-20. You notice that there isn't a slide at the end for a
+16. You notice that there isn't a slide at the end for a
     Question-and-Answer (Q&A) session. To correct this situation, enter
     the following prompt:
 
 > **Add a Q&A slide at the very end of the presentation with an
 > appropriate image.**
->
-> ![](./media/image37.png)
 
-21. Review the new slide that was created. Upon seeing this slide, you
+  ![](./media/image37.png)
+
+17. Review the new slide that was created. Upon seeing this slide, you
     would like Copilot to create a list of possible questions and add
     them to the speaker notes for the Q&A slide. Enter the following
     prompt:
@@ -633,35 +633,35 @@ formally start this project.
 > **Create a list of five questions that may be asked during the Q&A
 > session and add them to the speaker notes in the Q&A slide.**
 
-22. How did Copilot respond when you tried this prompt? Did it add five
+18. How did Copilot respond when you tried this prompt? Did it add five
     questions to the speaker notes for the Q&A slide? If so, then
     congratulations!
 
 > **Note**: Copilot may display some exception (remember that Copilot is
 > still a work in progress) like the one below.
->
-> ![](./media/image38.png)
->
+
+  ![](./media/image38.png)
+
 > Please try rephrasing the prompt or use the suggested prompts like the
 > one below.
->
-> ![](./media/image39.png)
+
+  ![](./media/image39.png)
 
 23. Select the command **Add a slide about** and append the
     following **Q&A at the very end of the presentation** (as shown in
     the screenshot)
 
-> ![](./media/image40.png)
+    ![](./media/image40.png)
 
 24. Click Send to check what happens.
 
-> ![](./media/image41.png)
->
-> Copilot has added a Q&A slide as instructed.
+    ![](./media/image41.png)
+
+    Copilot has added a Q&A slide as instructed.
 
 25. Now try with another prompt:
 
-> **Add a slide about** what the audience may ask about the presentation
+**Add a slide about** what the audience may ask about the presentation
 
 26. Once you are done with final presentation you can save for future
     reference or discard this presentation.
