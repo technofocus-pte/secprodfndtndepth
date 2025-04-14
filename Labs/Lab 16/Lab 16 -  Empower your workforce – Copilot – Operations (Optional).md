@@ -83,7 +83,8 @@ basically an AI-assisted sticky-note exercise.
 a new boiler in our heating system. Please suggest the steps we should
 follow to install the new boiler**.
 
-    ![](./media/image4.png)
+
+![](./media/image4.png)
 
 8.  If a **Suggest content with Copilot** window appears, then proceed
     to the next step. However, if you receive a message indicating that
@@ -94,16 +95,16 @@ follow to install the new boiler**.
 
   ![](./media/image5.png)
 
-> Sometimes Copilot completes the process it's working on but stumbles a
-> bit before displaying the results. When you select the **Generate
-> suggestions** arrow again, it usually displays the results without
-> much delay. However, if you receive a similar message a second time,
-> then select the **Generate suggestion**s arrow a few more times. If
-> you keep receiving this error after three or four attempts, then
-> simplify the prompt by entering the following text:
->
-> **Please suggest the steps we should follow to install a new boiler in
-> our building's heating system**.
+Sometimes Copilot completes the process it's working on but stumbles a
+bit before displaying the results. When you select the **Generate
+suggestions** arrow again, it usually displays the results without
+much delay. However, if you receive a similar message a second time,
+then select the **Generate suggestion**s arrow a few more times. If
+you keep receiving this error after three or four attempts, then
+simplify the prompt by entering the following text:
+
+**Please suggest the steps we should follow to install a new boiler in
+our building's heating system**.
 
 9.  By default, Copilot generates ideas in groups of six. In
     the **Suggest content with Copilot** window that appears, note the
